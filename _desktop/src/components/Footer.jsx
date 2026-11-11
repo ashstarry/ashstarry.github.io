@@ -490,7 +490,7 @@ export default function Footer() {
                                 : item === 'RecycleBin' && recycleBinLength > 0 ? bin
                                 : imageMapping(item)} alt={''} />
                             }
-                            <p>{item}</p>
+                            <p>{item === 'Project' ? '个人主页' : item}</p>
                         </div>
                     ))}
                 </div>

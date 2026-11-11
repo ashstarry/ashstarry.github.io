@@ -10,7 +10,7 @@ The original Windows 95 visual language and desktop interactions are retained. T
 | Wonderline | <https://wonderline.fun/> — the drawing application |
 | Koyoi · 今宵 | <https://koyoi.fun/> — the interactive miniature town |
 
-Each project appears inside **Project** and as a `.url` shortcut on the desktop. Desktop double-click, Enter on a focused icon, the Start menu, and Run all open one project in a new browser tab. Touch shortcuts retain the upstream double-tap interaction; the external navigation is handled on touch-end. The first visit goes straight to the desktop and automatically opens **Project**.
+The first visit opens **ashstarry’s personal homepage**, with an introduction and three illustrated project summaries explaining what each project does. Project buttons, desktop shortcuts, Enter, Start and Run open the real site inside a desktop browser window. Each window supports minimize, maximize, close, refresh, and an explicit independent-tab fallback. Only opened projects are loaded; closing a browser window unmounts its iframe. Callay is clearly identified as a native Mac input method whose website/demo is embedded. The original blog is available through Blog Archive.
 
 ## Run and build
 
@@ -49,6 +49,8 @@ Browser storage is prefixed with `personal-win95-v1:`. Reset affects this deskto
 - `src/personalProjects.js`: verified names, descriptions, and destination URLs; shared navigation for project links.
 - `src/icon.json`: placement of project files, desktop `.url` shortcuts, and the local apps available in the virtual Store.
 - `src/components/function/AppFunctions.js`: icon asset mapping. `.url` filenames resolve to the same icon as the corresponding project.
+- `src/components/PortfolioFolder.jsx` and `src/css/PortfolioFolder.css`: first-visit personal homepage and project descriptions.
+- `src/components/PersonalBrowser.jsx` and `src/css/PersonalBrowser.css`: embedded project browser windows and taskbar entries.
 - `src/components/MyBioFolder.jsx`: neutral About text, project summary, and upstream credits. Add a real biography or contact details here only when supplied.
 - `src/components/ResumeFile.jsx`: now the local NotePad implementation; the legacy source filename is preserved to reduce changes to window state management.
 - `src/components/LocalPaint.jsx`: the browser-local Paint tool.
@@ -63,7 +65,7 @@ Original résumé material, old project photos, the bundled pop song and unused 
 
 ## Credits and licensing
 
-Upstream: **Yute / wins95Portfolio**, copyright © 2024 Yute, [MIT License](LICENSE). Its copyright and permission notice remain intact, and the built site includes `UPSTREAM-LICENSE.txt` from `public/`. A visible desktop credit and the About → Credits panel link to the original repository.
+Upstream: **Yute / wins95Portfolio**, copyright © 2024 Yute, [MIT License](LICENSE). Its copyright and permission notice remain intact, and the built site includes `UPSTREAM-LICENSE.txt` from `public/`. The About → Credits panel links to the original repository; the homepage itself leads with the portfolio owner and their work.
 
 The upstream README records Windows 95 icons and library credits. The visual identity and third-party assets retain their respective upstream provenance; this site is not affiliated with Microsoft. Webamp retains its own bundled license notices.
 

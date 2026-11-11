@@ -8,7 +8,7 @@ The homepage is an interactive Windows 95 desktop with shortcuts to:
 - **Wonderline** — https://wonderline.fun/ (voice-driven drawing).
 - **Koyoi · 今宵** — https://koyoi.fun/ (interactive miniature town).
 
-Double-click a shortcut, or focus it and press Enter, to open the original project in a new tab. The desktop also includes local NotePad, Paint, Minesweeper, a calendar, wallpaper settings, and a Winamp player for the visitor's own audio.
+The first screen introduces ashstarry and explains each project with a concrete example. Project buttons, desktop shortcuts, or Enter open the real project in an embedded desktop browser window, with maximize/minimize/close controls and an explicit independent-tab fallback. The desktop also includes local NotePad, Paint, Minesweeper, a calendar, wallpaper settings, and a Winamp player for the visitor's own audio.
 
 ## Source and rebuilding
 

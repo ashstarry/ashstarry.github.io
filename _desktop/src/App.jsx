@@ -7,7 +7,8 @@ import Dragdrop from './components/Dragdrop';
 import MyBioFolder from './components/MyBioFolder';
 import MyComputer from './components/MyComputer';
 import ResumeFolder from './components/ResumeFolder';
-import ProjectFolder from './components/ProjectFolder';
+import ProjectFolder from './components/PortfolioFolder';
+import PersonalBrowser from './components/PersonalBrowser';
 import WebampPlayer from './components/WinampPlayer';
 import ResumeFile from './components/ResumeFile';
 import Shutdown from './components/Shutdown';
@@ -172,7 +173,7 @@ function App() {
   const [isTouchDevice, setIsTouchDevice] = useState(false);
   const [startActive, setStartActive] = useState(false);
   const [time, setTime] = useState('');
-  const [tap, setTap] = useState([])
+  const [tap, setTap] = useState(['Project'])
   const [lastTapTime, setLastTapTime] = useState(0)
   const [projectUrl, setProjectUrl] = useState('')
   const [MybioExpand, setMybioExpand] = useState(
@@ -188,7 +189,7 @@ function App() {
 
   const [ProjectExpand, setProjectExpand] = useState(
   {
-    expand: false, show: false, hide: false, focusItem: true,  // focusItem is window, item_1focus - 5 is the icon
+    expand: false, show: true, hide: false, focusItem: true,  // focusItem is window, item_1focus - 5 is the icon
     x: 0, y: 0, zIndex: 1,});
 
   const [MailExpand, setMailExpand] = useState(
@@ -315,11 +316,6 @@ function App() {
   // Define all state setter functions and corresponding clear functions in an array
   const allSetters = [setClippyThanks, setClippySendemail, setClippySong, setClippyUsername];
   const allClears = [ClearTOclippyThanksYouFunction, ClearTOclippySendemailfunction, ClearTOSongfunction, ClearTOclippyUsernameFunction];
-
-  useEffect(() => {
-    const timer = setTimeout(() => handleShow('Project'), 250);
-    return () => clearTimeout(timer);
-  }, []);
 
 
 useEffect(() => {
@@ -1100,7 +1096,7 @@ function handleShowInfolderMobile(name, type) { //important handleshow for in fo
         
         <Dragdrop/>
         <Footer/>
-        <aside className="personal-credit">Based on <a href="https://github.com/Yuteoctober/wins95Portfolio" target="_blank" rel="noreferrer noopener">Yute’s wins95Portfolio</a> · MIT</aside>
+        <PersonalBrowser/>
       </UserContext.Provider>
     </>
   )
