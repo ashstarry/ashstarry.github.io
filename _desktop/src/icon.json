@@ -1,0 +1,234 @@
+[
+  {
+    "name": "Callay.url",
+    "pic": "Callay",
+    "folderId": "Desktop",
+    "size": 1,
+    "type": ".url",
+    "x": 67,
+    "y": 67,
+    "category": "Personal projects",
+    "description": "Mac input method — official website and demo."
+  },
+  {
+    "name": "Wonderline.url",
+    "pic": "Wonderline",
+    "folderId": "Desktop",
+    "size": 1,
+    "type": ".url",
+    "x": 69,
+    "y": 69,
+    "category": "Personal projects",
+    "description": "Voice-driven drawing and picturebook."
+  },
+  {
+    "name": "Koyoi.url",
+    "pic": "Koyoi",
+    "folderId": "Desktop",
+    "size": 1,
+    "type": ".url",
+    "x": 71,
+    "y": 71,
+    "category": "Personal projects",
+    "description": "An interactive cut-paper miniature town."
+  },
+  {
+    "name": "About",
+    "pic": "About",
+    "folderId": "Desktop",
+    "size": 4,
+    "type": ".exe",
+    "x": 1,
+    "y": 1
+  },
+  {
+    "name": "MyComputer",
+    "pic": "MyComputer",
+    "folderId": "Desktop",
+    "size": 4,
+    "type": "Drive",
+    "x": 1.5,
+    "y": 1.5
+  },
+  {
+    "name": "Project",
+    "pic": "Project",
+    "folderId": "Desktop",
+    "size": 2000,
+    "type": "folder",
+    "x": 3,
+    "y": 3
+  },
+  {
+    "name": "MineSweeper",
+    "pic": "MineSweeper",
+    "folderId": "Utility",
+    "size": 250,
+    "type": ".exe",
+    "x": 5,
+    "y": 5,
+    "category": "Games",
+    "description": "Classic puzzle game where you clear mines without detonating them."
+  },
+  {
+    "name": "Winamp",
+    "pic": "Winamp",
+    "folderId": "Utility",
+    "size": 4300,
+    "type": ".exe",
+    "x": 7,
+    "y": 7,
+    "category": "Utilities",
+    "description": "Play your own local audio files; no bundled music."
+  },
+  {
+    "name": "Hard Disk (C:)",
+    "pic": "Hard Disk (C:)",
+    "folderId": "MyComputer",
+    "size": 4000,
+    "type": "Drive",
+    "x": 11,
+    "y": 11
+  },
+  {
+    "name": "Hard Disk (D:)",
+    "pic": "Hard Disk (D:)",
+    "folderId": "MyComputer",
+    "size": 1000,
+    "type": "Drive",
+    "x": 12,
+    "y": 12
+  },
+  {
+    "name": "CD-ROM",
+    "pic": "CD-ROM",
+    "folderId": "MyComputer",
+    "size": 500,
+    "type": "Drive",
+    "x": 13,
+    "y": 13
+  },
+  {
+    "name": "Picture",
+    "pic": "Picture",
+    "folderId": "DiskC",
+    "size": 1000,
+    "type": "folder",
+    "x": 14,
+    "y": 14
+  },
+  {
+    "name": "RecycleBin",
+    "pic": "RecycleBin",
+    "folderId": "Desktop",
+    "size": 250,
+    "type": "ReCycleBin",
+    "x": 31,
+    "y": 31
+  },
+  {
+    "name": "ResetStorage",
+    "pic": "ResetStorage",
+    "folderId": "Utility",
+    "size": 20,
+    "type": ".exe",
+    "x": 32,
+    "y": 32,
+    "category": "Utilities",
+    "description": "Clears or resets storage data to free up system space."
+  },
+  {
+    "name": "Paint",
+    "pic": "Paint",
+    "folderId": "Utility",
+    "size": 200,
+    "type": ".exe",
+    "x": 33,
+    "y": 33,
+    "category": "Utilities",
+    "description": "Local canvas drawing with colours, brush size and PNG export."
+  },
+  {
+    "name": "Utility",
+    "pic": "Utility",
+    "folderId": "Desktop",
+    "size": 2500,
+    "type": "folder",
+    "x": 34,
+    "y": 34
+  },
+  {
+    "name": "TaskManager",
+    "pic": "TaskManager",
+    "folderId": "Utility",
+    "size": 3500,
+    "type": ".exe",
+    "x": 38,
+    "y": 38,
+    "category": "Utilities",
+    "description": "System tool to monitor active processes and performance."
+  },
+  {
+    "name": "Store",
+    "pic": "Store",
+    "folderId": "Desktop",
+    "size": 5500,
+    "type": ".exe",
+    "x": 39,
+    "y": 39
+  },
+  {
+    "name": "NotePad",
+    "pic": "NotePad",
+    "folderId": "Desktop",
+    "size": 1,
+    "type": ".exe",
+    "x": 45,
+    "y": 45,
+    "category": "Productivity",
+    "description": "A browser-local scratchpad."
+  },
+  {
+    "name": "Callay",
+    "pic": "Callay",
+    "folderId": "Project",
+    "size": 1,
+    "type": ".url",
+    "x": 66,
+    "y": 66,
+    "category": "Personal projects",
+    "description": "Mac input method — official website and demo."
+  },
+  {
+    "name": "Wonderline",
+    "pic": "Wonderline",
+    "folderId": "Project",
+    "size": 1,
+    "type": ".url",
+    "x": 68,
+    "y": 68,
+    "category": "Personal projects",
+    "description": "Voice-driven drawing and picturebook."
+  },
+  {
+    "name": "Koyoi",
+    "pic": "Koyoi",
+    "folderId": "Project",
+    "size": 1,
+    "type": ".url",
+    "x": 70,
+    "y": 70,
+    "category": "Personal projects",
+    "description": "An interactive cut-paper miniature town."
+  },
+  {
+    "name": "Blog Archive.url",
+    "pic": "Blog Archive",
+    "folderId": "Desktop",
+    "size": 1,
+    "type": ".url",
+    "x": 60,
+    "y": 60,
+    "description": "Previous blog and articles."
+  }
+]

@@ -33,3 +33,7 @@ Temporary Items
 
 # debug file
 _site
+_desktop/node_modules/
+_desktop/dist/
+_desktop/.env
+_desktop/.env.*

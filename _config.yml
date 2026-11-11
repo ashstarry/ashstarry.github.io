@@ -5,7 +5,7 @@ header-img: img/post-bg-desk.jpg
 email: dongyuans@hotmail.com
 description: "Keep hungry, keep foolish"
 keyword: "BY Blog, iOS, Apple, iPhone"
-url: "http://ashstarry.github.io"          # your host, for absolute URL
+url: "https://ashstarry.github.io"
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/ashstarry/ashstarry.github.io.git" # you code repository
 
@@ -30,7 +30,8 @@ facebook_username:  Shawn Dong
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 permalink: pretty
 paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+paginate_path: "/blog/page:num/"
+exclude: ["less", "node_modules", "Gruntfile.js", "package.json", "README.md", "_desktop", "tools", "desktop-build.json"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
 
@@ -60,8 +61,8 @@ kramdown:
 # Gitalk
 gitalk:
   enable: false    #是否开启Gitalk评论
-  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
+  clientID: ""
+  clientSecret: ""
   repo: qiubaiying.github.io    #仓库名称
   owner: ashstarry    #github用户名
   admin: ashstarry
@@ -90,7 +91,7 @@ featured-condition-size: 1              # 相同标签数量大于这个数，�
 
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
-service-worker: true
+service-worker: false
 
 
 
