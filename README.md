@@ -12,7 +12,7 @@ The first screen introduces ashstarry and explains each project with a concrete 
 
 ## Source and rebuilding
 
-The React/Vite source is in `_desktop/`. The generated static files are published from the repository root, alongside the existing Jekyll blog.
+The React/Vite source is in `_desktop/`. The generated static files are published from the repository root, with a blog placeholder.
 
 ```sh
 cd _desktop
@@ -21,13 +21,13 @@ cd ..
 node tools/build-desktop.mjs
 ```
 
-Commit the changed source and generated files together. GitHub Pages continues to publish from `master` at the repository root. Do not add `.nojekyll`: the existing blog still needs Jekyll.
+Commit the changed source and generated files together. GitHub Pages continues to publish from `master` at the repository root. Do not add `.nojekyll`: Jekyll excludes the editable source and the unpublished legacy template from the public website.
 
 Project destinations are maintained in `_desktop/src/personalProjects.js`; icons and their placement are in `_desktop/src/icon.json`. Full adaptation notes are in `_desktop/ONBOARDING.md`.
 
-## Blog archive and rollback
+## Blog placeholder and rollback
 
-The previous blog index is available at **https://ashstarry.github.io/blog/**. Existing article URLs, layouts, and assets are retained. Pagination is rooted at `/blog/page:num/`.
+**https://ashstarry.github.io/blog/** is an empty placeholder. The prior template articles were not written by ashstarry; they have been withdrawn from the public site and moved to `_legacy-blog/`, which GitHub Pages explicitly excludes. No old articles or pagination are published.
 
 The previous homepage baseline is commit `c4047846b33b38a6cfda213f487d9492e5bc0a78`; the backup branch is `backup/home-before-win95-2026-11-10`.
 

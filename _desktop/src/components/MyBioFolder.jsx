@@ -26,8 +26,8 @@ function MyBioFolder() {
     deleteTap,
    } = useContext(UseContext);
 
-   const technologyText = <><strong>Callay</strong><br />Mac 输入法的官网与演示。<br /><br /><strong>Wonderline</strong><br />用语言画出想象。<br /><br /><strong>Koyoi · 今宵</strong><br />一个会回应你的话语的小镇。</>;
-  const bioText = <><strong>个人项目桌面</strong><br /><br />输入、画画、搭建一个小镇。<br />这里收藏着三个被做出来的想法。<br /><br />先在个人主页了解作品，再进入你感兴趣的体验。<br />项目会在桌面里的浏览器窗口中打开，也可以选择独立打开。<br /><br />Callay 是 Mac 原生输入法，此处打开其官网。</>;
+   const technologyText = <><strong>Koyoi</strong><br />An interactive miniature world moved by your words.<br /><br /><strong>Wonderline</strong><br />A voice-driven drawing board.<br /><br /><strong>Callay</strong><br />A Mac input method with meanings and literary connections.</>;
+  const bioText = <><strong>ashstarry · Personal projects</strong><br /><br />Small worlds, pictures, and tools for words.<br />Three ideas brought to life.<br /><br />Start with the personal homepage, then try the projects in desktop browser windows.<br />Each window also offers an independent-tab option.<br /><br />Callay opens its website and demo; the native input method needs a Mac installation.</>;
   const hobbyText = <><strong>Credits</strong><br /><br />Desktop foundation: <a href="https://github.com/Yuteoctober/wins95Portfolio" target="_blank" rel="noopener noreferrer">Yute / wins95Portfolio</a>.<br />Copyright © 2024 Yute. MIT License.<br /><br />This adaptation keeps the original desktop controls, games and utilities while presenting Callay, Wonderline and Koyoi.<br /><br />Original Windows 95 icons: see upstream credits. This site is not affiliated with Microsoft.</>;
 
       function handleDragStop(event, data) {

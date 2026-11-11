@@ -37,3 +37,5 @@ _desktop/node_modules/
 _desktop/dist/
 _desktop/.env
 _desktop/.env.*
+
+_desktop/node_modules

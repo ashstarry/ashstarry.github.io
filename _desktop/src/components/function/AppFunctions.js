@@ -70,7 +70,6 @@ export function imageMapping (name, type) {
     case 'Callay': return notepad;
     case 'Wonderline': return paint;
     case 'Koyoi': return ThreedObject;
-    case 'Blog Archive': return resumefile;
 
     case 'About':
     case 'about':

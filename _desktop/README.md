@@ -8,7 +8,7 @@
 - **Wonderline**：语音绘画，在主页内部打开真实画板。
 - **Koyoi · 今宵**：互动小镇，在主页内部打开 3D 场景。
 
-项目窗口支持放大、最小化、关闭和刷新，也保留“独立打开”作为完整浏览器体验的入口。原博客在 `/blog/`。
+项目窗口支持放大、最小化、关闭和刷新，也保留“独立打开”作为完整浏览器体验的入口。博客目前没有文章，`/blog/` 只保留占位。
 
 ## 修改内容
 
@@ -25,7 +25,7 @@ npm ci --ignore-scripts --no-audit --no-fund
 npm run dev
 ```
 
-在仓库根目录运行 `node tools/build-desktop.mjs`，可以构建并同步发布文件，保留旧博客。
+在仓库根目录运行 `node tools/build-desktop.mjs`，可以构建并同步发布文件，保留博客占位和不发布的旧模板归档。
 
 更详细的适配记录见 [ONBOARDING.md](ONBOARDING.md)。
 

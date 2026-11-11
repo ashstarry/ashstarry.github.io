@@ -1,14 +1,14 @@
 [
   {
-    "name": "Callay.url",
-    "pic": "Callay",
+    "name": "Koyoi.url",
+    "pic": "Koyoi",
     "folderId": "Desktop",
     "size": 1,
     "type": ".url",
-    "x": 67,
-    "y": 67,
+    "x": 71,
+    "y": 71,
     "category": "Personal projects",
-    "description": "Mac input method — official website and demo."
+    "description": "An interactive cut-paper miniature town."
   },
   {
     "name": "Wonderline.url",
@@ -22,15 +22,15 @@
     "description": "Voice-driven drawing and picturebook."
   },
   {
-    "name": "Koyoi.url",
-    "pic": "Koyoi",
+    "name": "Callay.url",
+    "pic": "Callay",
     "folderId": "Desktop",
     "size": 1,
     "type": ".url",
-    "x": 71,
-    "y": 71,
+    "x": 67,
+    "y": 67,
     "category": "Personal projects",
-    "description": "An interactive cut-paper miniature town."
+    "description": "Mac input method — official website and demo."
   },
   {
     "name": "About",
@@ -189,15 +189,15 @@
     "description": "A browser-local scratchpad."
   },
   {
-    "name": "Callay",
-    "pic": "Callay",
+    "name": "Koyoi",
+    "pic": "Koyoi",
     "folderId": "Project",
     "size": 1,
     "type": ".url",
-    "x": 66,
-    "y": 66,
+    "x": 70,
+    "y": 70,
     "category": "Personal projects",
-    "description": "Mac input method — official website and demo."
+    "description": "An interactive cut-paper miniature town."
   },
   {
     "name": "Wonderline",
@@ -211,24 +211,14 @@
     "description": "Voice-driven drawing and picturebook."
   },
   {
-    "name": "Koyoi",
-    "pic": "Koyoi",
+    "name": "Callay",
+    "pic": "Callay",
     "folderId": "Project",
     "size": 1,
     "type": ".url",
-    "x": 70,
-    "y": 70,
+    "x": 66,
+    "y": 66,
     "category": "Personal projects",
-    "description": "An interactive cut-paper miniature town."
-  },
-  {
-    "name": "Blog Archive.url",
-    "pic": "Blog Archive",
-    "folderId": "Desktop",
-    "size": 1,
-    "type": ".url",
-    "x": 60,
-    "y": 60,
-    "description": "Previous blog and articles."
+    "description": "Mac input method — official website and demo."
   }
 ]

@@ -223,17 +223,19 @@ function App() {
   {expand: false, show: false, hide: false, focusItem: true, x: 0, y: 0, zIndex: 1,});
 
   const [desktopIcon, setDesktopIcon] = useState(() => {
-  const localItems = portfolioStorage.getItem('icons');
-
-  const deleteIcon = [];
-
-  const filteredItems = iconInfo.filter(item => !deleteIcon.includes(item.name));
-
-  const parsedItems = localItems ? JSON.parse(localItems) : filteredItems;
-
- 
-  return parsedItems;
-});
+    const localItems = portfolioStorage.getItem('icons');
+    const retired = new Set(['Blog Archive', 'Blog Archive.url']);
+    let parsedItems = iconInfo;
+    try {
+      const saved = localItems ? JSON.parse(localItems) : null;
+      if (Array.isArray(saved)) parsedItems = saved;
+    } catch { /* Restore the catalog without clearing other saved data. */ }
+    const currentItems = parsedItems.filter(item => item && !retired.has(item.name));
+    if (localItems && currentItems.length !== parsedItems.length) {
+      portfolioStorage.setItem('icons', JSON.stringify(currentItems));
+    }
+    return currentItems;
+  });
 
   const [MineSweeperExpand, setMineSweeperExpand] = useState(
   {expand: false, show: false, hide: false, focusItem: true, x: 0, y: 0, zIndex: 1,});

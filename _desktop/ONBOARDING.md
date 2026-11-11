@@ -10,7 +10,7 @@ The original Windows 95 visual language and desktop interactions are retained. T
 | Wonderline | <https://wonderline.fun/> — the drawing application |
 | Koyoi · 今宵 | <https://koyoi.fun/> — the interactive miniature town |
 
-The first visit opens **ashstarry’s personal homepage**, with an introduction and three illustrated project summaries explaining what each project does. Project buttons, desktop shortcuts, Enter, Start and Run open the real site inside a desktop browser window. Each window supports minimize, maximize, close, refresh, and an explicit independent-tab fallback. Only opened projects are loaded; closing a browser window unmounts its iframe. Callay is clearly identified as a native Mac input method whose website/demo is embedded. The original blog is available through Blog Archive.
+The first visit opens **ashstarry’s personal homepage**, with an introduction and three illustrated project summaries explaining what each project does. Project buttons, desktop shortcuts, Enter, Start and Run open the real site inside a desktop browser window. Each window supports minimize, maximize, close, refresh, and an explicit independent-tab fallback. Only opened projects are loaded; closing a browser window unmounts its iframe. Callay is clearly identified as a native Mac input method whose website/demo is embedded. The blog currently contains no articles. The inherited template archive is unpublished, and the former Blog Archive shortcut is removed (including from saved desktop layouts).
 
 ## Run and build
 
