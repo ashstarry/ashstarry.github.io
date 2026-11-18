@@ -37,11 +37,21 @@ export const personalProjects = [
   }
 ];
 
+export const theLode = {
+  name: 'The Lode',
+  url: 'https://ashstarry.github.io/the-lode/web/',
+  sourceUrl: 'https://github.com/ashstarry/ashstarry.github.io/tree/master/the-lode',
+  description: 'Deep-space mine',
+  note: 'Drag to orbit. Choose a viewpoint to follow the ore from the mine to the freighter.'
+};
+
+const desktopProjects = [...personalProjects, theLode];
+
 export const PERSONAL_PROJECT_EVENT = 'ashstarry:open-project';
 
 export function projectForName(name) {
   const normalized = String(name || '').replace(/\.url$/i, '').toLowerCase();
-  return personalProjects.find(project => project.name.toLowerCase() === normalized);
+  return desktopProjects.find(project => project.name.toLowerCase() === normalized);
 }
 
 export function openPersonalProject(name) {
