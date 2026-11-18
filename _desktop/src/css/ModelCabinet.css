@@ -68,7 +68,7 @@
   min-height: 0;
 }
 
-.cabinet-mount img {
+.cabinet-mount > img {
   position: absolute;
   bottom: 14px;
   left: 0;
@@ -104,13 +104,55 @@
   clip-path: polygon(9% 0, 90% 0, 100% 58%, 97% 100%, 0 100%, 0 58%);
 }
 
-.cabinet-miniature .cabinet-mount img {
+.cabinet-miniature .cabinet-mount > img {
   bottom: 7px;
   height: calc(100% - 10px);
   padding: 0 4px;
 }
 .cabinet-miniature .cabinet-mount::before { bottom: 3px; height: 12px; }
 .cabinet-miniature .cabinet-mount::after { height: 4px; border-bottom-width: 2px; }
+
+.cabinet-mount[data-backdrop] { isolation: isolate; }
+
+.cabinet-backdrop {
+  position: absolute;
+  inset: 0 0 4px;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.cabinet-backdrop img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cabinet-mount[data-backdrop="red-dwarf"] .cabinet-backdrop {
+  container-type: size;
+  background-color: #414356;
+  background-image:
+    radial-gradient(circle at 87% 16%, #eed6b5 0 1px, transparent 1.4px),
+    radial-gradient(circle at 94% 61%, #cdc0c1 0 .75px, transparent 1.2px),
+    radial-gradient(circle at 71% 81%, #dac7b4 0 .75px, transparent 1.2px),
+    linear-gradient(145deg, #3e4357 43%, #5f4e63);
+}
+
+/* Keep the star circular and crop its limb inside the case at every shelf size. */
+.cabinet-mount[data-backdrop="red-dwarf"] .cabinet-backdrop img {
+  position: absolute;
+  width: max(118cqw, 330cqh);
+  height: auto;
+  max-width: none;
+  right: 8%;
+  top: 30%;
+  transform: translateY(-69%);
+}
+
+.cabinet-shelves .cabinet-mount[data-backdrop="red-dwarf"] > img {
+  height: calc(90% - 20px);
+}
 
 .cabinet-plaque {
   display: block;

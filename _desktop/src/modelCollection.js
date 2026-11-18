@@ -3,9 +3,13 @@ export const modelCollection = [
     id: 'the-lode',
     name: 'The Lode',
     artwork: new URL('./assets/the-lode-paper.webp', import.meta.url).href,
+    backdrop: {
+      kind: 'red-dwarf',
+      artwork: new URL('./assets/the-lode-red-dwarf.webp', import.meta.url).href
+    },
     medium: 'Blender · 11 models',
     description: 'Deep-space mine',
-    story: 'Follow a piece of ore from an asteroid pit, across a suspension bridge and into a waiting freighter. A passing gravity tide changes its flight.',
+    story: 'A red dwarf fills the sky behind the mine. Follow a single piece of ore across a suspension bridge and into a waiting freighter. A passing gravity tide changes its flight.',
     url: 'https://ashstarry.github.io/the-lode/web/',
     action: 'Enter the mine',
     sourceUrl: 'https://github.com/ashstarry/ashstarry.github.io/tree/master/the-lode',

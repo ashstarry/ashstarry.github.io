@@ -16,7 +16,12 @@ function ModelLink({model, children, onOpen, ...props}) {
 
 function MountedModel({model}) {
   return (
-    <span className="cabinet-mount" aria-hidden="true">
+    <span className="cabinet-mount" data-backdrop={model.backdrop?.kind} aria-hidden="true">
+      {model.backdrop && (
+        <span className="cabinet-backdrop">
+          <img src={model.backdrop.artwork} alt="" draggable="false" />
+        </span>
+      )}
       <img src={model.artwork} alt="" draggable="false" />
     </span>
   );
