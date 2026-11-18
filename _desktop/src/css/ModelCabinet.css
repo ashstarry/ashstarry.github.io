@@ -194,7 +194,6 @@
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 145px), 1fr));
   grid-auto-rows: var(--tier);
   align-content: start;
-  min-height: calc(var(--tier) + var(--tier) + 2px);
   margin: 0;
   padding: 0;
   list-style: none;
@@ -265,7 +264,6 @@
   .cabinet-layout { grid-template-columns: minmax(0, 1fr); gap: 16px; }
   .cabinet-shelves {
     --tier: clamp(155px, 40cqw, 215px);
-    min-height: calc(var(--tier) + 42px);
     max-height: calc(var(--tier) + var(--tier) + 2px);
     overflow-y: auto;
     background-attachment: local;
