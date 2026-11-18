@@ -1,3 +1,5 @@
+import {modelCollection} from './modelCollection.js';
+
 export const personalProjects = [
   {
     "name": "Koyoi",
@@ -37,15 +39,7 @@ export const personalProjects = [
   }
 ];
 
-export const theLode = {
-  name: 'The Lode',
-  url: 'https://ashstarry.github.io/the-lode/web/',
-  sourceUrl: 'https://github.com/ashstarry/ashstarry.github.io/tree/master/the-lode',
-  description: 'Deep-space mine',
-  note: 'Drag to orbit. Choose a viewpoint to follow the ore from the mine to the freighter.'
-};
-
-const desktopProjects = [...personalProjects, theLode];
+const desktopProjects = [...personalProjects, ...modelCollection];
 
 export const PERSONAL_PROJECT_EVENT = 'ashstarry:open-project';
 

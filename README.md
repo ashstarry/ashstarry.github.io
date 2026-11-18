@@ -8,7 +8,7 @@ The homepage is an interactive Windows 95 desktop with shortcuts to:
 - **Wonderline** — https://wonderline.fun/ (voice-driven drawing).
 - **Koyoi · 今宵** — https://koyoi.fun/ (interactive miniature town).
 
-The first screen introduces ashstarry and explains each project with a concrete example. Its **My 3D Modeling** section opens [The Lode](https://ashstarry.github.io/the-lode/web/) and links to the [source and models](the-lode/). Project buttons, desktop shortcuts, or Enter open the real project in an embedded desktop browser window, with maximize/minimize/close controls and an explicit independent-tab fallback. The desktop also includes local NotePad, Paint, Minesweeper, a calendar, wallpaper settings, and a Winamp player for the visitor's own audio.
+The first screen introduces ashstarry and explains each project with a concrete example. **My 3D Modeling** opens the [Model Cabinet](https://ashstarry.github.io/#model-cabinet). Its first exhibit is [The Lode](https://ashstarry.github.io/the-lode/web/). Click a model to enter its scene or select its nameplate for notes and source. Project buttons, desktop shortcuts, or Enter open the real project in an embedded desktop browser window, with maximize/minimize/close controls and an explicit independent-tab fallback. The desktop also includes local NotePad, Paint, Minesweeper, a calendar, wallpaper settings, and a Winamp player for the visitor's own audio.
 
 ## Source and rebuilding
 
@@ -24,6 +24,8 @@ node tools/build-desktop.mjs
 Commit the changed source and generated files together. GitHub Pages continues to publish from `master` at the repository root. Do not add `.nojekyll`: Jekyll excludes the editable source and the unpublished legacy template from the public website.
 
 Project destinations are maintained in `_desktop/src/personalProjects.js`; icons and their placement are in `_desktop/src/icon.json`. Full adaptation notes are in `_desktop/ONBOARDING.md`.
+
+To exhibit another 3D work, add its cut-paper illustration to `_desktop/src/assets/` and its entry to `_desktop/src/modelCollection.js`. The first entry appears on the homepage. All entries appear on the cabinet shelves in collection order.
 
 ## Blog placeholder and rollback
 
