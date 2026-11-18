@@ -1,0 +1,3481 @@
+{
+  "openingPlayback": {
+    "fixedSimulationHz": 60,
+    "physicsStepsPerVideoFrame": 4,
+    "firstHomeSimulationSecond": 20,
+    "firstGravityTideSecond": 20.8000000000001,
+    "measurement": "BT.709 luma of decoded, area-averaged frames with 16 by 10 regional bins. The home view includes the quiet interval, the first gravitational tide, freight capture and the impact.",
+    "frozenRenderSourceSha256": {
+      "web/src/sky.js": "ccbbe91943d0f54fa5af1b39bb4ef6d21ea4d9861864cc2511e11eaad7cef693",
+      "web/src/materials.js": "1f9789c467af13ec6ffa4a907b82628f785c5452c32ec4c5d2c57241f694880b",
+      "web/src/pressure.js": "d4c104ed375960964cabc2bac18102faad0c7e3efe3c484ed121523258f440c8",
+      "web/src/lights.js": "705b582df0789e79466521915de9834837b295eeda5e5230c2f01140b419affa",
+      "web/src/post.js": "153b5e4ad49fb32a1f8101fd750843437e446880438054d12b26abc20122c9a3",
+      "web/src/views.js": "8115c038a4eb51e2abda0ca97d3bc8e5bc8812d0189daa9ec0e37b233ee7addd",
+      "web/src/systems/anomaly.js": "21861ab0300f3dc573e2a83bfb15a178edc77c38571a198f4f28605b6463a927",
+      "web/src/systems/atmosphere.js": "035f674b52d6edc5f37dfa17d85f8b78eb08436c8dbdb77380eb61c1b9ac1b9f",
+      "web/src/systems/index.js": "0c002abcf23bde820dae591c72d3908b99090f880e18ec0869438ef048972a74",
+      "web/src/systems/space.js": "12096b96d2d328133fdc3bf6468986b833d2e30397e3261965026c818aa2ea07"
+    },
+    "sourceFilesChangedBeforeDelivery": [],
+    "clips": {
+      "wide": {
+        "stream": {
+          "codec_name": "h264",
+          "profile": "High",
+          "width": 896,
+          "height": 560,
+          "pix_fmt": "yuv420p",
+          "color_range": "tv",
+          "color_space": "bt709",
+          "avg_frame_rate": "15/1",
+          "duration": "18.000000",
+          "bit_rate": "1530824",
+          "nb_frames": "270",
+          "side_data_list": [
+            {}
+          ]
+        },
+        "sha256": "67233dc4cc72379c16a96a3043e6ddcaa07ba3a26a2fac6e02518fadacfd0755",
+        "fileBytes": 3448959,
+        "physicalStepsPerFrame": 4,
+        "sampleSize": [
+          160,
+          100
+        ],
+        "rendering": {
+          "linkedPrograms": 51,
+          "tideFrontUniform": true,
+          "reflectedColorEchoUniform": false,
+          "towerColorBandUniform": false,
+          "resonanceSystem": false,
+          "backgroundAnnulusShader": false,
+          "passingDustCloudShader": true
+        },
+        "firstSimulationFrame": {
+          "time": 20.000000000000146,
+          "eye": [
+            326.99999999999994,
+            370.00000000000006,
+            684.9999999999999
+          ],
+          "target": [
+            34,
+            4,
+            5.999999999999999
+          ],
+          "fov": 31.2,
+          "focus": "home",
+          "tideCount": 0,
+          "tideStart": null,
+          "tide": 0,
+          "gravityFrontRadius": -1000,
+          "orbitingRocks": 960,
+          "breakerPhase": "tow",
+          "impacts": 0,
+          "fragments": 0,
+          "railReleased": 0,
+          "freighterReceived": 0,
+          "firstFreighterReceipt": null,
+          "harborPhase": "haul",
+          "towerCrew": 9
+        },
+        "lastSimulationFrame": {
+          "time": 37.93333333333246,
+          "eye": [
+            326.99999999999994,
+            370.00000000000006,
+            684.9999999999999
+          ],
+          "target": [
+            34,
+            4,
+            5.999999999999999
+          ],
+          "fov": 31.2,
+          "focus": "home",
+          "tideCount": 1,
+          "tideStart": 20.8000000000001,
+          "tide": 0,
+          "gravityFrontRadius": 513.9999999999709,
+          "orbitingRocks": 960,
+          "breakerPhase": "fractured",
+          "impacts": 1,
+          "fragments": 32,
+          "railReleased": 42,
+          "freighterReceived": 21,
+          "firstFreighterReceipt": 32.24999999999945,
+          "harborPhase": "haul",
+          "towerCrew": 9
+        },
+        "timeline": [
+          {
+            "time": 20.000000000000146,
+            "tideCount": 0,
+            "tideStart": null,
+            "tide": 0,
+            "gravityFrontRadius": -1000,
+            "breakerPhase": "tow",
+            "impacts": 0,
+            "fragments": 0,
+            "railReleased": 0,
+            "freighterReceived": 0
+          },
+          {
+            "time": 20.8000000000001,
+            "tideCount": 1,
+            "tideStart": 20.8000000000001,
+            "tide": 0,
+            "gravityFrontRadius": 0,
+            "breakerPhase": "tow",
+            "impacts": 0,
+            "fragments": 0,
+            "railReleased": 0,
+            "freighterReceived": 0
+          },
+          {
+            "time": 25.599999999999827,
+            "tideCount": 1,
+            "tideStart": 20.8000000000001,
+            "tide": 0.6597414414864033,
+            "gravityFrontRadius": 143.99999999999181,
+            "breakerPhase": "tow",
+            "impacts": 0,
+            "fragments": 0,
+            "railReleased": 14,
+            "freighterReceived": 0
+          },
+          {
+            "time": 25.66666666666649,
+            "tideCount": 1,
+            "tideStart": 20.8000000000001,
+            "tide": 0.6597414414864033,
+            "gravityFrontRadius": 145.9999999999917,
+            "breakerPhase": "clamp",
+            "impacts": 0,
+            "fragments": 0,
+            "railReleased": 14,
+            "freighterReceived": 0
+          },
+          {
+            "time": 26.399999999999782,
+            "tideCount": 1,
+            "tideStart": 20.8000000000001,
+            "tide": 0.6597414414864033,
+            "gravityFrontRadius": 167.99999999999045,
+            "breakerPhase": "clamp",
+            "impacts": 0,
+            "fragments": 0,
+            "railReleased": 28,
+            "freighterReceived": 0
+          },
+          {
+            "time": 27.333333333333062,
+            "tideCount": 1,
+            "tideStart": 20.8000000000001,
+            "tide": 0.6597414414864033,
+            "gravityFrontRadius": 195.99999999998886,
+            "breakerPhase": "clamp",
+            "impacts": 0,
+            "fragments": 0,
+            "railReleased": 42,
+            "freighterReceived": 0
+          },
+          {
+            "time": 29.466666666666274,
+            "tideCount": 1,
+            "tideStart": 20.8000000000001,
+            "tide": 0.5552879409464919,
+            "gravityFrontRadius": 259.9999999999852,
+            "breakerPhase": "wait",
+            "impacts": 0,
+            "fragments": 0,
+            "railReleased": 42,
+            "freighterReceived": 0
+          },
+          {
+            "time": 32.26666666666612,
+            "tideCount": 1,
+            "tideStart": 20.8000000000001,
+            "tide": 0.15719326982435394,
+            "gravityFrontRadius": 343.99999999998056,
+            "breakerPhase": "wait",
+            "impacts": 0,
+            "fragments": 0,
+            "railReleased": 42,
+            "freighterReceived": 1
+          },
+          {
+            "time": 35.5333333333326,
+            "tideCount": 1,
+            "tideStart": 20.8000000000001,
+            "tide": 0,
+            "gravityFrontRadius": 441.999999999975,
+            "breakerPhase": "strike",
+            "impacts": 0,
+            "fragments": 0,
+            "railReleased": 42,
+            "freighterReceived": 21
+          },
+          {
+            "time": 36.73333333333253,
+            "tideCount": 1,
+            "tideStart": 20.8000000000001,
+            "tide": 0,
+            "gravityFrontRadius": 477.99999999997294,
+            "breakerPhase": "fractured",
+            "impacts": 1,
+            "fragments": 32,
+            "railReleased": 42,
+            "freighterReceived": 21
+          },
+          {
+            "time": 37.93333333333246,
+            "tideCount": 1,
+            "tideStart": 20.8000000000001,
+            "tide": 0,
+            "gravityFrontRadius": 513.9999999999709,
+            "breakerPhase": "fractured",
+            "impacts": 1,
+            "fragments": 32,
+            "railReleased": 42,
+            "freighterReceived": 21
+          }
+        ],
+        "lumaRange255": [
+          22.39,
+          24.78
+        ],
+        "largestAdjacentMeanNormalized": 0.001119,
+        "largestAdjacentTileMeanStep255": 6.59,
+        "adjacentPixelMAE255Median": 0.34,
+        "adjacentPixelMAE255Max": 0.84,
+        "posterSha256": "d970eda03a775cc82ee4ef5817716bb0e9ff9df55f7aecad237806ad762e318f",
+        "posterBytes": 134743,
+        "posterToDecodedMeanBias255": -1.65,
+        "matchedMineCyanArea": {
+          "normalizedCrop": [
+            0.16,
+            0.4,
+            0.9,
+            0.79
+          ],
+          "definition": "Percentage of pixels with G > 60, G > 1.25 R and B > 1.10 R. Ordinary work lamps contribute to both versions.",
+          "samples": [
+            {
+              "targetSecond": 25.3,
+              "previousVideoTime": 0.0,
+              "currentVideoTime": 5.3333,
+              "previousPercent": 0.0,
+              "currentPercent": 0.0
+            },
+            {
+              "targetSecond": 29.3,
+              "previousVideoTime": 4.0,
+              "currentVideoTime": 9.3333,
+              "previousPercent": 0.761,
+              "currentPercent": 0.0
+            },
+            {
+              "targetSecond": 33.3,
+              "previousVideoTime": 8.0,
+              "currentVideoTime": 13.2667,
+              "previousPercent": 3.433,
+              "currentPercent": 0.0
+            },
+            {
+              "targetSecond": 37.3,
+              "previousVideoTime": 12.0,
+              "currentVideoTime": 17.2667,
+              "previousPercent": 1.63,
+              "currentPercent": 0.0
+            }
+          ]
+        }
+      },
+      "tall": {
+        "stream": {
+          "codec_name": "h264",
+          "profile": "High",
+          "width": 480,
+          "height": 960,
+          "pix_fmt": "yuv420p",
+          "color_range": "tv",
+          "color_space": "bt709",
+          "avg_frame_rate": "15/1",
+          "duration": "18.000000",
+          "bit_rate": "920034",
+          "nb_frames": "270",
+          "side_data_list": [
+            {}
+          ]
+        },
+        "sha256": "e5c0be31281c0f3a200e6f65541eb4b485396b23cd5e6be434e71d43289e31bc",
+        "fileBytes": 2074648,
+        "physicalStepsPerFrame": 4,
+        "sampleSize": [
+          80,
+          160
+        ],
+        "rendering": {
+          "linkedPrograms": 51,
+          "tideFrontUniform": true,
+          "reflectedColorEchoUniform": false,
+          "towerColorBandUniform": false,
+          "resonanceSystem": false,
+          "backgroundAnnulusShader": false,
+          "passingDustCloudShader": true
+        },
+        "firstSimulationFrame": {
+          "time": 20.000000000000146,
+          "eye": [
+            356.99999999999994,
+            351,
+            668
+          ],
+          "target": [
+            30,
+            11,
+            3
+          ],
+          "fov": 77.21657411930131,
+          "focus": "home",
+          "tideCount": 0,
+          "tideStart": null,
+          "tide": 0,
+          "gravityFrontRadius": -1000,
+          "orbitingRocks": 960,
+          "breakerPhase": "tow",
+          "impacts": 0,
+          "fragments": 0,
+          "railReleased": 0,
+          "freighterReceived": 0,
+          "firstFreighterReceipt": null,
+          "harborPhase": "haul",
+          "towerCrew": 9
+        },
+        "lastSimulationFrame": {
+          "time": 37.93333333333246,
+          "eye": [
+            356.99999999999994,
+            351,
+            668
+          ],
+          "target": [
+            30,
+            11,
+            3
+          ],
+          "fov": 77.21657411930131,
+          "focus": "home",
+          "tideCount": 1,
+          "tideStart": 20.8000000000001,
+          "tide": 0,
+          "gravityFrontRadius": 513.9999999999709,
+          "orbitingRocks": 960,
+          "breakerPhase": "fractured",
+          "impacts": 1,
+          "fragments": 32,
+          "railReleased": 42,
+          "freighterReceived": 21,
+          "firstFreighterReceipt": 32.24999999999945,
+          "harborPhase": "haul",
+          "towerCrew": 9
+        },
+        "timeline": [
+          {
+            "time": 20.000000000000146,
+            "tideCount": 0,
+            "tideStart": null,
+            "tide": 0,
+            "gravityFrontRadius": -1000,
+            "breakerPhase": "tow",
+            "impacts": 0,
+            "fragments": 0,
+            "railReleased": 0,
+            "freighterReceived": 0
+          },
+          {
+            "time": 20.8000000000001,
+            "tideCount": 1,
+            "tideStart": 20.8000000000001,
+            "tide": 0,
+            "gravityFrontRadius": 0,
+            "breakerPhase": "tow",
+            "impacts": 0,
+            "fragments": 0,
+            "railReleased": 0,
+            "freighterReceived": 0
+          },
+          {
+            "time": 25.599999999999827,
+            "tideCount": 1,
+            "tideStart": 20.8000000000001,
+            "tide": 0.6597414414864033,
+            "gravityFrontRadius": 143.99999999999181,
+            "breakerPhase": "tow",
+            "impacts": 0,
+            "fragments": 0,
+            "railReleased": 14,
+            "freighterReceived": 0
+          },
+          {
+            "time": 25.66666666666649,
+            "tideCount": 1,
+            "tideStart": 20.8000000000001,
+            "tide": 0.6597414414864033,
+            "gravityFrontRadius": 145.9999999999917,
+            "breakerPhase": "clamp",
+            "impacts": 0,
+            "fragments": 0,
+            "railReleased": 14,
+            "freighterReceived": 0
+          },
+          {
+            "time": 26.399999999999782,
+            "tideCount": 1,
+            "tideStart": 20.8000000000001,
+            "tide": 0.6597414414864033,
+            "gravityFrontRadius": 167.99999999999045,
+            "breakerPhase": "clamp",
+            "impacts": 0,
+            "fragments": 0,
+            "railReleased": 28,
+            "freighterReceived": 0
+          },
+          {
+            "time": 27.333333333333062,
+            "tideCount": 1,
+            "tideStart": 20.8000000000001,
+            "tide": 0.6597414414864033,
+            "gravityFrontRadius": 195.99999999998886,
+            "breakerPhase": "clamp",
+            "impacts": 0,
+            "fragments": 0,
+            "railReleased": 42,
+            "freighterReceived": 0
+          },
+          {
+            "time": 29.466666666666274,
+            "tideCount": 1,
+            "tideStart": 20.8000000000001,
+            "tide": 0.5552879409464919,
+            "gravityFrontRadius": 259.9999999999852,
+            "breakerPhase": "wait",
+            "impacts": 0,
+            "fragments": 0,
+            "railReleased": 42,
+            "freighterReceived": 0
+          },
+          {
+            "time": 32.26666666666612,
+            "tideCount": 1,
+            "tideStart": 20.8000000000001,
+            "tide": 0.15719326982435394,
+            "gravityFrontRadius": 343.99999999998056,
+            "breakerPhase": "wait",
+            "impacts": 0,
+            "fragments": 0,
+            "railReleased": 42,
+            "freighterReceived": 1
+          },
+          {
+            "time": 35.5333333333326,
+            "tideCount": 1,
+            "tideStart": 20.8000000000001,
+            "tide": 0,
+            "gravityFrontRadius": 441.999999999975,
+            "breakerPhase": "strike",
+            "impacts": 0,
+            "fragments": 0,
+            "railReleased": 42,
+            "freighterReceived": 21
+          },
+          {
+            "time": 36.73333333333253,
+            "tideCount": 1,
+            "tideStart": 20.8000000000001,
+            "tide": 0,
+            "gravityFrontRadius": 477.99999999997294,
+            "breakerPhase": "fractured",
+            "impacts": 1,
+            "fragments": 32,
+            "railReleased": 42,
+            "freighterReceived": 21
+          },
+          {
+            "time": 37.93333333333246,
+            "tideCount": 1,
+            "tideStart": 20.8000000000001,
+            "tide": 0,
+            "gravityFrontRadius": 513.9999999999709,
+            "breakerPhase": "fractured",
+            "impacts": 1,
+            "fragments": 32,
+            "railReleased": 42,
+            "freighterReceived": 21
+          }
+        ],
+        "lumaRange255": [
+          23.75,
+          24.69
+        ],
+        "largestAdjacentMeanNormalized": 0.000659,
+        "largestAdjacentTileMeanStep255": 3.11,
+        "adjacentPixelMAE255Median": 0.23,
+        "adjacentPixelMAE255Max": 0.6,
+        "posterSha256": "1e8df7ec68f6a8b9ad67bd8e0a5ca95d4dc4e4134b17c32fa48a7022f9216a9b",
+        "posterBytes": 90330,
+        "posterToDecodedMeanBias255": -1.88,
+        "matchedMineCyanArea": {
+          "normalizedCrop": [
+            0.12,
+            0.45,
+            0.91,
+            0.62
+          ],
+          "definition": "Percentage of pixels with G > 60, G > 1.25 R and B > 1.10 R. Ordinary work lamps contribute to both versions.",
+          "samples": [
+            {
+              "targetSecond": 25.3,
+              "previousVideoTime": 0.0,
+              "currentVideoTime": 5.3333,
+              "previousPercent": 0.0,
+              "currentPercent": 0.0
+            },
+            {
+              "targetSecond": 29.3,
+              "previousVideoTime": 4.0,
+              "currentVideoTime": 9.3333,
+              "previousPercent": 0.529,
+              "currentPercent": 0.0
+            },
+            {
+              "targetSecond": 33.3,
+              "previousVideoTime": 8.0,
+              "currentVideoTime": 13.2667,
+              "previousPercent": 2.587,
+              "currentPercent": 0.0
+            },
+            {
+              "targetSecond": 37.3,
+              "previousVideoTime": 12.0,
+              "currentVideoTime": 17.2667,
+              "previousPercent": 1.176,
+              "currentPercent": 0.0
+            }
+          ]
+        }
+      }
+    },
+    "guidedWatchStage": {
+      "stream": {
+        "codec_name": "h264",
+        "profile": "High",
+        "width": 640,
+        "height": 400,
+        "pix_fmt": "yuv420p",
+        "color_range": "tv",
+        "color_space": "bt709",
+        "avg_frame_rate": "12/1",
+        "duration": "6.750000",
+        "bit_rate": "912951",
+        "nb_frames": "81",
+        "side_data_list": [
+          {}
+        ]
+      },
+      "sha256": "027ad327d6fde331043137505a0dc8bebe41f92e697db49d09d71185677fd740",
+      "fileBytes": 772610,
+      "physicalStepsPerFrame": 5,
+      "sampleSize": [
+        160,
+        100
+      ],
+      "rendering": {
+        "linkedPrograms": 47,
+        "tideFrontUniform": true,
+        "reflectedColorEchoUniform": false,
+        "towerColorBandUniform": false,
+        "resonanceSystem": false,
+        "backgroundAnnulusShader": false,
+        "passingDustCloudShader": true
+      },
+      "firstSimulationFrame": {
+        "time": 25.299999999999844,
+        "eye": [
+          31.300000000000004,
+          80.4,
+          30.299999999999997
+        ],
+        "target": [
+          -22,
+          49.4,
+          7.8
+        ],
+        "fov": 31.2,
+        "focus": "mast",
+        "tideCount": 1,
+        "tideStart": 20.8000000000001,
+        "tide": 0.6597414414864033,
+        "gravityFrontRadius": 134.99999999999233,
+        "orbitingRocks": 960,
+        "breakerPhase": "tow",
+        "impacts": 0,
+        "fragments": 0,
+        "railReleased": 0,
+        "freighterReceived": 0,
+        "firstFreighterReceipt": null,
+        "harborPhase": "haul",
+        "towerCrew": 9
+      },
+      "lastSimulationFrame": {
+        "time": 31.966666666666132,
+        "eye": [
+          31.300000000000004,
+          80.4,
+          30.299999999999997
+        ],
+        "target": [
+          -22,
+          49.4,
+          7.8
+        ],
+        "fov": 31.2,
+        "focus": "mast",
+        "tideCount": 1,
+        "tideStart": 20.8000000000001,
+        "tide": 0.19818549763737026,
+        "gravityFrontRadius": 334.99999999998096,
+        "orbitingRocks": 960,
+        "breakerPhase": "wait",
+        "impacts": 0,
+        "fragments": 0,
+        "railReleased": 42,
+        "freighterReceived": 0,
+        "firstFreighterReceipt": null,
+        "harborPhase": "haul",
+        "towerCrew": 9
+      },
+      "timeline": [
+        {
+          "time": 25.299999999999844,
+          "tideCount": 1,
+          "tideStart": 20.8000000000001,
+          "tide": 0.6597414414864033,
+          "gravityFrontRadius": 134.99999999999233,
+          "breakerPhase": "tow",
+          "impacts": 0,
+          "fragments": 0,
+          "railReleased": 0,
+          "freighterReceived": 0
+        },
+        {
+          "time": 25.63333333333316,
+          "tideCount": 1,
+          "tideStart": 20.8000000000001,
+          "tide": 0.6597414414864033,
+          "gravityFrontRadius": 144.99999999999176,
+          "breakerPhase": "tow",
+          "impacts": 0,
+          "fragments": 0,
+          "railReleased": 14,
+          "freighterReceived": 0
+        },
+        {
+          "time": 25.716666666666487,
+          "tideCount": 1,
+          "tideStart": 20.8000000000001,
+          "tide": 0.6597414414864033,
+          "gravityFrontRadius": 147.49999999999162,
+          "breakerPhase": "clamp",
+          "impacts": 0,
+          "fragments": 0,
+          "railReleased": 14,
+          "freighterReceived": 0
+        },
+        {
+          "time": 26.383333333333116,
+          "tideCount": 1,
+          "tideStart": 20.8000000000001,
+          "tide": 0.6597414414864033,
+          "gravityFrontRadius": 167.49999999999048,
+          "breakerPhase": "clamp",
+          "impacts": 0,
+          "fragments": 0,
+          "railReleased": 28,
+          "freighterReceived": 0
+        },
+        {
+          "time": 27.38333333333306,
+          "tideCount": 1,
+          "tideStart": 20.8000000000001,
+          "tide": 0.6597414414864033,
+          "gravityFrontRadius": 197.49999999998877,
+          "breakerPhase": "clamp",
+          "impacts": 0,
+          "fragments": 0,
+          "railReleased": 42,
+          "freighterReceived": 0
+        },
+        {
+          "time": 29.466666666666274,
+          "tideCount": 1,
+          "tideStart": 20.8000000000001,
+          "tide": 0.5552879409464919,
+          "gravityFrontRadius": 259.9999999999852,
+          "breakerPhase": "wait",
+          "impacts": 0,
+          "fragments": 0,
+          "railReleased": 42,
+          "freighterReceived": 0
+        },
+        {
+          "time": 31.966666666666132,
+          "tideCount": 1,
+          "tideStart": 20.8000000000001,
+          "tide": 0.19818549763737026,
+          "gravityFrontRadius": 334.99999999998096,
+          "breakerPhase": "wait",
+          "impacts": 0,
+          "fragments": 0,
+          "railReleased": 42,
+          "freighterReceived": 0
+        }
+      ],
+      "lumaRange255": [
+        18.17,
+        37.1
+      ],
+      "largestAdjacentMeanNormalized": 0.007073,
+      "largestAdjacentTileMeanStep255": 23.73,
+      "adjacentPixelMAE255Median": 1.01,
+      "adjacentPixelMAE255Max": 2.58,
+      "matchedBridgeDeckMeasurements": {
+        "previous": {
+          "deckPolygon640x400": [
+            [
+              258,
+              157
+            ],
+            [
+              288,
+              165
+            ],
+            [
+              368,
+              242
+            ],
+            [
+              341,
+              252
+            ],
+            [
+              282,
+              187
+            ]
+          ],
+          "channel": "mean of G and B, 0-255",
+          "at25p3s": 73.01,
+          "at27p3s": 148.79,
+          "peak26to29s": 178.77
+        },
+        "current": {
+          "deckPolygon640x400": [
+            [
+              258,
+              157
+            ],
+            [
+              288,
+              165
+            ],
+            [
+              368,
+              242
+            ],
+            [
+              341,
+              252
+            ],
+            [
+              282,
+              187
+            ]
+          ],
+          "channel": "mean of G and B, 0-255",
+          "at25p3s": 83.41,
+          "at27p3s": 87.64,
+          "peak26to29s": 88.12
+        }
+      }
+    }
+  },
+  "shiftPlayback": {
+    "simulatedIntervalSeconds": [
+      38,
+      62
+    ],
+    "firstTideStartedAtSeconds": 20.8000000000001,
+    "tideEventsInsideInterval": 0,
+    "tideEnvelopeMax": 0,
+    "frameRate": 12,
+    "method": "Native WebGL drawing buffer from fixed home cameras. Five 1/60 s physics updates separate neighbouring frames. The video is sampled on [38,62) and presented through 62.000 s.",
+    "independentFixedStepMotionCheck": {
+      "sampledSeconds": [
+        38,
+        61.916666666666664
+      ],
+      "harborFirstState": "haul",
+      "harborLastState": "exchange",
+      "harborDistanceTravelledM": 124.2117,
+      "bucketWheelAngleChangeRad": 14.82833,
+      "sampledTideCountRange": [
+        1,
+        1
+      ],
+      "sampledTideEnvelopeMaximum": 0.0,
+      "nextScheduledTideInMotionCheckSeconds": 81.47191,
+      "slingShotsLaunched": 108,
+      "explanation": "Same production physics modules, height raster and layout metadata, without rendering. The separate live capture timeline and decoded foreground pixels appear per orientation."
+    },
+    "sha256AtReview": {
+      "web/src/sky.js": "ccbbe91943d0f54fa5af1b39bb4ef6d21ea4d9861864cc2511e11eaad7cef693",
+      "web/src/materials.js": "1f9789c467af13ec6ffa4a907b82628f785c5452c32ec4c5d2c57241f694880b",
+      "web/src/pressure.js": "d4c104ed375960964cabc2bac18102faad0c7e3efe3c484ed121523258f440c8",
+      "web/src/lights.js": "705b582df0789e79466521915de9834837b295eeda5e5230c2f01140b419affa",
+      "web/src/post.js": "153b5e4ad49fb32a1f8101fd750843437e446880438054d12b26abc20122c9a3",
+      "web/src/views.js": "8115c038a4eb51e2abda0ca97d3bc8e5bc8812d0189daa9ec0e37b233ee7addd",
+      "web/src/systems/anomaly.js": "21861ab0300f3dc573e2a83bfb15a178edc77c38571a198f4f28605b6463a927",
+      "web/src/systems/atmosphere.js": "035f674b52d6edc5f37dfa17d85f8b78eb08436c8dbdb77380eb61c1b9ac1b9f",
+      "web/src/systems/index.js": "0c002abcf23bde820dae591c72d3908b99090f880e18ec0869438ef048972a74",
+      "web/src/systems/space.js": "12096b96d2d328133fdc3bf6468986b833d2e30397e3261965026c818aa2ea07"
+    },
+    "clips": {
+      "wide": {
+        "source": "intro-wide.mp4",
+        "output": "web/assets/tour/shift-wide.mp4",
+        "sha256": "806dce5aed11fc7f8db456b42abab980ee354615cf89f3bba57216c0e6e1e3e5",
+        "bytes": 3928310,
+        "video": {
+          "index": 0,
+          "codec_name": "h264",
+          "profile": "High",
+          "codec_type": "video",
+          "width": 896,
+          "height": 560,
+          "pix_fmt": "yuv420p",
+          "color_range": "tv",
+          "color_space": "bt709",
+          "avg_frame_rate": "12/1",
+          "start_time": "0.000000",
+          "duration": "24.000000",
+          "nb_frames": "288",
+          "side_data_list": [
+            {}
+          ]
+        },
+        "mp4Atoms": [
+          "ftyp",
+          "moov",
+          "free",
+          "mdat"
+        ],
+        "firstFrameIsIDR": true,
+        "encodedFrameCount": 288,
+        "fixedPhysicsStepsPerFrame": 5,
+        "simulationInterval": [
+          38,
+          62
+        ],
+        "lastExposedSimulationTime": 61.91667,
+        "first": {
+          "time": 37.999999999999126,
+          "eye": [
+            326.99999999999994,
+            370.00000000000006,
+            684.9999999999999
+          ],
+          "target": [
+            34,
+            4,
+            5.999999999999999
+          ],
+          "fov": 31.2,
+          "focus": "home",
+          "tideCount": 1,
+          "tideStart": 20.8000000000001,
+          "tide": 0,
+          "gravityFrontRadius": 515.9999999999708,
+          "orbitingRocks": 960,
+          "breakerPhase": "fractured",
+          "impacts": 1,
+          "fragments": 32,
+          "railReleased": 42,
+          "freighterReceived": 21,
+          "firstFreighterReceipt": 32.24999999999945,
+          "harborPhase": "haul",
+          "towerCrew": 9
+        },
+        "last": {
+          "time": 61.91666666666443,
+          "eye": [
+            326.99999999999994,
+            370.00000000000006,
+            684.9999999999999
+          ],
+          "target": [
+            34,
+            4,
+            5.999999999999999
+          ],
+          "fov": 31.2,
+          "focus": "home",
+          "tideCount": 1,
+          "tideStart": 20.8000000000001,
+          "tide": 0,
+          "gravityFrontRadius": -1000,
+          "orbitingRocks": 960,
+          "breakerPhase": "idle",
+          "impacts": 1,
+          "fragments": 0,
+          "railReleased": 42,
+          "freighterReceived": 21,
+          "firstFreighterReceipt": 32.24999999999945,
+          "harborPhase": "exchange",
+          "towerCrew": 9
+        },
+        "timeline": [
+          {
+            "time": 37.999999999999126,
+            "tideCount": 1,
+            "tideStart": 20.8000000000001,
+            "tide": 0,
+            "gravityFrontRadius": 515.9999999999708,
+            "breakerPhase": "fractured",
+            "impacts": 1,
+            "fragments": 32,
+            "railReleased": 42,
+            "freighterReceived": 21
+          },
+          {
+            "time": 50.91666666666506,
+            "tideCount": 1,
+            "tideStart": 20.8000000000001,
+            "tide": 0,
+            "gravityFrontRadius": -1000,
+            "breakerPhase": "idle",
+            "impacts": 1,
+            "fragments": 0,
+            "railReleased": 42,
+            "freighterReceived": 21
+          },
+          {
+            "time": 61.91666666666443,
+            "tideCount": 1,
+            "tideStart": 20.8000000000001,
+            "tide": 0,
+            "gravityFrontRadius": -1000,
+            "breakerPhase": "idle",
+            "impacts": 1,
+            "fragments": 0,
+            "railReleased": 42,
+            "freighterReceived": 21
+          }
+        ],
+        "frozenRenderFeatures": {
+          "linkedPrograms": 52,
+          "tideFrontUniform": true,
+          "reflectedColorEchoUniform": false,
+          "towerColorBandUniform": false,
+          "resonanceSystem": false,
+          "backgroundAnnulusShader": false,
+          "passingDustCloudShader": true
+        },
+        "joinToOpening": {
+          "precedingOpeningSha256": "67233dc4cc72379c16a96a3043e6ddcaa07ba3a26a2fac6e02518fadacfd0755",
+          "checkedPrecedingFilename": "intro-wide.mp4",
+          "previousLastSampleTime": 37.93333,
+          "firstSampleTime": 38,
+          "dt": 0.06667,
+          "previousLastToQuietFirstMeanAbsoluteDiff255": 0.6414,
+          "previousLastToQuietFirstSSIM": 0.99409,
+          "meanBrightnessStep255": -0.02709,
+          "previousAdjacentMeanAbsoluteDiff255Median": 0.20168,
+          "thisAdjacentMeanAbsoluteDiff255Median": 0.24539
+        },
+        "allFramesLumaMeanRange255": [
+          23.33238,
+          24.18087
+        ],
+        "minimumAcrossFrames98thPercentileLuma255": 88.5748,
+        "blackFrameCount": 0,
+        "duplicateFrameCount": 0,
+        "foregroundMotion": {
+          "bucketWheel": {
+            "rectangle": [
+              262,
+              202,
+              302,
+              242
+            ],
+            "oneSecondBlurredMeanAbsoluteDifference255": 2.58613,
+            "oneSecondBlurredDifference95thPercentile255": 10.32342,
+            "meanFractionOfPixelsChangingByOver4LevelsInOneSecond": 0.2016,
+            "minimumConsecutiveFrameDifference255": 0.83508
+          },
+          "foundryCasting": {
+            "rectangle": [
+              382,
+              326,
+              416,
+              360
+            ],
+            "oneSecondBlurredMeanAbsoluteDifference255": 1.85735,
+            "oneSecondBlurredDifference95thPercentile255": 6.35756,
+            "meanFractionOfPixelsChangingByOver4LevelsInOneSecond": 0.11373,
+            "minimumConsecutiveFrameDifference255": 0.08945
+          },
+          "southSalvage": {
+            "rectangle": [
+              164,
+              364,
+              242,
+              406
+            ],
+            "oneSecondBlurredMeanAbsoluteDifference255": 3.7563,
+            "oneSecondBlurredDifference95thPercentile255": 24.0041,
+            "meanFractionOfPixelsChangingByOver4LevelsInOneSecond": 0.16299,
+            "minimumConsecutiveFrameDifference255": 0.00283
+          }
+        },
+        "projectedHarborVesselFirstAndLastPx": [
+          [
+            196.82,
+            284.21
+          ],
+          [
+            309.72,
+            385.95
+          ]
+        ]
+      },
+      "tall": {
+        "source": "intro-tall.mp4",
+        "output": "web/assets/tour/shift-tall.mp4",
+        "sha256": "15692c9c7353e6f06ed746d182c710594addfb50da6e7fea046b310f2090fdcb",
+        "bytes": 2424265,
+        "video": {
+          "index": 0,
+          "codec_name": "h264",
+          "profile": "High",
+          "codec_type": "video",
+          "width": 480,
+          "height": 960,
+          "pix_fmt": "yuv420p",
+          "color_range": "tv",
+          "color_space": "bt709",
+          "avg_frame_rate": "12/1",
+          "start_time": "0.000000",
+          "duration": "24.000000",
+          "nb_frames": "288",
+          "side_data_list": [
+            {}
+          ]
+        },
+        "mp4Atoms": [
+          "ftyp",
+          "moov",
+          "free",
+          "mdat"
+        ],
+        "firstFrameIsIDR": true,
+        "encodedFrameCount": 288,
+        "fixedPhysicsStepsPerFrame": 5,
+        "simulationInterval": [
+          38,
+          62
+        ],
+        "lastExposedSimulationTime": 61.91667,
+        "first": {
+          "time": 37.999999999999126,
+          "eye": [
+            356.99999999999994,
+            351,
+            668
+          ],
+          "target": [
+            30,
+            11,
+            3
+          ],
+          "fov": 77.21657411930131,
+          "focus": "home",
+          "tideCount": 1,
+          "tideStart": 20.8000000000001,
+          "tide": 0,
+          "gravityFrontRadius": 515.9999999999708,
+          "orbitingRocks": 960,
+          "breakerPhase": "fractured",
+          "impacts": 1,
+          "fragments": 32,
+          "railReleased": 42,
+          "freighterReceived": 21,
+          "firstFreighterReceipt": 32.24999999999945,
+          "harborPhase": "haul",
+          "towerCrew": 9
+        },
+        "last": {
+          "time": 61.91666666666443,
+          "eye": [
+            356.99999999999994,
+            351,
+            668
+          ],
+          "target": [
+            30,
+            11,
+            3
+          ],
+          "fov": 77.21657411930131,
+          "focus": "home",
+          "tideCount": 1,
+          "tideStart": 20.8000000000001,
+          "tide": 0,
+          "gravityFrontRadius": -1000,
+          "orbitingRocks": 960,
+          "breakerPhase": "idle",
+          "impacts": 1,
+          "fragments": 0,
+          "railReleased": 42,
+          "freighterReceived": 21,
+          "firstFreighterReceipt": 32.24999999999945,
+          "harborPhase": "exchange",
+          "towerCrew": 9
+        },
+        "timeline": [
+          {
+            "time": 37.999999999999126,
+            "tideCount": 1,
+            "tideStart": 20.8000000000001,
+            "tide": 0,
+            "gravityFrontRadius": 515.9999999999708,
+            "breakerPhase": "fractured",
+            "impacts": 1,
+            "fragments": 32,
+            "railReleased": 42,
+            "freighterReceived": 21
+          },
+          {
+            "time": 50.91666666666506,
+            "tideCount": 1,
+            "tideStart": 20.8000000000001,
+            "tide": 0,
+            "gravityFrontRadius": -1000,
+            "breakerPhase": "idle",
+            "impacts": 1,
+            "fragments": 0,
+            "railReleased": 42,
+            "freighterReceived": 21
+          },
+          {
+            "time": 61.91666666666443,
+            "tideCount": 1,
+            "tideStart": 20.8000000000001,
+            "tide": 0,
+            "gravityFrontRadius": -1000,
+            "breakerPhase": "idle",
+            "impacts": 1,
+            "fragments": 0,
+            "railReleased": 42,
+            "freighterReceived": 21
+          }
+        ],
+        "frozenRenderFeatures": {
+          "linkedPrograms": 52,
+          "tideFrontUniform": true,
+          "reflectedColorEchoUniform": false,
+          "towerColorBandUniform": false,
+          "resonanceSystem": false,
+          "backgroundAnnulusShader": false,
+          "passingDustCloudShader": true
+        },
+        "joinToOpening": {
+          "precedingOpeningSha256": "e5c0be31281c0f3a200e6f65541eb4b485396b23cd5e6be434e71d43289e31bc",
+          "checkedPrecedingFilename": "intro-tall.mp4",
+          "previousLastSampleTime": 37.93333,
+          "firstSampleTime": 38,
+          "dt": 0.06667,
+          "previousLastToQuietFirstMeanAbsoluteDiff255": 0.56611,
+          "previousLastToQuietFirstSSIM": 0.99312,
+          "meanBrightnessStep255": -0.01424,
+          "previousAdjacentMeanAbsoluteDiff255Median": 0.14073,
+          "thisAdjacentMeanAbsoluteDiff255Median": 0.17346
+        },
+        "allFramesLumaMeanRange255": [
+          24.3108,
+          24.67478
+        ],
+        "minimumAcrossFrames98thPercentileLuma255": 76.87331,
+        "blackFrameCount": 0,
+        "duplicateFrameCount": 0,
+        "foregroundMotion": {
+          "bucketWheel": {
+            "rectangle": [
+              134,
+              438,
+              158,
+              462
+            ],
+            "oneSecondBlurredMeanAbsoluteDifference255": 2.15161,
+            "oneSecondBlurredDifference95thPercentile255": 7.51727,
+            "meanFractionOfPixelsChangingByOver4LevelsInOneSecond": 0.15945,
+            "minimumConsecutiveFrameDifference255": 0.5707
+          },
+          "foundryCasting": {
+            "rectangle": [
+              194,
+              510,
+              216,
+              532
+            ],
+            "oneSecondBlurredMeanAbsoluteDifference255": 1.78203,
+            "oneSecondBlurredDifference95thPercentile255": 5.57552,
+            "meanFractionOfPixelsChangingByOver4LevelsInOneSecond": 0.09197,
+            "minimumConsecutiveFrameDifference255": 0.00924
+          },
+          "southSalvage": {
+            "rectangle": [
+              64,
+              530,
+              108,
+              556
+            ],
+            "oneSecondBlurredMeanAbsoluteDifference255": 3.40355,
+            "oneSecondBlurredDifference95thPercentile255": 20.04368,
+            "meanFractionOfPixelsChangingByOver4LevelsInOneSecond": 0.16943,
+            "minimumConsecutiveFrameDifference255": 0.0
+          }
+        },
+        "projectedHarborVesselFirstAndLastPx": [
+          [
+            81.25,
+            481.12
+          ],
+          [
+            149.05,
+            545.19
+          ]
+        ]
+      }
+    },
+    "copiesVerified": true,
+    "nativeChromePlayback": {
+      "wide": {
+        "width": 896,
+        "height": 560,
+        "duration": 24,
+        "rate": 1,
+        "decoded": 34,
+        "timestamps": [
+          0.083333,
+          0.166667,
+          0.25,
+          0.333333,
+          0.416667,
+          0.5
+        ],
+        "localPlayingEventMs": 27,
+        "events": [
+          [
+            "loadedmetadata",
+            7
+          ],
+          [
+            "canplay",
+            27
+          ],
+          [
+            "playing",
+            27
+          ]
+        ],
+        "seekedEndTime": 23.65,
+        "error": null
+      },
+      "tall": {
+        "width": 480,
+        "height": 960,
+        "duration": 24,
+        "rate": 1,
+        "decoded": 34,
+        "timestamps": [
+          0.083333,
+          0.166667,
+          0.25,
+          0.333333,
+          0.416667,
+          0.5
+        ],
+        "localPlayingEventMs": 20,
+        "events": [
+          [
+            "loadedmetadata",
+            12
+          ],
+          [
+            "canplay",
+            20
+          ],
+          [
+            "playing",
+            20
+          ]
+        ],
+        "seekedEndTime": 23.65,
+        "error": null
+      }
+    }
+  },
+  "guidedPlayback": {
+    "testEnvironment": "Local Chromium with WebGL disabled, real HTML video elements, actual versioned production media, 1× continuous playback",
+    "handoffSampling": "Canvas-composited visible DOM layers at 80×50 with 16×10 luminance blocks. A frame is black when mean RGB-weighted luminance is below 0.025 on a 0..1 scale.",
+    "gallery": {
+      "openingEpochSeconds": 20.0,
+      "landscapeOrbitFrames": 60,
+      "portraitOrbitFrames": 24,
+      "pairedCloseViews": 12,
+      "newImagesConfirmed": 108,
+      "galleryBytes": 8726368,
+      "timesByView": {
+        "wide": 20,
+        "plan": 20,
+        "pit": 20,
+        "south": 20,
+        "face": 25.3,
+        "watch": 25.3,
+        "mast": 25.3,
+        "hull": 25.3,
+        "yard": 25.3,
+        "hab": 25.3,
+        "harbor": 36,
+        "salvage": 39
+      },
+      "priorToNewMeanAbsoluteDifferenceAt96x60": {
+        "minimum": 0.014983206245461147,
+        "median": 0.031824732207697895,
+        "maximum": 0.08287536310820626
+      },
+      "testedProjectionCoordinatesWithinFrame": true,
+      "displacedRockSlabsInFaceView": 10,
+      "videosUntouchedByGalleryInstall": [
+        "mast-watch.mp4",
+        "tide.mp4",
+        "rockfall.mp4",
+        "salvage.mp4"
+      ],
+      "manifestHash": "7c907d711c052164c0aa7f04ae7bba13532c7d84690313bafcfd7a8099892330",
+      "orbitLabelBrowserChecks": {
+        "landscape": {
+          "angles": 60,
+          "labelsVisible": [
+            16,
+            22
+          ],
+          "overlappingLabels": 0,
+          "labelsOutsideStage": 0
+        },
+        "portrait": {
+          "angles": 24,
+          "labelsVisible": [
+            13,
+            18
+          ],
+          "overlappingLabels": 0,
+          "labelsOutsideStage": 0
+        }
+      }
+    },
+    "landscape": {
+      "continuousPlayback": {
+        "trace": {
+          "samples": 2503,
+          "blackFrames": 0,
+          "emptyFrames": 0,
+          "minMean": 0.09032279411764707,
+          "maxMean": 0.10488102941176439,
+          "shiftRequestedAt": 17.94410000000149,
+          "shiftStartedAt": 18.110699999999255,
+          "leadRestartAt": 42.12160000000149
+        },
+        "transitions": {
+          "leadToShift": {
+            "samples": 54,
+            "maxMeanDelta": 0.0031372058823528337,
+            "maxBlockDelta": 0.028486274509803955
+          },
+          "shiftToLead": {
+            "samples": 72,
+            "maxMeanDelta": 0.0034854901960781892,
+            "maxBlockDelta": 0.0048705882352941265
+          }
+        },
+        "events": [
+          {
+            "name": "playing",
+            "v": "tour-opening",
+            "at": 417.80000000074506,
+            "time": 0.000767,
+            "duration": 18
+          },
+          {
+            "name": "ended",
+            "v": "tour-opening",
+            "at": 18418.89999999851,
+            "time": 18,
+            "duration": 18
+          },
+          {
+            "name": "playing",
+            "v": "tour-shift",
+            "at": 18562.39999999851,
+            "time": 0.000555,
+            "duration": 24
+          },
+          {
+            "name": "ended",
+            "v": "tour-shift",
+            "at": 42562.5,
+            "time": 24,
+            "duration": 24
+          },
+          {
+            "name": "playing",
+            "v": "tour-opening",
+            "at": 42588.89999999851,
+            "time": 0.000288,
+            "duration": 18
+          }
+        ],
+        "leadDuration": 18,
+        "shiftDuration": 24,
+        "playbackRate": [
+          1,
+          1
+        ],
+        "sourceSHA256": {
+          "tour.js": "fbbf067d63e55248839cd682c0cae735273cf26ad967a6149de3f704b429d211",
+          "intro-wide.mp4": "67233dc4cc72379c16a96a3043e6ddcaa07ba3a26a2fac6e02518fadacfd0755",
+          "shift-wide.mp4": "806dce5aed11fc7f8db456b42abab980ee354615cf89f3bba57216c0e6e1e3e5"
+        },
+        "pageErrors": [],
+        "viewport": [
+          1056,
+          660
+        ],
+        "noWebGL": true
+      },
+      "gestureAndTransportTests": {
+        "lead": [
+          true,
+          0.323264,
+          18,
+          true,
+          896,
+          560
+        ],
+        "shift": [
+          "http://127.0.0.1:8740/assets/tour/shift-wide.mp4?v=4",
+          24,
+          true,
+          896,
+          560
+        ],
+        "leadToShift": {
+          "minMean": 0.09202029718137257,
+          "layers": [
+            "tour-film-poster+CANVAS",
+            "tour-film-poster+CANVAS+tour-shift",
+            "tour-film-poster+tour-opening",
+            "tour-film-poster+tour-shift"
+          ],
+          "maxStep": 0.0031347273284319244
+        },
+        "orientation": [
+          2.5,
+          true,
+          480,
+          960
+        ],
+        "loop": [
+          "http://127.0.0.1:8740/assets/opening/intro-tall.mp4?v=4",
+          0.164134
+        ],
+        "orbit": "60°",
+        "reduced": [
+          true,
+          true,
+          null
+        ],
+        "errors": []
+      },
+      "photoAndOpeningPosterAgreement": {
+        "meanAbsoluteDifference": 0.005563725490196078,
+        "pixelCorrelation": 0.9966639271058446
+      },
+      "pausedLeadRequestedNoContinuation": true,
+      "testedNativeHandoffAndOrientationRetention": true
+    },
+    "portrait": {
+      "continuousPlayback": {
+        "trace": {
+          "samples": 2527,
+          "blackFrames": 0,
+          "emptyFrames": 0,
+          "minMean": 0.10383529411764707,
+          "maxMean": 0.11100127450980361,
+          "shiftRequestedAt": 17.93620000000298,
+          "shiftStartedAt": 18.0835,
+          "leadRestartAt": 42.18020000000298
+        },
+        "transitions": {
+          "leadToShift": {
+            "samples": 54,
+            "maxMeanDelta": 0.0034481372549016454,
+            "maxBlockDelta": 0.020847058823529413
+          },
+          "shiftToLead": {
+            "samples": 76,
+            "maxMeanDelta": 0.0037365686274509757,
+            "maxBlockDelta": 0.004352941176470587
+          }
+        },
+        "events": [
+          {
+            "name": "playing",
+            "v": "tour-opening",
+            "at": 213.89999999850988,
+            "time": 0.000722,
+            "duration": 18
+          },
+          {
+            "name": "ended",
+            "v": "tour-opening",
+            "at": 18213.800000000745,
+            "time": 18,
+            "duration": 18
+          },
+          {
+            "name": "playing",
+            "v": "tour-shift",
+            "at": 18334.300000000745,
+            "time": 0.001741,
+            "duration": 24
+          },
+          {
+            "name": "ended",
+            "v": "tour-shift",
+            "at": 42382.39999999851,
+            "time": 24,
+            "duration": 24
+          },
+          {
+            "name": "playing",
+            "v": "tour-opening",
+            "at": 42470.300000000745,
+            "time": 0.00174,
+            "duration": 18
+          }
+        ],
+        "leadDuration": 18,
+        "shiftDuration": 24,
+        "playbackRate": [
+          1,
+          1
+        ],
+        "sourceSHA256": {
+          "tour.js": "fbbf067d63e55248839cd682c0cae735273cf26ad967a6149de3f704b429d211",
+          "intro-tall.mp4": "e5c0be31281c0f3a200e6f65541eb4b485396b23cd5e6be434e71d43289e31bc",
+          "shift-tall.mp4": "15692c9c7353e6f06ed746d182c710594addfb50da6e7fea046b310f2090fdcb"
+        },
+        "pageErrors": [],
+        "viewport": [
+          400,
+          850
+        ],
+        "noWebGL": true
+      },
+      "gestureAndTransportTests": {
+        "lead": [
+          true,
+          0.297129,
+          18,
+          true,
+          480,
+          960
+        ],
+        "shift": [
+          "http://127.0.0.1:8742/assets/tour/shift-tall.mp4?v=4",
+          24,
+          true,
+          480,
+          960
+        ],
+        "leadToShift": {
+          "minMean": 0.10426079963235295,
+          "layers": [
+            "tour-film-poster+CANVAS",
+            "tour-film-poster+CANVAS+tour-shift",
+            "tour-film-poster+tour-opening",
+            "tour-film-poster+tour-shift"
+          ],
+          "maxStep": 0.0035304074754903547
+        },
+        "orientation": [
+          2.5,
+          true,
+          896,
+          560
+        ],
+        "loop": [
+          "http://127.0.0.1:8742/assets/opening/intro-wide.mp4?v=4",
+          0.164902
+        ],
+        "orbit": "18°",
+        "reduced": [
+          true,
+          true,
+          null
+        ],
+        "errors": []
+      },
+      "photoAndOpeningPosterAgreement": {
+        "meanAbsoluteDifference": 0.0046664499132986524,
+        "pixelCorrelation": 0.9968574884572693
+      },
+      "pausedLeadRequestedNoContinuation": true,
+      "testedNativeHandoffAndOrientationRetention": true
+    },
+    "mastCloseup": {
+      "screens": [
+        {
+          "screen": [
+            1056,
+            660
+          ],
+          "restored": "mast.webp",
+          "film": [
+            640,
+            400,
+            6.75,
+            true,
+            false,
+            false
+          ],
+          "labels": 4
+        },
+        {
+          "screen": [
+            393,
+            852
+          ],
+          "restored": "v-mast.webp",
+          "film": [
+            640,
+            400,
+            6.75,
+            true,
+            false,
+            false
+          ],
+          "labels": 5
+        }
+      ],
+      "errors": []
+    },
+    "productionSampledInTheContinuation": [
+      {
+        "simulationTime": 38,
+        "slingShots": 111,
+        "tideCount": 1,
+        "tideStrength": 0
+      },
+      {
+        "simulationTime": 62,
+        "slingShots": 219,
+        "tideCount": 1,
+        "tideStrength": 0
+      }
+    ],
+    "gestureWhileLoading": {
+      "manifestDelaySeconds": 3.5,
+      "angleAvailableBeforeManifest": true,
+      "retainedDecodedDetailDuringHomeMediaDelay": true,
+      "previousDetailCanvasSize": [
+        600,
+        1200
+      ]
+    },
+    "mediaVersionQuery": "v=4"
+  },
+  "soak": {
+    "page": "http://127.0.0.1:8262/?ff=480&manual=1&rot=0&dpr=.65&shadow=1024",
+    "outcome": {
+      "seconds": 480,
+      "history": [
+        {
+          "seconds": 60,
+          "grains": 1891,
+          "free": 770,
+          "sleeping": 994,
+          "held": 127,
+          "launches": 209,
+          "caught": 138,
+          "screened": 166,
+          "raised": 104,
+          "binned": 84,
+          "waste": 48,
+          "loaded": 78,
+          "received": 21,
+          "tides": 1,
+          "casts": 1
+        },
+        {
+          "seconds": 120,
+          "grains": 2136,
+          "free": 868,
+          "sleeping": 1046,
+          "held": 222,
+          "launches": 483,
+          "caught": 367,
+          "screened": 457,
+          "raised": 299,
+          "binned": 270,
+          "waste": 145,
+          "loaded": 208,
+          "received": 75,
+          "tides": 2,
+          "casts": 1
+        },
+        {
+          "seconds": 180,
+          "grains": 2301,
+          "free": 959,
+          "sleeping": 1055,
+          "held": 287,
+          "launches": 717,
+          "caught": 567,
+          "screened": 768,
+          "raised": 493,
+          "binned": 458,
+          "waste": 231,
+          "loaded": 312,
+          "received": 188,
+          "tides": 3,
+          "casts": 1
+        },
+        {
+          "seconds": 240,
+          "grains": 2290,
+          "free": 683,
+          "sleeping": 1261,
+          "held": 346,
+          "launches": 957,
+          "caught": 833,
+          "screened": 1060,
+          "raised": 699,
+          "binned": 682,
+          "waste": 318,
+          "loaded": 390,
+          "received": 232,
+          "tides": 4,
+          "casts": 1
+        },
+        {
+          "seconds": 300,
+          "grains": 2437,
+          "free": 1030,
+          "sleeping": 1001,
+          "held": 406,
+          "launches": 1192,
+          "caught": 985,
+          "screened": 1361,
+          "raised": 904,
+          "binned": 881,
+          "waste": 419,
+          "loaded": 466,
+          "received": 245,
+          "tides": 5,
+          "casts": 1
+        },
+        {
+          "seconds": 360,
+          "grains": 2677,
+          "free": 914,
+          "sleeping": 1336,
+          "held": 427,
+          "launches": 1475,
+          "caught": 1267,
+          "screened": 1687,
+          "raised": 1048,
+          "binned": 1004,
+          "waste": 517,
+          "loaded": 475,
+          "received": 249,
+          "tides": 5,
+          "casts": 1
+        },
+        {
+          "seconds": 420,
+          "grains": 2821,
+          "free": 1135,
+          "sleeping": 1266,
+          "held": 420,
+          "launches": 1693,
+          "caught": 1450,
+          "screened": 2014,
+          "raised": 1089,
+          "binned": 1040,
+          "waste": 628,
+          "loaded": 476,
+          "received": 250,
+          "tides": 6,
+          "casts": 1
+        },
+        {
+          "seconds": 480,
+          "grains": 2550,
+          "free": 1250,
+          "sleeping": 1134,
+          "held": 166,
+          "launches": 1882,
+          "caught": 1627,
+          "screened": 2343,
+          "raised": 1091,
+          "binned": 1052,
+          "waste": 734,
+          "loaded": 505,
+          "received": 361,
+          "tides": 7,
+          "casts": 1
+        }
+      ],
+      "invalidGrains": 0,
+      "capacity": 7000,
+      "physicsMs": {
+        "p50": 9,
+        "p95": 21.800000000745058,
+        "p99": 24,
+        "max": 24.399999998509884,
+        "ewma": 11.841379799168424,
+        "samples": 160
+      },
+      "ore": {
+        "dug": 2224,
+        "onDischarge": 2072,
+        "ammunition": 21,
+        "launched": 1882,
+        "caught": 1627,
+        "missed": 194,
+        "crushed": 2368,
+        "crusher": 0,
+        "screened": 2343,
+        "oreOut": 1272,
+        "wasteOut": 760,
+        "raised": 1091,
+        "binned": 1052,
+        "loaded": 505,
+        "pulses": 197,
+        "wasteDropped": 734,
+        "transportLoss": 367,
+        "rotor": 0.6103595878936877,
+        "wheelAngle": 249.92948136745574,
+        "slew": 0.06831819818648836,
+        "gate": 0.9999999936658628,
+        "binOpen": 0.9775329358105307
+      },
+      "aim": {
+        "speed": 17.583001603942556,
+        "az": -0.12014961843652247,
+        "residual": 0.01587690315142865
+      },
+      "trains": {
+        "loaded": 505,
+        "released": 518,
+        "firstRelease": 25.58333333333316,
+        "laps": 9,
+        "departSignal": 0
+      },
+      "freighter": {
+        "received": 361,
+        "departures": 1,
+        "arrivals": 2,
+        "firstReceived": 32.24999999999945,
+        "state": "docked",
+        "lastCargo": 449.1333333332535,
+        "stage": 70.36666666666396,
+        "doors": 1,
+        "peak": 250,
+        "offset": 3.995363934197255,
+        "attitudePulses": 361
+      },
+      "trucks": {
+        "loaded": 180,
+        "unloaded": 168,
+        "trips": 12
+      },
+      "tractor": {
+        "lifted": 2050,
+        "conveyed": 1553,
+        "stolen": 502,
+        "maw": 1465,
+        "power": 1
+      },
+      "breaker": {
+        "phase": "idle",
+        "cycles": 6,
+        "impacts": 6,
+        "ground": 195,
+        "lost": 0,
+        "age": 32.71666666666609,
+        "jaw": 0,
+        "hammer": 0,
+        "hammerV": 65.99999999999994,
+        "tension": 0,
+        "momentumError": 4.0194366942304644e-14,
+        "feedTimer": 38.56002838909626
+      },
+      "crane": {
+        "moves": 14,
+        "index": 2,
+        "phase": "transport",
+        "age": 2.4833333333333294,
+        "ropeLength": 14,
+        "grabbed": 15
+      },
+      "bridge": {
+        "live": 0,
+        "deflection": 0,
+        "peak": 0.19260821028681208,
+        "loads": 0
+      },
+      "ejecta": {
+        "lifted": 2006,
+        "landed": 1935,
+        "escaped": 40,
+        "front": 0
+      },
+      "crucible": {
+        "radius": 9.769823301490161,
+        "volume": 932.5242347595527,
+        "drains": 1,
+        "absorbed": 870,
+        "castDrops": 85,
+        "draining": 0
+      },
+      "tides": {
+        "count": 7,
+        "power": 0.818043265864253,
+        "envelope": 0,
+        "start": 434.0166666666006,
+        "next": 530.3472001718317,
+        "hold": 5.119136853143573,
+        "shadowTime": 19.388297458644956,
+        "angle": 6.060740017120381
+      },
+      "seep": {
+        "released": 1508,
+        "captured": 538
+      },
+      "orbit": {
+        "orbiters": 960,
+        "moonStream": 90,
+        "rmin": 361.8848756704885,
+        "rmax": 604.1136943942091,
+        "meanRadius": 446.9868430360867
+      },
+      "launcher": {
+        "shots": 7,
+        "next": 532.2234111235572,
+        "phase": "idle",
+        "speed": 259,
+        "travel": 82.01666666666665,
+        "recoil": 2.989846196492894e-13,
+        "rv": -5.930347250535978e-13
+      },
+      "halo": {
+        "captured": 502,
+        "released": 53,
+        "settled": 1404
+      },
+      "harbor": {
+        "phase": "haul",
+        "tension": 447.0030260792789,
+        "transfers": 6,
+        "pickups": 6,
+        "distanceFlown": 3015.5320212380525,
+        "peakSwing": 21.809273269598926,
+        "swing": 8.61466863610656,
+        "maxRoll": 0.26270123180017124,
+        "speed": 8.153369970482467,
+        "loadMass": 184,
+        "spoolTurns": 7.964429009622374
+      },
+      "tower": {
+        "reversals": 144,
+        "fronts": 7,
+        "stops": 0,
+        "peakSpeed": 5.829893375202718,
+        "stroke": 20.688303077155787,
+        "pressure": -5.0825384012036405,
+        "bearingForce": -84.00311816285011
+      },
+      "watchCrew": {
+        "count": 9
+      },
+      "salvage": {
+        "phase": "spin",
+        "transfers": 17,
+        "released": 17,
+        "flips": 15,
+        "maxEnergyError": 3.7196800949379494e-06,
+        "lastMiss": 0.08341998685725956
+      },
+      "rockfall": {
+        "failures": 144,
+        "cascades": 13,
+        "deposited": 3,
+        "reclaimed": 3,
+        "eroded": 141,
+        "active": 0,
+        "maxRunout": 118.06835898933957,
+        "lastSlip": 448.16666666658773
+      },
+      "lights": 689,
+      "parts": [
+        "terrain",
+        "habitat",
+        "rail",
+        "plant",
+        "pit",
+        "bwe",
+        "port",
+        "fleet",
+        "rocks",
+        "fill",
+        "watchcrew"
+      ],
+      "physicsBenchmark": {
+        "fromSecond": 480,
+        "steps": 720,
+        "stepsPerCpuSample": 30,
+        "mainThreadCpuMs": {
+          "mean": 7.243213888888888,
+          "p50": 6.822433333333322,
+          "p95": 9.500399999999987,
+          "max": 10.094266666666663
+        },
+        "singleStepWallMs": {
+          "mean": 14.201527777769499,
+          "p50": 11.399999998509884,
+          "p95": 29.300000000745058,
+          "max": 96.60000000149012
+        }
+      },
+      "renderBenchmark": {
+        "width": 695,
+        "height": 432,
+        "dpr": 0.65,
+        "msaa": 4,
+        "shadow": 1024,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+        "drawCalls": 1377,
+        "triangles": 1630380,
+        "frameMilliseconds": [
+          28501.60000000149,
+          19138.699999999255,
+          18001.199999999255
+        ],
+        "fps": 0.045702794725897486
+      }
+    },
+    "messages": []
+  },
+  "stability": {
+    "page": "http://127.0.0.1:8261/?ff=45&manual=1&rot=0&dpr=1&shadow=2048",
+    "outcome": {
+      "frames": 120,
+      "width": 1600,
+      "height": 1000,
+      "msaa": 4,
+      "tileGrid": [
+        16,
+        10
+      ],
+      "luminanceMean": 0.10449604139223893,
+      "luminanceStd": 4.453484968279549e-05,
+      "frameMeans": [
+        0.10458487925770242,
+        0.10458193845888455,
+        0.10458387108326296,
+        0.10457751567005077,
+        0.10457465519219611,
+        0.10457506433015919,
+        0.1045649519809656,
+        0.10456849683658075,
+        0.10456357950181874,
+        0.10455477540775093,
+        0.10455888068150476,
+        0.10454850850640994,
+        0.10455374505228887,
+        0.10455387646135451,
+        0.10454838182609524,
+        0.10455104024977332,
+        0.10455331170445224,
+        0.10454941219474896,
+        0.10454717676687302,
+        0.10454748440909355,
+        0.10454101558915388,
+        0.10453044371063183,
+        0.10452932131026747,
+        0.10454150837728561,
+        0.10453317220408959,
+        0.10453753248732948,
+        0.10453493028223325,
+        0.10452608458233208,
+        0.1045194531899462,
+        0.10451389402576322,
+        0.10452745366706619,
+        0.10453088415744363,
+        0.1045222877463311,
+        0.10451062332712054,
+        0.10451944232178703,
+        0.10451464041389037,
+        0.10450490527638104,
+        0.10451800088365361,
+        0.10451252530899137,
+        0.1045161072989443,
+        0.10451245642632952,
+        0.10451458668345252,
+        0.10451789745525308,
+        0.10451268673888138,
+        0.10450942980941218,
+        0.10450032852017614,
+        0.10451177562918208,
+        0.10450871257324519,
+        0.10451508215172062,
+        0.10450850458785847,
+        0.10451701242301614,
+        0.10451145530551852,
+        0.10451268195722374,
+        0.1045091504738448,
+        0.10452136757586943,
+        0.1045170065222916,
+        0.10451587988366291,
+        0.1045163592201147,
+        0.10451691826712987,
+        0.1045142227642264,
+        0.10450403966390177,
+        0.1045024602188806,
+        0.10450196316503177,
+        0.1044974159261346,
+        0.10449944068324504,
+        0.10448810693381605,
+        0.10448832412377242,
+        0.10448827685157067,
+        0.10449008236744031,
+        0.10449537261868007,
+        0.10449293191842184,
+        0.1044858791071111,
+        0.10447836989928468,
+        0.10447849289314744,
+        0.10447768265687866,
+        0.10448906321130381,
+        0.10448450579332981,
+        0.10447692377610741,
+        0.1044639756559995,
+        0.10447570881807207,
+        0.10448111836288115,
+        0.10448588606414892,
+        0.10448357100045132,
+        0.10448416057890937,
+        0.10447196956798756,
+        0.10446423577198952,
+        0.10445953129919597,
+        0.10445632915614668,
+        0.10445485828307137,
+        0.10444733316521933,
+        0.10444649791137438,
+        0.10444677841827424,
+        0.10444285788626587,
+        0.10444049365489215,
+        0.104444763247587,
+        0.10444927228660399,
+        0.10445208539646142,
+        0.10445079896067504,
+        0.10445226314397671,
+        0.10444637838240028,
+        0.10443899825504732,
+        0.10444242416527531,
+        0.10445259536370037,
+        0.10443539797621053,
+        0.10442479043702174,
+        0.10443004106686447,
+        0.10443016679361761,
+        0.10442823641223078,
+        0.10442642463069676,
+        0.10441926027505063,
+        0.10442438197501878,
+        0.10442471722123335,
+        0.10442406174041875,
+        0.10442520995220099,
+        0.10442041691745968,
+        0.10442335438523341,
+        0.1044320528123138,
+        0.10443719514679538,
+        0.10443824991097637,
+        0.10443750610965008
+      ],
+      "maxAdjacentTileDelta": 0.0029323453903195573,
+      "blackOrBrightTiles": 0,
+      "invalidFinalAcrossFrames": 0,
+      "calmRaw": {
+        "invalid": 0,
+        "mean": 0.0253576968062939,
+        "peak": 3.25400390625
+      },
+      "calmFinal": {
+        "invalid": 0,
+        "mean": 0.10458487925770242,
+        "peak": 0.9593505859375001
+      },
+      "tideRaw": {
+        "invalid": 0,
+        "mean": 0.02836873533600301,
+        "peak": 3.2623901367187504
+      },
+      "tideFinal": {
+        "invalid": 0,
+        "mean": 0.11201506046018489,
+        "peak": 0.9619628906250001
+      },
+      "tideEnvelope": 1,
+      "splat": {
+        "pixels": 1048576,
+        "lit": 334013,
+        "invalid": 0,
+        "peak": 3.9937500000000004
+      },
+      "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)"
+    },
+    "messages": []
+  },
+  "pressure": {
+    "page": "http://127.0.0.1:8264/?ff=20&manual=1&rot=0&dpr=1&shadow=1024",
+    "outcome": {
+      "width": 960,
+      "height": 600,
+      "samples": [
+        {
+          "time": 20.000000000000146,
+          "radius": -1000,
+          "strength": 0,
+          "lifted": 0,
+          "pixels": {
+            "red": 0,
+            "cyan": 0,
+            "changed": 0
+          },
+          "lamps": {
+            "wake": {
+              "samples": 0,
+              "live": 0,
+              "reference": 0,
+              "ratio": null
+            },
+            "ahead": {
+              "samples": 6927,
+              "live": 2464.9467788696275,
+              "reference": 2464.9467788696275,
+              "ratio": 1
+            }
+          }
+        },
+        {
+          "time": 22.500000000000004,
+          "radius": 50.9999999999971,
+          "strength": 1.0555863063782454,
+          "lifted": 0,
+          "pixels": {
+            "red": 4818,
+            "cyan": 0,
+            "changed": 5582
+          },
+          "lamps": {
+            "wake": {
+              "samples": 31,
+              "live": 1.1483993530273438,
+              "reference": 5.421774291992188,
+              "ratio": 0.21181246049351374
+            },
+            "ahead": {
+              "samples": 5686,
+              "live": 1954.8345283508265,
+              "reference": 1954.8345283508265,
+              "ratio": 1
+            }
+          }
+        },
+        {
+          "time": 24.199999999999907,
+          "radius": 101.9999999999942,
+          "strength": 1.0555863063782454,
+          "lifted": 10,
+          "pixels": {
+            "red": 23872,
+            "cyan": 0,
+            "changed": 28939
+          },
+          "lamps": {
+            "wake": {
+              "samples": 522,
+              "live": 45.5407180786133,
+              "reference": 187.06377410888666,
+              "ratio": 0.24345022597536614
+            },
+            "ahead": {
+              "samples": 4598,
+              "live": 1536.4288452148435,
+              "reference": 1536.4288452148435,
+              "ratio": 1
+            }
+          }
+        },
+        {
+          "time": 25.299999999999844,
+          "radius": 134.99999999999233,
+          "strength": 1.0555863063782454,
+          "lifted": 84,
+          "pixels": {
+            "red": 26551,
+            "cyan": 0,
+            "changed": 35918
+          },
+          "lamps": {
+            "wake": {
+              "samples": 804,
+              "live": 95.32665863037104,
+              "reference": 322.3342239379882,
+              "ratio": 0.29573855815171
+            },
+            "ahead": {
+              "samples": 3753,
+              "live": 1252.2552444458033,
+              "reference": 1252.2552444458033,
+              "ratio": 1
+            }
+          }
+        },
+        {
+          "time": 26.499999999999776,
+          "radius": 170.99999999999028,
+          "strength": 1.0555863063782454,
+          "lifted": 204,
+          "pixels": {
+            "red": 24245,
+            "cyan": 0,
+            "changed": 36482
+          },
+          "lamps": {
+            "wake": {
+              "samples": 677,
+              "live": 52.5042922973633,
+              "reference": 201.19117736816415,
+              "ratio": 0.2609671705498524
+            },
+            "ahead": {
+              "samples": 2293,
+              "live": 775.1902496337882,
+              "reference": 775.1902496337882,
+              "ratio": 1
+            }
+          }
+        },
+        {
+          "time": 28.599999999999657,
+          "radius": 233.9999999999867,
+          "strength": 1.0555863063782454,
+          "lifted": 300,
+          "pixels": {
+            "red": 44147,
+            "cyan": 0,
+            "changed": 61482
+          },
+          "lamps": {
+            "wake": {
+              "samples": 1277,
+              "live": 187.22887268066418,
+              "reference": 402.52353515625026,
+              "ratio": 0.46513770333450516
+            },
+            "ahead": {
+              "samples": 1298,
+              "live": 530.2029113769532,
+              "reference": 530.2029113769532,
+              "ratio": 1
+            }
+          }
+        },
+        {
+          "time": 31.69999999999948,
+          "radius": 326.9999999999814,
+          "strength": 1.0555863063782454,
+          "lifted": 360,
+          "pixels": {
+            "red": 12420,
+            "cyan": 0,
+            "changed": 20131
+          },
+          "lamps": {
+            "wake": {
+              "samples": 226,
+              "live": 29.19168777465818,
+              "reference": 91.96098022460944,
+              "ratio": 0.31743558739107774
+            },
+            "ahead": {
+              "samples": 111,
+              "live": 30.45482177734376,
+              "reference": 30.45482177734376,
+              "ratio": 1
+            }
+          }
+        },
+        {
+          "time": 34.79999999999931,
+          "radius": 419.99999999997624,
+          "strength": 1.0555863063782454,
+          "lifted": 360,
+          "pixels": {
+            "red": 2063,
+            "cyan": 0,
+            "changed": 14982
+          },
+          "lamps": {
+            "wake": {
+              "samples": 149,
+              "live": 8.758458709716798,
+              "reference": 39.23085327148441,
+              "ratio": 0.2232543515968598
+            },
+            "ahead": {
+              "samples": 0,
+              "live": 0,
+              "reference": 0,
+              "ratio": null
+            }
+          }
+        },
+        {
+          "time": 39.99999999999901,
+          "radius": 575.9999999999674,
+          "strength": 1.0555863063782454,
+          "lifted": 360,
+          "pixels": {
+            "red": 0,
+            "cyan": 0,
+            "changed": 0
+          },
+          "lamps": {
+            "wake": {
+              "samples": 0,
+              "live": 0,
+              "reference": 0,
+              "ratio": null
+            },
+            "ahead": {
+              "samples": 0,
+              "live": 0,
+              "reference": 0,
+              "ratio": null
+            }
+          }
+        }
+      ],
+      "redFrontLinked": true,
+      "secondaryBandsLinked": false
+    },
+    "messages": []
+  },
+  "sky": {
+    "transmission": {
+      "20.0": {
+        "core_degrees": [
+          5.89,
+          11.47
+        ],
+        "any_bite_deg": 10.06,
+        "clear_rim_pct": 93.02,
+        "opaque_rim_pct": 1.56,
+        "transmission_min": 0.006698196700761536,
+        "desktop": [
+          [
+            1259,
+            101
+          ],
+          [
+            1270,
+            173
+          ]
+        ],
+        "mobile": [
+          [
+            345,
+            330
+          ],
+          [
+            348,
+            349
+          ]
+        ],
+        "wide": [
+          [
+            1327,
+            61
+          ],
+          [
+            1337,
+            134
+          ]
+        ]
+      },
+      "25.3": {
+        "core_degrees": [
+          5.89,
+          11.47
+        ],
+        "any_bite_deg": 10.06,
+        "clear_rim_pct": 93.01,
+        "opaque_rim_pct": 1.56,
+        "transmission_min": 0.006661482945582218,
+        "desktop": [
+          [
+            1259,
+            101
+          ],
+          [
+            1270,
+            173
+          ]
+        ],
+        "mobile": [
+          [
+            345,
+            330
+          ],
+          [
+            348,
+            349
+          ]
+        ],
+        "wide": [
+          [
+            1327,
+            61
+          ],
+          [
+            1337,
+            134
+          ]
+        ]
+      }
+    },
+    "radiance": {
+      "before": {
+        "env": [
+          768,
+          1024,
+          {
+            "bad": 0,
+            "neg": 0,
+            "max": 2.673828125,
+            "lum": 0.05808059142022031
+          }
+        ],
+        "cardinals": [],
+        "home": []
+      },
+      "after": {
+        "env": [
+          768,
+          1024,
+          {
+            "bad": 0,
+            "neg": 0,
+            "max": 2.673828125,
+            "lum": 0.057803184678310714
+          }
+        ],
+        "cardinals": [
+          {
+            "bad": 0,
+            "neg": 0,
+            "max": 0.4409619867801666,
+            "lum": 0.008739756890873099
+          },
+          {
+            "bad": 0,
+            "neg": 0,
+            "max": 0.4286790192127228,
+            "lum": 0.021195884593984082
+          },
+          {
+            "bad": 0,
+            "neg": 0,
+            "max": 0.40054890513420105,
+            "lum": 0.019387469746766167
+          },
+          {
+            "bad": 0,
+            "neg": 0,
+            "max": 0.6651971340179443,
+            "lum": 0.014818717496280933
+          },
+          {
+            "bad": 0,
+            "neg": 0,
+            "max": 0.3940694034099579,
+            "lum": 0.00987441275748439
+          },
+          {
+            "bad": 0,
+            "neg": 0,
+            "max": 0.48859903216362,
+            "lum": 0.012173593468712992
+          },
+          {
+            "bad": 0,
+            "neg": 0,
+            "max": 0.48858365416526794,
+            "lum": 0.008021831932207787
+          },
+          {
+            "bad": 0,
+            "neg": 0,
+            "max": 0.5366372466087341,
+            "lum": 0.01855542516456529
+          },
+          {
+            "bad": 0,
+            "neg": 0,
+            "max": 0.45582443475723267,
+            "lum": 0.01630526540305042
+          },
+          {
+            "bad": 0,
+            "neg": 0,
+            "max": 0.5505134463310242,
+            "lum": 0.01352602208304081
+          },
+          {
+            "bad": 0,
+            "neg": 0,
+            "max": 0.4351949393749237,
+            "lum": 0.00887608744486449
+          },
+          {
+            "bad": 0,
+            "neg": 0,
+            "max": 0.6120045185089111,
+            "lum": 0.011884268616199
+          }
+        ],
+        "home": [
+          {
+            "bad": 0,
+            "neg": 0,
+            "max": 0.564818799495697,
+            "lum": 0.012213904256543876
+          },
+          {
+            "bad": 0,
+            "neg": 0,
+            "max": 0.7069424390792847,
+            "lum": 0.01337158328475586
+          }
+        ],
+        "stability": {
+          "frames": 120,
+          "resolution": [
+            224,
+            140
+          ],
+          "mean": 0.012212782603563078,
+          "meanStdev": 8.329756165771426e-07,
+          "maxAdjacentBlockShift": 1.7387685964688482e-06,
+          "wholeBlockEvents": 0
+        }
+      }
+    }
+  },
+  "views": {
+    "firstTide": {
+      "count": 1,
+      "radius": 155.99999999999113,
+      "strength": 0.6597414414864033
+    },
+    "visibleLabels": {
+      "01-panorama": [],
+      "02-panorama-labelled": [
+        "Salvage Beam",
+        "The Lode",
+        "Freighter",
+        "The Sling",
+        "Tower Counterweights",
+        "West Yard Barge",
+        "The Whip",
+        "The Crucible",
+        "Suspension Bridge",
+        "Ore Vortex",
+        "Gravity Wall",
+        "Bench Collapse",
+        "Habitat Ring",
+        "The Updraft",
+        "Bucket-Wheel Excavator",
+        "Debris Ring",
+        "Dock Crane",
+        "Tailings Fall",
+        "Surge Bin",
+        "Mass Driver",
+        "Repulsion Dome",
+        "Axle Shop"
+      ],
+      "08-working-face": [],
+      "03-panorama-tide": [],
+      "04-wide-dark-star": [],
+      "05-south-foreground": [],
+      "06-pit-close": [],
+      "07-top-down-labelled": [
+        "The Lode",
+        "Freighter",
+        "The Sling",
+        "Tower Counterweights",
+        "The Crucible",
+        "Suspension Bridge",
+        "Ore Vortex",
+        "Gravity Wall",
+        "Bench Collapse",
+        "Habitat Ring",
+        "The Updraft",
+        "Bucket-Wheel Excavator",
+        "The Mitt",
+        "Moored Boulder",
+        "Dock Crane",
+        "Pulse Jig",
+        "Tailings Fall",
+        "Gravity Seep",
+        "Axle Shop",
+        "Life Support",
+        "Crane Watch"
+      ],
+      "09-salvage": [],
+      "10-freighter": [],
+      "11-wheel-workshop": [],
+      "12-habitat": [],
+      "13-watch": [],
+      "14-mast": [],
+      "15-harbor": []
+    },
+    "labelOverlaps": {
+      "01-panorama": 0,
+      "02-panorama-labelled": 0,
+      "08-working-face": 0,
+      "03-panorama-tide": 0,
+      "04-wide-dark-star": 0,
+      "05-south-foreground": 0,
+      "06-pit-close": 0,
+      "07-top-down-labelled": 0,
+      "09-salvage": 0,
+      "10-freighter": 0,
+      "11-wheel-workshop": 0,
+      "12-habitat": 0,
+      "13-watch": 0,
+      "14-mast": 0,
+      "15-harbor": 0
+    },
+    "pageErrors": []
+  },
+  "sightlines": {
+    "desktop": {
+      "viewport": [
+        1600,
+        1000
+      ],
+      "simTime": 20.000000000000146,
+      "eye": [
+        326.99999999999994,
+        370.00000000000006,
+        684.9999999999999
+      ],
+      "target": [
+        34,
+        4,
+        5.999999999999999
+      ],
+      "summary": {
+        "lodeCap": {
+          "samples": 45,
+          "inFrame": 45,
+          "unobstructed": 19,
+          "blocked": {
+            "lode": 5,
+            "ore": 2,
+            "terrain": 11,
+            "pit": 4,
+            "fill": 4
+          }
+        },
+        "oreArc": {
+          "samples": 52,
+          "inFrame": 52,
+          "unobstructed": 52,
+          "blocked": {}
+        },
+        "mastArm": {
+          "samples": 4,
+          "inFrame": 4,
+          "unobstructed": 2,
+          "blocked": {
+            "pit mast": 2
+          }
+        },
+        "belly": {
+          "samples": 6,
+          "inFrame": 6,
+          "unobstructed": 2,
+          "blocked": {
+            "freighter": 4
+          }
+        }
+      },
+      "bounds": {
+        "freighter": {
+          "l": 1005.4,
+          "t": 207.82,
+          "r": 1439.63,
+          "b": 356.83,
+          "vertices": 40372,
+          "inFrame": true,
+          "marginPx": [
+            1005.4,
+            207.82,
+            160.37,
+            643.17
+          ]
+        },
+        "habitat tower": {
+          "l": 957.13,
+          "t": 59.23,
+          "r": 1107,
+          "b": 337.09,
+          "vertices": 29760,
+          "inFrame": true,
+          "marginPx": [
+            957.13,
+            59.23,
+            493,
+            662.91
+          ]
+        },
+        "pit mast": {
+          "l": 665.87,
+          "t": 306.91,
+          "r": 827.9,
+          "b": 435.08,
+          "vertices": 19135,
+          "inFrame": true,
+          "marginPx": [
+            665.87,
+            306.91,
+            772.1,
+            564.92
+          ]
+        },
+        "whip crest": {
+          "l": 1192.72,
+          "t": 449.59,
+          "r": 1260.62,
+          "b": 598.29,
+          "vertices": 19342,
+          "inFrame": true,
+          "marginPx": [
+            1192.72,
+            449.59,
+            339.38,
+            401.71
+          ]
+        }
+      },
+      "visibleSurfaces": {
+        "lode": {
+          "count": 1250,
+          "box": [
+            578,
+            555,
+            658,
+            582
+          ]
+        },
+        "tractor head housing": {
+          "count": 140,
+          "box": [
+            666,
+            330,
+            688,
+            342
+          ]
+        },
+        "belly lip": {
+          "count": 1859,
+          "box": [
+            1111,
+            307,
+            1284,
+            353
+          ]
+        },
+        "hatch doors": {
+          "count": 548,
+          "box": [
+            1159,
+            328,
+            1243,
+            353
+          ]
+        }
+      }
+    },
+    "mobile": {
+      "viewport": [
+        390,
+        844
+      ],
+      "simTime": 20.000000000000146,
+      "eye": [
+        356.99999999999994,
+        351,
+        668
+      ],
+      "target": [
+        30,
+        11,
+        3
+      ],
+      "summary": {
+        "lodeCap": {
+          "samples": 45,
+          "inFrame": 45,
+          "unobstructed": 17,
+          "blocked": {
+            "lode": 7,
+            "ore": 4,
+            "fill": 7,
+            "terrain": 10
+          }
+        },
+        "oreArc": {
+          "samples": 52,
+          "inFrame": 52,
+          "unobstructed": 52,
+          "blocked": {}
+        },
+        "mastArm": {
+          "samples": 4,
+          "inFrame": 4,
+          "unobstructed": 3,
+          "blocked": {
+            "pit mast": 1
+          }
+        },
+        "belly": {
+          "samples": 6,
+          "inFrame": 6,
+          "unobstructed": 2,
+          "blocked": {
+            "freighter": 4
+          }
+        }
+      },
+      "bounds": {
+        "freighter": {
+          "l": 248.99,
+          "t": 344.33,
+          "r": 368.17,
+          "b": 385.78,
+          "vertices": 40372,
+          "inFrame": true,
+          "marginPx": [
+            248.99,
+            344.33,
+            21.83,
+            458.22
+          ]
+        },
+        "habitat tower": {
+          "l": 242.8,
+          "t": 307.02,
+          "r": 284.36,
+          "b": 383.76,
+          "vertices": 29760,
+          "inFrame": true,
+          "marginPx": [
+            242.8,
+            307.02,
+            105.64,
+            460.24
+          ]
+        },
+        "pit mast": {
+          "l": 162.16,
+          "t": 372.99,
+          "r": 204.72,
+          "b": 409.08,
+          "vertices": 19135,
+          "inFrame": true,
+          "marginPx": [
+            162.16,
+            372.99,
+            185.28,
+            434.92
+          ]
+        },
+        "whip crest": {
+          "l": 300.64,
+          "t": 412.6,
+          "r": 319.9,
+          "b": 454.32,
+          "vertices": 19342,
+          "inFrame": true,
+          "marginPx": [
+            300.64,
+            412.6,
+            70.1,
+            389.68
+          ]
+        }
+      },
+      "visibleSurfaces": {
+        "lode": {
+          "count": 78,
+          "box": [
+            139,
+            442,
+            155,
+            448
+          ]
+        },
+        "tractor head housing": {
+          "count": 9,
+          "box": [
+            162,
+            381,
+            165,
+            383
+          ]
+        },
+        "belly lip": {
+          "count": 145,
+          "box": [
+            277,
+            372,
+            323,
+            384
+          ]
+        },
+        "hatch doors": {
+          "count": 45,
+          "box": [
+            291,
+            378,
+            313,
+            384
+          ]
+        }
+      }
+    }
+  },
+  "interactions": {
+    "393": {
+      "opening": {
+        "src": "http://127.0.0.1:38675/assets/opening/intro-tall.mp4?v=4",
+        "paused": false,
+        "seconds": 0.119368,
+        "duration": 18,
+        "width": 480,
+        "height": 960,
+        "muted": true,
+        "inline": true
+      },
+      "controls": {
+        "w": 393,
+        "nav": 332.5,
+        "labels": 12
+      }
+    },
+    "1440": {
+      "opening": {
+        "src": "http://127.0.0.1:38675/assets/opening/intro-wide.mp4?v=4",
+        "paused": false,
+        "seconds": 0.113133,
+        "duration": 18,
+        "width": 896,
+        "height": 560,
+        "muted": true,
+        "inline": true
+      },
+      "controls": {
+        "w": 1440,
+        "nav": 330,
+        "labels": 0
+      }
+    },
+    "handoff": {
+      "early": {
+        "yaw": -0.7330382858376184,
+        "zoom": 1.0618365465453596,
+        "time": 0,
+        "photo": "http://127.0.0.1:38675/assets/tour/o53.webp?v=4"
+      },
+      "live": {
+        "fatal": null,
+        "missing": [],
+        "receipt": {
+          "epoch": 20,
+          "mediaTime": 0,
+          "liveTime": 20.000000000000146,
+          "yaw": -0.7330382858376184,
+          "zoom": 1.0618365465453596
+        },
+        "camera": [
+          -188.81983853593158,
+          348.6858192918351,
+          665.8478894344269
+        ],
+        "target": [
+          34,
+          4,
+          5.999999999999999
+        ],
+        "base": {
+          "position": [
+            327,
+            370,
+            685
+          ],
+          "target": [
+            34,
+            4,
+            6
+          ]
+        },
+        "people": 9,
+        "ring": 960,
+        "tower": 2
+      }
+    }
+  },
+  "uninterruptedHandoff": {
+    "fatal": null,
+    "receipt": {
+      "epoch": 20,
+      "mediaTime": 18,
+      "liveTime": 37.999999999999126,
+      "yaw": 0,
+      "zoom": 1
+    },
+    "objects": 11,
+    "people": 9,
+    "home": [
+      327,
+      370,
+      685
+    ],
+    "position": [
+      326.99999999999994,
+      370.00000000000006,
+      684.9999999999999
+    ]
+  },
+  "assets": {
+    "bwe": {
+      "bytes": 3546536,
+      "sha256": "3cd0f62067f5fdd187c5a852ebc23c103cf83146fb61b713bc05b3a898ba0d4c"
+    },
+    "fill": {
+      "bytes": 5078244,
+      "sha256": "5e0b881efdfd576b8d7a9d80ca588c0193bd9026686ea9b645699c8f62707c9f"
+    },
+    "fleet": {
+      "bytes": 5031784,
+      "sha256": "5bc126e0431130752ca3e39a8432a77568edbb02c6c6b1be668673fc980c6ce0"
+    },
+    "habitat": {
+      "bytes": 3407348,
+      "sha256": "26e8ee8cb36c8eb4c36d9bd13f361e10aef4046293c0a09d8ad5235917221a0e"
+    },
+    "pit": {
+      "bytes": 3911472,
+      "sha256": "478e8952deee594c357771cd84f8cffe796422d28379747b78e696b484387551"
+    },
+    "plant": {
+      "bytes": 3968300,
+      "sha256": "e60a168f26ae1247e21bae7585330f4b71333d1736621f93383917cb63df5f59"
+    },
+    "port": {
+      "bytes": 3835104,
+      "sha256": "2f24b78c054ba4e518e98dd3eb2c1bcadf2b5faca003a825b9d1d521e3f084c1"
+    },
+    "rail": {
+      "bytes": 3006460,
+      "sha256": "8ee0a898e84cf2d7c1844aa2045670fc2e9e9614e07dd6a7210861330f907222"
+    },
+    "rocks": {
+      "bytes": 9341716,
+      "sha256": "c6117cdf308e1c3629b1f6b48d48e0aeab6bf7e94561b99af08954f39b9939b5"
+    },
+    "terrain": {
+      "bytes": 8115772,
+      "sha256": "94d9b85fd791265798041b1a9fa96cf76de42918c4964e9cb4236c51ac04f88b"
+    },
+    "watchcrew": {
+      "bytes": 373632,
+      "sha256": "ece0243708a88c804d31b4d3cef8c474116e2b2ef2d5b0345672994e4380b16b"
+    }
+  },
+  "media": {
+    "intro-tall.mp4": {
+      "codec_name": "h264",
+      "width": 480,
+      "height": 960,
+      "pix_fmt": "yuv420p",
+      "avg_frame_rate": "15/1",
+      "duration": "18.000000",
+      "nb_frames": "270",
+      "side_data_list": [
+        {}
+      ],
+      "bytes": 2074648
+    },
+    "intro-wide.mp4": {
+      "codec_name": "h264",
+      "width": 896,
+      "height": 560,
+      "pix_fmt": "yuv420p",
+      "avg_frame_rate": "15/1",
+      "duration": "18.000000",
+      "nb_frames": "270",
+      "side_data_list": [
+        {}
+      ],
+      "bytes": 3448959
+    },
+    "The-Lode-Rockfall.mp4": {
+      "codec_name": "h264",
+      "width": 768,
+      "height": 480,
+      "pix_fmt": "yuvj420p",
+      "avg_frame_rate": "12/1",
+      "duration": "9.000000",
+      "nb_frames": "108",
+      "side_data_list": [
+        {}
+      ],
+      "bytes": 2219377
+    },
+    "The-Lode-Salvage.mp4": {
+      "codec_name": "h264",
+      "width": 768,
+      "height": 480,
+      "pix_fmt": "yuvj420p",
+      "avg_frame_rate": "12/1",
+      "duration": "13.000000",
+      "nb_frames": "156",
+      "side_data_list": [
+        {}
+      ],
+      "bytes": 2862498
+    },
+    "The-Lode-Tide.mp4": {
+      "codec_name": "h264",
+      "width": 768,
+      "height": 480,
+      "pix_fmt": "yuvj420p",
+      "avg_frame_rate": "12/1",
+      "duration": "18.000000",
+      "nb_frames": "216",
+      "side_data_list": [
+        {}
+      ],
+      "bytes": 3502316
+    },
+    "shift-wide.mp4": {
+      "codec_name": "h264",
+      "width": 896,
+      "height": 560,
+      "pix_fmt": "yuv420p",
+      "avg_frame_rate": "12/1",
+      "duration": "24.000000",
+      "nb_frames": "288",
+      "side_data_list": [
+        {}
+      ],
+      "bytes": 3928310
+    },
+    "shift-tall.mp4": {
+      "codec_name": "h264",
+      "width": 480,
+      "height": 960,
+      "pix_fmt": "yuv420p",
+      "avg_frame_rate": "12/1",
+      "duration": "24.000000",
+      "nb_frames": "288",
+      "side_data_list": [
+        {}
+      ],
+      "bytes": 2424265
+    },
+    "mast-watch.mp4": {
+      "codec_name": "h264",
+      "width": 640,
+      "height": 400,
+      "pix_fmt": "yuv420p",
+      "avg_frame_rate": "12/1",
+      "duration": "6.750000",
+      "nb_frames": "81",
+      "side_data_list": [
+        {}
+      ],
+      "bytes": 772610
+    }
+  },
+  "guidedTour": {
+    "landscapeSteps": 60,
+    "portraitSteps": 24,
+    "details": [
+      "wide",
+      "plan",
+      "pit",
+      "south",
+      "face",
+      "watch",
+      "mast",
+      "hull",
+      "yard",
+      "hab",
+      "harbor",
+      "salvage"
+    ]
+  },
+  "unchangedModels": {
+    "geometryVerification": "m14, all eleven exported geometries match by SHA-256.",
+    "workers": {
+      "height": [
+        1.7,
+        1.82,
+        1.75,
+        1.67,
+        1.78,
+        1.73,
+        1.81,
+        1.69,
+        1.76
+      ],
+      "drawCalls": 6,
+      "count": 9,
+      "panoramaPixels": [
+        3.18,
+        3.4,
+        3.26,
+        3.16,
+        3.37,
+        3.27,
+        3.47,
+        3.24,
+        3.37
+      ],
+      "home": [
+        326.99999999999994,
+        370.00000000000006,
+        684.9999999999999
+      ],
+      "model": true,
+      "stats": {
+        "habitat": {
+          "floorRays": 165,
+          "floorsMissed": 0,
+          "largestFloorGap": 3.0517578011313162e-06,
+          "clearanceRays": 165,
+          "overheadHits": 0,
+          "minPassingDistance": 999,
+          "walked": 0,
+          "inspections": 0
+        },
+        "pit": {
+          "floorRays": 165,
+          "floorsMissed": 0,
+          "largestFloorGap": 0,
+          "clearanceRays": 165,
+          "overheadHits": 0,
+          "minPassingDistance": 999,
+          "walked": 0,
+          "inspections": 0
+        },
+        "axle": {
+          "floorRays": 165,
+          "floorsMissed": 0,
+          "largestFloorGap": 9.536743195148745e-08,
+          "clearanceRays": 165,
+          "overheadHits": 0,
+          "minPassingDistance": 999,
+          "walked": 0,
+          "inspections": 0
+        }
+      },
+      "audit": {
+        "habitat": {
+          "floorRays": 165,
+          "floorsMissed": 0,
+          "largestFloorGap": 3.0517578011313162e-06,
+          "clearanceRays": 165,
+          "overheadHits": 0,
+          "minPassingDistance": 1.78600131373716,
+          "walked": 72.73670649680614,
+          "inspections": 11
+        },
+        "pit": {
+          "floorRays": 165,
+          "floorsMissed": 0,
+          "largestFloorGap": 0,
+          "clearanceRays": 165,
+          "overheadHits": 0,
+          "minPassingDistance": 1.3630010189936677,
+          "walked": 62.7659999999997,
+          "inspections": 10
+        },
+        "axle": {
+          "floorRays": 165,
+          "floorsMissed": 0,
+          "largestFloorGap": 9.536743195148745e-08,
+          "clearanceRays": 165,
+          "overheadHits": 0,
+          "minPassingDistance": 1.4043237079000739,
+          "walked": 56.60200116304614,
+          "inspections": 15
+        }
+      },
+      "averageStepMsWithMetrics": 0.005342592592523606,
+      "pageErrors": [],
+      "missingResources": []
+    }
+  }
+}

@@ -1,0 +1,3757 @@
+{
+  "depthStepMetres": 0.08333333333333333,
+  "sampling": "Samples compare marker depth with the nearest opaque pixel. Negative behindMetres puts the recorded surface behind the marker. Visible surface counts cover the actual crown, material within 7.2 m of the tractor head, the moving doors, and the lower hull within 31 m longitudinally, 18 m laterally and -9 to +3.2 m vertically of its hatch. Alpha effects and UI are excluded.",
+  "views": {
+    "desktop": {
+      "viewport": [
+        1600,
+        1000
+      ],
+      "pixelRatio": 1,
+      "shadowSize": 4096,
+      "touch": false,
+      "eye": [
+        326.99999999999994,
+        370.00000000000006,
+        684.9999999999999
+      ],
+      "target": [
+        34,
+        4,
+        5.999999999999999
+      ],
+      "fov": 31.2,
+      "simTime": 20.000000000000146,
+      "freighterState": "docked",
+      "visibleSurfaces": {
+        "lode": {
+          "count": 1250,
+          "box": [
+            578,
+            555,
+            658,
+            582
+          ]
+        },
+        "tractor head housing": {
+          "count": 140,
+          "box": [
+            666,
+            330,
+            688,
+            342
+          ]
+        },
+        "belly lip": {
+          "count": 1859,
+          "box": [
+            1111,
+            307,
+            1284,
+            353
+          ]
+        },
+        "hatch doors": {
+          "count": 548,
+          "box": [
+            1159,
+            328,
+            1243,
+            353
+          ]
+        }
+      },
+      "bounds": {
+        "freighter": {
+          "l": 1005.4,
+          "t": 207.82,
+          "r": 1439.63,
+          "b": 356.83,
+          "vertices": 40372,
+          "inFrame": true,
+          "marginPx": [
+            1005.4,
+            207.82,
+            160.37,
+            643.17
+          ]
+        },
+        "habitat tower": {
+          "l": 957.13,
+          "t": 59.23,
+          "r": 1107,
+          "b": 337.09,
+          "vertices": 29760,
+          "inFrame": true,
+          "marginPx": [
+            957.13,
+            59.23,
+            493,
+            662.91
+          ]
+        },
+        "pit mast": {
+          "l": 665.87,
+          "t": 306.91,
+          "r": 827.9,
+          "b": 435.08,
+          "vertices": 19135,
+          "inFrame": true,
+          "marginPx": [
+            665.87,
+            306.91,
+            772.1,
+            564.92
+          ]
+        },
+        "whip crest": {
+          "l": 1192.72,
+          "t": 449.59,
+          "r": 1260.62,
+          "b": 598.29,
+          "vertices": 19342,
+          "inFrame": true,
+          "marginPx": [
+            1192.72,
+            449.59,
+            339.38,
+            401.71
+          ]
+        }
+      },
+      "summary": {
+        "lodeCap": {
+          "samples": 45,
+          "inFrame": 45,
+          "unobstructed": 19,
+          "blocked": {
+            "lode": 5,
+            "ore": 2,
+            "terrain": 11,
+            "pit": 4,
+            "fill": 4
+          }
+        },
+        "oreArc": {
+          "samples": 52,
+          "inFrame": 52,
+          "unobstructed": 52,
+          "blocked": {}
+        },
+        "mastArm": {
+          "samples": 4,
+          "inFrame": 4,
+          "unobstructed": 2,
+          "blocked": {
+            "pit mast": 2
+          }
+        },
+        "belly": {
+          "samples": 6,
+          "inFrame": 6,
+          "unobstructed": 2,
+          "blocked": {
+            "freighter": 4
+          }
+        }
+      },
+      "samples": {
+        "lodeCap": [
+          {
+            "name": "apex",
+            "world": [
+              -78,
+              -62,
+              -12
+            ],
+            "px": [
+              611.46,
+              563.32
+            ],
+            "inFrame": true,
+            "first": "lode",
+            "behindMetres": 0.16,
+            "clear": true
+          },
+          {
+            "name": "rim 1.0",
+            "world": [
+              -67.82,
+              -63.57,
+              -11.32
+            ],
+            "px": [
+              628.68,
+              570.42
+            ],
+            "inFrame": true,
+            "first": "lode",
+            "behindMetres": 0.01,
+            "clear": true
+          },
+          {
+            "name": "rim 1.1",
+            "world": [
+              -68.86,
+              -63.57,
+              -7.48
+            ],
+            "px": [
+              623.24,
+              573.38
+            ],
+            "inFrame": true,
+            "first": "lode",
+            "behindMetres": -0.03,
+            "clear": true
+          },
+          {
+            "name": "rim 1.2",
+            "world": [
+              -71.28,
+              -63.57,
+              -4.32
+            ],
+            "px": [
+              615.99,
+              575.23
+            ],
+            "inFrame": true,
+            "first": "lode",
+            "behindMetres": 0.15,
+            "clear": true
+          },
+          {
+            "name": "rim 1.3",
+            "world": [
+              -74.73,
+              -63.57,
+              -2.34
+            ],
+            "px": [
+              608.04,
+              575.66
+            ],
+            "inFrame": true,
+            "first": "lode",
+            "behindMetres": -0.09,
+            "clear": true
+          },
+          {
+            "name": "rim 1.4",
+            "world": [
+              -78.68,
+              -63.57,
+              -1.82
+            ],
+            "px": [
+              600.65,
+              574.62
+            ],
+            "inFrame": true,
+            "first": "lode",
+            "behindMetres": -0.11,
+            "clear": true
+          },
+          {
+            "name": "rim 1.5",
+            "world": [
+              -82.52,
+              -63.57,
+              -2.86
+            ],
+            "px": [
+              594.96,
+              572.26
+            ],
+            "inFrame": true,
+            "first": "lode",
+            "behindMetres": 0.02,
+            "clear": true
+          },
+          {
+            "name": "rim 1.6",
+            "world": [
+              -85.68,
+              -63.57,
+              -5.28
+            ],
+            "px": [
+              591.85,
+              568.97
+            ],
+            "inFrame": true,
+            "first": "lode",
+            "behindMetres": -0.53,
+            "clear": true
+          },
+          {
+            "name": "rim 1.7",
+            "world": [
+              -87.66,
+              -63.57,
+              -8.73
+            ],
+            "px": [
+              591.76,
+              565.25
+            ],
+            "inFrame": true,
+            "first": "lode",
+            "behindMetres": 0.1,
+            "clear": true
+          },
+          {
+            "name": "rim 1.8",
+            "world": [
+              -88.18,
+              -63.57,
+              -12.68
+            ],
+            "px": [
+              594.68,
+              561.68
+            ],
+            "inFrame": true,
+            "first": "lode",
+            "behindMetres": -0.47,
+            "clear": true
+          },
+          {
+            "name": "rim 1.9",
+            "world": [
+              -87.14,
+              -63.57,
+              -16.52
+            ],
+            "px": [
+              600.14,
+              558.79
+            ],
+            "inFrame": true,
+            "first": "lode",
+            "behindMetres": -0.68,
+            "clear": true
+          },
+          {
+            "name": "rim 1.10",
+            "world": [
+              -84.72,
+              -63.57,
+              -19.68
+            ],
+            "px": [
+              607.29,
+              557.01
+            ],
+            "inFrame": true,
+            "first": "lode",
+            "behindMetres": 1.22,
+            "clear": false
+          },
+          {
+            "name": "rim 1.11",
+            "world": [
+              -81.27,
+              -63.57,
+              -21.66
+            ],
+            "px": [
+              615.09,
+              556.59
+            ],
+            "inFrame": true,
+            "first": "lode",
+            "behindMetres": -0.45,
+            "clear": true
+          },
+          {
+            "name": "rim 1.12",
+            "world": [
+              -77.32,
+              -63.57,
+              -22.18
+            ],
+            "px": [
+              622.36,
+              557.59
+            ],
+            "inFrame": true,
+            "first": "lode",
+            "behindMetres": -0.43,
+            "clear": true
+          },
+          {
+            "name": "rim 1.13",
+            "world": [
+              -73.48,
+              -63.57,
+              -21.14
+            ],
+            "px": [
+              628.03,
+              559.88
+            ],
+            "inFrame": true,
+            "first": "lode",
+            "behindMetres": -0.9,
+            "clear": true
+          },
+          {
+            "name": "rim 1.14",
+            "world": [
+              -70.32,
+              -63.57,
+              -18.72
+            ],
+            "px": [
+              631.24,
+              563.11
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 12.74,
+            "clear": false
+          },
+          {
+            "name": "rim 1.15",
+            "world": [
+              -68.34,
+              -63.57,
+              -15.27
+            ],
+            "px": [
+              631.48,
+              566.81
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 11.19,
+            "clear": false
+          },
+          {
+            "name": "rim 2.0",
+            "world": [
+              -60.14,
+              -67.17,
+              -9.6
+            ],
+            "px": [
+              640.84,
+              581.09
+            ],
+            "inFrame": true,
+            "first": "terrain",
+            "behindMetres": 41.55,
+            "clear": false
+          },
+          {
+            "name": "rim 2.1",
+            "world": [
+              -62.42,
+              -67.17,
+              -2.95
+            ],
+            "px": [
+              630.59,
+              586.11
+            ],
+            "inFrame": true,
+            "first": "terrain",
+            "behindMetres": 67.64,
+            "clear": false
+          },
+          {
+            "name": "rim 2.2",
+            "world": [
+              -67.07,
+              -67.17,
+              2.32
+            ],
+            "px": [
+              617.36,
+              589.03
+            ],
+            "inFrame": true,
+            "first": "terrain",
+            "behindMetres": 77.28,
+            "clear": false
+          },
+          {
+            "name": "rim 2.3",
+            "world": [
+              -73.38,
+              -67.17,
+              5.42
+            ],
+            "px": [
+              603.25,
+              589.36
+            ],
+            "inFrame": true,
+            "first": "terrain",
+            "behindMetres": 66.31,
+            "clear": false
+          },
+          {
+            "name": "rim 2.4",
+            "world": [
+              -80.4,
+              -67.17,
+              5.86
+            ],
+            "px": [
+              590.51,
+              587.05
+            ],
+            "inFrame": true,
+            "first": "pit",
+            "behindMetres": 54.86,
+            "clear": false
+          },
+          {
+            "name": "rim 2.7",
+            "world": [
+              -95.42,
+              -67.17,
+              -7.38
+            ],
+            "px": [
+              577.49,
+              569.76
+            ],
+            "inFrame": true,
+            "first": "fill",
+            "behindMetres": 139.09,
+            "clear": false
+          },
+          {
+            "name": "rim 2.8",
+            "world": [
+              -95.86,
+              -67.17,
+              -14.4
+            ],
+            "px": [
+              583.55,
+              563.59
+            ],
+            "inFrame": true,
+            "first": "fill",
+            "behindMetres": 145.1,
+            "clear": false
+          },
+          {
+            "name": "rim 2.9",
+            "world": [
+              -93.58,
+              -67.17,
+              -21.05
+            ],
+            "px": [
+              593.8,
+              558.8
+            ],
+            "inFrame": true,
+            "first": "terrain",
+            "behindMetres": -10.82,
+            "clear": true
+          },
+          {
+            "name": "rim 2.10",
+            "world": [
+              -88.93,
+              -67.17,
+              -26.32
+            ],
+            "px": [
+              606.68,
+              556.05
+            ],
+            "inFrame": true,
+            "first": "lode",
+            "behindMetres": 6.62,
+            "clear": false
+          },
+          {
+            "name": "rim 2.11",
+            "world": [
+              -82.62,
+              -67.17,
+              -29.42
+            ],
+            "px": [
+              620.31,
+              555.75
+            ],
+            "inFrame": true,
+            "first": "pit",
+            "behindMetres": -13.41,
+            "clear": true
+          },
+          {
+            "name": "rim 2.12",
+            "world": [
+              -75.6,
+              -67.17,
+              -29.86
+            ],
+            "px": [
+              632.71,
+              557.91
+            ],
+            "inFrame": true,
+            "first": "pit",
+            "behindMetres": -13.62,
+            "clear": true
+          },
+          {
+            "name": "rim 2.13",
+            "world": [
+              -68.95,
+              -67.17,
+              -27.58
+            ],
+            "px": [
+              642.06,
+              562.26
+            ],
+            "inFrame": true,
+            "first": "pit",
+            "behindMetres": 64.56,
+            "clear": false
+          },
+          {
+            "name": "rim 2.14",
+            "world": [
+              -63.68,
+              -67.17,
+              -22.93
+            ],
+            "px": [
+              646.95,
+              568.16
+            ],
+            "inFrame": true,
+            "first": "lode",
+            "behindMetres": 0.61,
+            "clear": true
+          },
+          {
+            "name": "rim 2.15",
+            "world": [
+              -60.58,
+              -67.17,
+              -16.62
+            ],
+            "px": [
+              646.55,
+              574.77
+            ],
+            "inFrame": true,
+            "first": "pit",
+            "behindMetres": 49.98,
+            "clear": false
+          },
+          {
+            "name": "rim 3.0",
+            "world": [
+              -54.01,
+              -72.4,
+              -7.13
+            ],
+            "px": [
+              649.74,
+              594.73
+            ],
+            "inFrame": true,
+            "first": "terrain",
+            "behindMetres": 141.41,
+            "clear": false
+          },
+          {
+            "name": "rim 3.1",
+            "world": [
+              -57.7,
+              -72.4,
+              1.68
+            ],
+            "px": [
+              634.99,
+              601.23
+            ],
+            "inFrame": true,
+            "first": "terrain",
+            "behindMetres": 139.64,
+            "clear": false
+          },
+          {
+            "name": "rim 3.2",
+            "world": [
+              -64.48,
+              -72.4,
+              8.41
+            ],
+            "px": [
+              616.56,
+              604.7
+            ],
+            "inFrame": true,
+            "first": "terrain",
+            "behindMetres": 137.76,
+            "clear": false
+          },
+          {
+            "name": "rim 3.3",
+            "world": [
+              -73.32,
+              -72.4,
+              12.03
+            ],
+            "px": [
+              597.42,
+              604.52
+            ],
+            "inFrame": true,
+            "first": "terrain",
+            "behindMetres": 136.59,
+            "clear": false
+          },
+          {
+            "name": "rim 3.4",
+            "world": [
+              -82.87,
+              -72.4,
+              11.99
+            ],
+            "px": [
+              580.69,
+              600.73
+            ],
+            "inFrame": true,
+            "first": "terrain",
+            "behindMetres": 135.59,
+            "clear": false
+          },
+          {
+            "name": "rim 3.7",
+            "world": [
+              -102.03,
+              -72.4,
+              -7.32
+            ],
+            "px": [
+              566.72,
+              576.34
+            ],
+            "inFrame": true,
+            "first": "fill",
+            "behindMetres": 144.12,
+            "clear": false
+          },
+          {
+            "name": "rim 3.8",
+            "world": [
+              -101.99,
+              -72.4,
+              -16.87
+            ],
+            "px": [
+              576.08,
+              568.19
+            ],
+            "inFrame": true,
+            "first": "fill",
+            "behindMetres": 151.88,
+            "clear": false
+          },
+          {
+            "name": "rim 3.9",
+            "world": [
+              -98.3,
+              -72.4,
+              -25.68
+            ],
+            "px": [
+              590.73,
+              562.11
+            ],
+            "inFrame": true,
+            "first": "lode",
+            "behindMetres": 17.24,
+            "clear": false
+          },
+          {
+            "name": "rim 3.10",
+            "world": [
+              -91.52,
+              -72.4,
+              -32.41
+            ],
+            "px": [
+              608.45,
+              558.93
+            ],
+            "inFrame": true,
+            "first": "lode",
+            "behindMetres": 20.03,
+            "clear": false
+          },
+          {
+            "name": "rim 3.11",
+            "world": [
+              -82.68,
+              -72.4,
+              -36.03
+            ],
+            "px": [
+              626.71,
+              559.09
+            ],
+            "inFrame": true,
+            "first": "lode",
+            "behindMetres": 19.29,
+            "clear": false
+          },
+          {
+            "name": "rim 3.12",
+            "world": [
+              -73.13,
+              -72.4,
+              -35.99
+            ],
+            "px": [
+              642.9,
+              562.57
+            ],
+            "inFrame": true,
+            "first": "pit",
+            "behindMetres": 75.29,
+            "clear": false
+          },
+          {
+            "name": "rim 3.13",
+            "world": [
+              -64.32,
+              -72.4,
+              -32.3
+            ],
+            "px": [
+              654.68,
+              568.89
+            ],
+            "inFrame": true,
+            "first": "terrain",
+            "behindMetres": -5.63,
+            "clear": true
+          },
+          {
+            "name": "rim 3.14",
+            "world": [
+              -57.59,
+              -72.4,
+              -25.52
+            ],
+            "px": [
+              660.23,
+              577.18
+            ],
+            "inFrame": true,
+            "first": "terrain",
+            "behindMetres": 100.49,
+            "clear": false
+          },
+          {
+            "name": "rim 3.15",
+            "world": [
+              -53.97,
+              -72.4,
+              -16.68
+            ],
+            "px": [
+              658.56,
+              586.26
+            ],
+            "inFrame": true,
+            "first": "terrain",
+            "behindMetres": 122.93,
+            "clear": false
+          }
+        ],
+        "oreArc": [
+          {
+            "name": "flight 1",
+            "world": [
+              -165.69,
+              28.17,
+              59.84
+            ],
+            "px": [
+              364.17,
+              425.84
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.35,
+            "clear": true
+          },
+          {
+            "name": "flight 2",
+            "world": [
+              -161.76,
+              31.49,
+              59.39
+            ],
+            "px": [
+              370.96,
+              420.35
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.44,
+            "clear": true
+          },
+          {
+            "name": "flight 3",
+            "world": [
+              -157.33,
+              34.9,
+              58.79
+            ],
+            "px": [
+              378.86,
+              414.7
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.51,
+            "clear": true
+          },
+          {
+            "name": "flight 4",
+            "world": [
+              -145.13,
+              42.43,
+              57.07
+            ],
+            "px": [
+              401.31,
+              402.6
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.83,
+            "clear": true
+          },
+          {
+            "name": "flight 5",
+            "world": [
+              -134.28,
+              47.11,
+              55.59
+            ],
+            "px": [
+              421.94,
+              395.78
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.47,
+            "clear": true
+          },
+          {
+            "name": "flight 6",
+            "world": [
+              -130.54,
+              48.35,
+              55
+            ],
+            "px": [
+              429.28,
+              394.09
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.74,
+            "clear": true
+          },
+          {
+            "name": "flight 7",
+            "world": [
+              -121.21,
+              50.61,
+              53.24
+            ],
+            "px": [
+              448.21,
+              391.31
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.37,
+            "clear": true
+          },
+          {
+            "name": "flight 8",
+            "world": [
+              -118.07,
+              51.31,
+              52.91
+            ],
+            "px": [
+              454.3,
+              390.7
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.55,
+            "clear": true
+          },
+          {
+            "name": "flight 9",
+            "world": [
+              -115.47,
+              51.62,
+              52.36
+            ],
+            "px": [
+              459.73,
+              390.51
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.6,
+            "clear": true
+          },
+          {
+            "name": "flight 10",
+            "world": [
+              -112.56,
+              52.02,
+              51.7
+            ],
+            "px": [
+              465.87,
+              390.17
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.51,
+            "clear": true
+          },
+          {
+            "name": "flight 11",
+            "world": [
+              -109.26,
+              52.82,
+              50.99
+            ],
+            "px": [
+              472.74,
+              389.11
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.32,
+            "clear": true
+          },
+          {
+            "name": "flight 12",
+            "world": [
+              -106.21,
+              53.19,
+              50.78
+            ],
+            "px": [
+              478.64,
+              389.22
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.67,
+            "clear": true
+          },
+          {
+            "name": "flight 13",
+            "world": [
+              -103.56,
+              53.2,
+              50.02
+            ],
+            "px": [
+              484.52,
+              389.52
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.6,
+            "clear": true
+          },
+          {
+            "name": "flight 14",
+            "world": [
+              -100.22,
+              53.95,
+              49.37
+            ],
+            "px": [
+              491.42,
+              388.61
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.61,
+            "clear": true
+          },
+          {
+            "name": "flight 15",
+            "world": [
+              -97.1,
+              54.46,
+              48.65
+            ],
+            "px": [
+              498.09,
+              388.07
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.46,
+            "clear": true
+          },
+          {
+            "name": "flight 16",
+            "world": [
+              -94.24,
+              54.51,
+              48.13
+            ],
+            "px": [
+              504.09,
+              388.51
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.77,
+            "clear": true
+          },
+          {
+            "name": "flight 17",
+            "world": [
+              -90.74,
+              55.37,
+              47.6
+            ],
+            "px": [
+              511.2,
+              387.53
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.66,
+            "clear": true
+          },
+          {
+            "name": "flight 18",
+            "world": [
+              -88.21,
+              54.94,
+              47
+            ],
+            "px": [
+              516.77,
+              388.8
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.53,
+            "clear": true
+          },
+          {
+            "name": "flight 19",
+            "world": [
+              -85.09,
+              55.29,
+              46.36
+            ],
+            "px": [
+              523.41,
+              388.65
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.71,
+            "clear": true
+          },
+          {
+            "name": "flight 20",
+            "world": [
+              -82.26,
+              55.17,
+              45.74
+            ],
+            "px": [
+              529.53,
+              389.36
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.43,
+            "clear": true
+          },
+          {
+            "name": "flight 21",
+            "world": [
+              -78.69,
+              56.24,
+              44.73
+            ],
+            "px": [
+              537.35,
+              387.6
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.78,
+            "clear": true
+          },
+          {
+            "name": "flight 22",
+            "world": [
+              -76.46,
+              55.69,
+              43.79
+            ],
+            "px": [
+              542.78,
+              388.72
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.75,
+            "clear": true
+          },
+          {
+            "name": "flight 23",
+            "world": [
+              -72.94,
+              56.63,
+              43.65
+            ],
+            "px": [
+              549.56,
+              387.89
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.53,
+            "clear": true
+          },
+          {
+            "name": "flight 24",
+            "world": [
+              -70.53,
+              55.98,
+              42.55
+            ],
+            "px": [
+              555.52,
+              389.16
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.54,
+            "clear": true
+          },
+          {
+            "name": "flight 25",
+            "world": [
+              -67.38,
+              56.27,
+              41.77
+            ],
+            "px": [
+              562.45,
+              389.03
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.76,
+            "clear": true
+          },
+          {
+            "name": "flight 26",
+            "world": [
+              -63.58,
+              57.45,
+              41.11
+            ],
+            "px": [
+              570.35,
+              387.4
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.43,
+            "clear": true
+          },
+          {
+            "name": "flight 27",
+            "world": [
+              -60.95,
+              56.88,
+              40.37
+            ],
+            "px": [
+              576.35,
+              388.88
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.53,
+            "clear": true
+          },
+          {
+            "name": "flight 28",
+            "world": [
+              -58.58,
+              56.05,
+              39.25
+            ],
+            "px": [
+              582.29,
+              390.51
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.48,
+            "clear": true
+          },
+          {
+            "name": "flight 29",
+            "world": [
+              -54.82,
+              57.35,
+              38.96
+            ],
+            "px": [
+              589.76,
+              388.9
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.55,
+            "clear": true
+          },
+          {
+            "name": "flight 30",
+            "world": [
+              -51.62,
+              57.75,
+              37.91
+            ],
+            "px": [
+              597.1,
+              388.34
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.35,
+            "clear": true
+          },
+          {
+            "name": "flight 31",
+            "world": [
+              -49.47,
+              56.04,
+              37.63
+            ],
+            "px": [
+              601.8,
+              392.35
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.33,
+            "clear": true
+          },
+          {
+            "name": "flight 32",
+            "world": [
+              -45.75,
+              57.56,
+              35.97
+            ],
+            "px": [
+              610.69,
+              389.19
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.53,
+            "clear": true
+          },
+          {
+            "name": "flight 33",
+            "world": [
+              -42.84,
+              57.08,
+              35.62
+            ],
+            "px": [
+              616.83,
+              390.9
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.5,
+            "clear": true
+          },
+          {
+            "name": "flight 34",
+            "world": [
+              -39.8,
+              56.82,
+              35.21
+            ],
+            "px": [
+              623.27,
+              392.16
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.54,
+            "clear": true
+          },
+          {
+            "name": "flight 35",
+            "world": [
+              -36.79,
+              56.79,
+              34.21
+            ],
+            "px": [
+              630.25,
+              392.45
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.47,
+            "clear": true
+          },
+          {
+            "name": "flight 36",
+            "world": [
+              -33.81,
+              57.06,
+              33.4
+            ],
+            "px": [
+              636.97,
+              392.28
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.38,
+            "clear": true
+          },
+          {
+            "name": "flight 37",
+            "world": [
+              -30.73,
+              57.1,
+              32.48
+            ],
+            "px": [
+              644.01,
+              392.53
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.36,
+            "clear": true
+          },
+          {
+            "name": "flight 38",
+            "world": [
+              -28.92,
+              55.09,
+              31.27
+            ],
+            "px": [
+              649.03,
+              396.31
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.53,
+            "clear": true
+          },
+          {
+            "name": "flight 39",
+            "world": [
+              -24.86,
+              56.52,
+              30.9
+            ],
+            "px": [
+              657.34,
+              394.47
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.67,
+            "clear": true
+          },
+          {
+            "name": "flight 40",
+            "world": [
+              -22.87,
+              55.38,
+              29.45
+            ],
+            "px": [
+              662.89,
+              396.34
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.49,
+            "clear": true
+          },
+          {
+            "name": "flight 41",
+            "world": [
+              -19.57,
+              56.1,
+              28.79
+            ],
+            "px": [
+              670.07,
+              395.47
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.63,
+            "clear": true
+          },
+          {
+            "name": "flight 42",
+            "world": [
+              -16.71,
+              55.41,
+              28.42
+            ],
+            "px": [
+              676.19,
+              397.6
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.72,
+            "clear": true
+          },
+          {
+            "name": "flight 43",
+            "world": [
+              -14.25,
+              54.67,
+              26.86
+            ],
+            "px": [
+              682.72,
+              398.72
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.54,
+            "clear": true
+          },
+          {
+            "name": "flight 44",
+            "world": [
+              -11.9,
+              53.15,
+              26.26
+            ],
+            "px": [
+              688.11,
+              402.18
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.46,
+            "clear": true
+          },
+          {
+            "name": "flight 45",
+            "world": [
+              -8.73,
+              53.07,
+              25.72
+            ],
+            "px": [
+              695,
+              403.01
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.48,
+            "clear": true
+          },
+          {
+            "name": "flight 46",
+            "world": [
+              -4.96,
+              54.84,
+              23.92
+            ],
+            "px": [
+              704.22,
+              399.23
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.5,
+            "clear": true
+          },
+          {
+            "name": "flight 47",
+            "world": [
+              -3.28,
+              52.81,
+              22.77
+            ],
+            "px": [
+              708.84,
+              403.05
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.67,
+            "clear": true
+          },
+          {
+            "name": "flight 48",
+            "world": [
+              0.41,
+              53.23,
+              22.85
+            ],
+            "px": [
+              716.16,
+              403.55
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.53,
+            "clear": true
+          },
+          {
+            "name": "flight 49",
+            "world": [
+              1.92,
+              50.7,
+              20.94
+            ],
+            "px": [
+              721.16,
+              407.72
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.6,
+            "clear": true
+          },
+          {
+            "name": "flight 50",
+            "world": [
+              6.19,
+              52.59,
+              20.36
+            ],
+            "px": [
+              730.24,
+              404.87
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.56,
+            "clear": true
+          },
+          {
+            "name": "flight 51",
+            "world": [
+              8.5,
+              50.67,
+              19.58
+            ],
+            "px": [
+              735.74,
+              408.97
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.48,
+            "clear": true
+          },
+          {
+            "name": "flight 52",
+            "world": [
+              11.22,
+              50.61,
+              18.02
+            ],
+            "px": [
+              742.7,
+              408.79
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.58,
+            "clear": true
+          }
+        ],
+        "mastArm": [
+          {
+            "name": "tractor_head",
+            "world": [
+              -62,
+              46,
+              -62
+            ],
+            "px": [
+              677.75,
+              335.8
+            ],
+            "inFrame": true,
+            "first": "pit mast",
+            "behindMetres": 5.88,
+            "clear": false
+          },
+          {
+            "name": "boom_feed_start",
+            "world": [
+              -58,
+              45.5,
+              -60
+            ],
+            "px": [
+              683.14,
+              339.21
+            ],
+            "inFrame": true,
+            "first": "pit mast",
+            "behindMetres": 6.46,
+            "clear": false
+          },
+          {
+            "name": "maw",
+            "world": [
+              27,
+              66,
+              -13
+            ],
+            "px": [
+              802.42,
+              358.33
+            ],
+            "inFrame": true,
+            "first": "pit mast",
+            "behindMetres": -7.5,
+            "clear": true
+          },
+          {
+            "name": "gantry_search",
+            "world": [
+              19.07,
+              117.87,
+              35.55
+            ],
+            "px": [
+              739.76,
+              280.43
+            ],
+            "inFrame": true,
+            "first": "pit",
+            "behindMetres": 0.61,
+            "clear": true
+          }
+        ],
+        "belly": [
+          {
+            "name": "hatch",
+            "world": [
+              227.09,
+              150.84,
+              93.63
+            ],
+            "px": [
+              1212.23,
+              320.76
+            ],
+            "inFrame": true,
+            "first": "freighter",
+            "behindMetres": 20.24,
+            "clear": false
+          },
+          {
+            "name": "near lip",
+            "world": [
+              225.57,
+              150.75,
+              100.77
+            ],
+            "px": [
+              1203.48,
+              327.15
+            ],
+            "inFrame": true,
+            "first": "freighter",
+            "behindMetres": 14.44,
+            "clear": false
+          },
+          {
+            "name": "far lip",
+            "world": [
+              228.6,
+              150.93,
+              86.49
+            ],
+            "px": [
+              1220.84,
+              314.48
+            ],
+            "inFrame": true,
+            "first": "freighter",
+            "behindMetres": 29.96,
+            "clear": false
+          },
+          {
+            "name": "inflow 6m",
+            "world": [
+              227.06,
+              144.85,
+              93.55
+            ],
+            "px": [
+              1210.44,
+              336.92
+            ],
+            "inFrame": true,
+            "first": "freighter",
+            "behindMetres": 18.56,
+            "clear": false
+          },
+          {
+            "name": "inflow 12m",
+            "world": [
+              227.04,
+              138.85,
+              93.47
+            ],
+            "px": [
+              1208.67,
+              352.94
+            ],
+            "inFrame": true,
+            "first": "background",
+            "behindMetres": null,
+            "clear": true
+          },
+          {
+            "name": "inflow 19m",
+            "world": [
+              227.01,
+              131.85,
+              93.37
+            ],
+            "px": [
+              1206.62,
+              371.45
+            ],
+            "inFrame": true,
+            "first": "background",
+            "behindMetres": null,
+            "clear": true
+          }
+        ]
+      }
+    },
+    "mobile": {
+      "viewport": [
+        390,
+        844
+      ],
+      "pixelRatio": 1,
+      "shadowSize": 1024,
+      "touch": true,
+      "eye": [
+        356.99999999999994,
+        351,
+        668
+      ],
+      "target": [
+        30,
+        11,
+        3
+      ],
+      "fov": 81.65707922948897,
+      "simTime": 20.000000000000146,
+      "freighterState": "docked",
+      "visibleSurfaces": {
+        "lode": {
+          "count": 78,
+          "box": [
+            139,
+            442,
+            155,
+            448
+          ]
+        },
+        "tractor head housing": {
+          "count": 9,
+          "box": [
+            162,
+            381,
+            165,
+            383
+          ]
+        },
+        "belly lip": {
+          "count": 145,
+          "box": [
+            277,
+            372,
+            323,
+            384
+          ]
+        },
+        "hatch doors": {
+          "count": 45,
+          "box": [
+            291,
+            378,
+            313,
+            384
+          ]
+        }
+      },
+      "bounds": {
+        "freighter": {
+          "l": 248.99,
+          "t": 344.33,
+          "r": 368.17,
+          "b": 385.78,
+          "vertices": 40372,
+          "inFrame": true,
+          "marginPx": [
+            248.99,
+            344.33,
+            21.83,
+            458.22
+          ]
+        },
+        "habitat tower": {
+          "l": 242.8,
+          "t": 307.02,
+          "r": 284.36,
+          "b": 383.76,
+          "vertices": 29760,
+          "inFrame": true,
+          "marginPx": [
+            242.8,
+            307.02,
+            105.64,
+            460.24
+          ]
+        },
+        "pit mast": {
+          "l": 162.16,
+          "t": 372.99,
+          "r": 204.72,
+          "b": 409.08,
+          "vertices": 19135,
+          "inFrame": true,
+          "marginPx": [
+            162.16,
+            372.99,
+            185.28,
+            434.92
+          ]
+        },
+        "whip crest": {
+          "l": 300.64,
+          "t": 412.6,
+          "r": 319.9,
+          "b": 454.32,
+          "vertices": 19342,
+          "inFrame": true,
+          "marginPx": [
+            300.64,
+            412.6,
+            70.1,
+            389.68
+          ]
+        }
+      },
+      "summary": {
+        "lodeCap": {
+          "samples": 45,
+          "inFrame": 45,
+          "unobstructed": 17,
+          "blocked": {
+            "lode": 7,
+            "ore": 4,
+            "fill": 7,
+            "terrain": 10
+          }
+        },
+        "oreArc": {
+          "samples": 52,
+          "inFrame": 52,
+          "unobstructed": 52,
+          "blocked": {}
+        },
+        "mastArm": {
+          "samples": 4,
+          "inFrame": 4,
+          "unobstructed": 3,
+          "blocked": {
+            "pit mast": 1
+          }
+        },
+        "belly": {
+          "samples": 6,
+          "inFrame": 6,
+          "unobstructed": 2,
+          "blocked": {
+            "freighter": 4
+          }
+        }
+      },
+      "samples": {
+        "lodeCap": [
+          {
+            "name": "apex",
+            "world": [
+              -78,
+              -62,
+              -12
+            ],
+            "px": [
+              146.07,
+              444.14
+            ],
+            "inFrame": true,
+            "first": "lode",
+            "behindMetres": 1.15,
+            "clear": false
+          },
+          {
+            "name": "rim 1.0",
+            "world": [
+              -67.82,
+              -63.57,
+              -11.32
+            ],
+            "px": [
+              150.66,
+              446.17
+            ],
+            "inFrame": true,
+            "first": "lode",
+            "behindMetres": 0.83,
+            "clear": true
+          },
+          {
+            "name": "rim 1.1",
+            "world": [
+              -68.86,
+              -63.57,
+              -7.48
+            ],
+            "px": [
+              149.09,
+              446.93
+            ],
+            "inFrame": true,
+            "first": "lode",
+            "behindMetres": -1.22,
+            "clear": true
+          },
+          {
+            "name": "rim 1.2",
+            "world": [
+              -71.28,
+              -63.57,
+              -4.32
+            ],
+            "px": [
+              147.06,
+              447.37
+            ],
+            "inFrame": true,
+            "first": "lode",
+            "behindMetres": 0.1,
+            "clear": true
+          },
+          {
+            "name": "rim 1.3",
+            "world": [
+              -74.73,
+              -63.57,
+              -2.34
+            ],
+            "px": [
+              144.87,
+              447.44
+            ],
+            "inFrame": true,
+            "first": "lode",
+            "behindMetres": 0.03,
+            "clear": true
+          },
+          {
+            "name": "rim 1.4",
+            "world": [
+              -78.68,
+              -63.57,
+              -1.82
+            ],
+            "px": [
+              142.88,
+              447.12
+            ],
+            "inFrame": true,
+            "first": "lode",
+            "behindMetres": 0.61,
+            "clear": true
+          },
+          {
+            "name": "rim 1.5",
+            "world": [
+              -82.52,
+              -63.57,
+              -2.86
+            ],
+            "px": [
+              141.39,
+              446.45
+            ],
+            "inFrame": true,
+            "first": "lode",
+            "behindMetres": 0.24,
+            "clear": true
+          },
+          {
+            "name": "rim 1.6",
+            "world": [
+              -85.68,
+              -63.57,
+              -5.28
+            ],
+            "px": [
+              140.63,
+              445.56
+            ],
+            "inFrame": true,
+            "first": "lode",
+            "behindMetres": -0.43,
+            "clear": true
+          },
+          {
+            "name": "rim 1.7",
+            "world": [
+              -87.66,
+              -63.57,
+              -8.73
+            ],
+            "px": [
+              140.7,
+              444.57
+            ],
+            "inFrame": true,
+            "first": "lode",
+            "behindMetres": -0.65,
+            "clear": true
+          },
+          {
+            "name": "rim 1.8",
+            "world": [
+              -88.18,
+              -63.57,
+              -12.68
+            ],
+            "px": [
+              141.6,
+              443.63
+            ],
+            "inFrame": true,
+            "first": "lode",
+            "behindMetres": -1.14,
+            "clear": true
+          },
+          {
+            "name": "rim 1.9",
+            "world": [
+              -87.14,
+              -63.57,
+              -16.52
+            ],
+            "px": [
+              143.17,
+              442.9
+            ],
+            "inFrame": true,
+            "first": "lode",
+            "behindMetres": -4.59,
+            "clear": true
+          },
+          {
+            "name": "rim 1.10",
+            "world": [
+              -84.72,
+              -63.57,
+              -19.68
+            ],
+            "px": [
+              145.17,
+              442.47
+            ],
+            "inFrame": true,
+            "first": "lode",
+            "behindMetres": 0.17,
+            "clear": true
+          },
+          {
+            "name": "rim 1.11",
+            "world": [
+              -81.27,
+              -63.57,
+              -21.66
+            ],
+            "px": [
+              147.31,
+              442.41
+            ],
+            "inFrame": true,
+            "first": "lode",
+            "behindMetres": 0.74,
+            "clear": true
+          },
+          {
+            "name": "rim 1.12",
+            "world": [
+              -77.32,
+              -63.57,
+              -22.18
+            ],
+            "px": [
+              149.27,
+              442.72
+            ],
+            "inFrame": true,
+            "first": "lode",
+            "behindMetres": -2.84,
+            "clear": true
+          },
+          {
+            "name": "rim 1.13",
+            "world": [
+              -73.48,
+              -63.57,
+              -21.14
+            ],
+            "px": [
+              150.76,
+              443.36
+            ],
+            "inFrame": true,
+            "first": "lode",
+            "behindMetres": 1.03,
+            "clear": false
+          },
+          {
+            "name": "rim 1.14",
+            "world": [
+              -70.32,
+              -63.57,
+              -18.72
+            ],
+            "px": [
+              151.56,
+              444.24
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 14.78,
+            "clear": false
+          },
+          {
+            "name": "rim 1.15",
+            "world": [
+              -68.34,
+              -63.57,
+              -15.27
+            ],
+            "px": [
+              151.52,
+              445.23
+            ],
+            "inFrame": true,
+            "first": "lode",
+            "behindMetres": 0.76,
+            "clear": true
+          },
+          {
+            "name": "rim 2.0",
+            "world": [
+              -60.14,
+              -67.17,
+              -9.6
+            ],
+            "px": [
+              153.86,
+              449.17
+            ],
+            "inFrame": true,
+            "first": "fill",
+            "behindMetres": 197.85,
+            "clear": false
+          },
+          {
+            "name": "rim 2.1",
+            "world": [
+              -62.42,
+              -67.17,
+              -2.95
+            ],
+            "px": [
+              150.92,
+              450.44
+            ],
+            "inFrame": true,
+            "first": "terrain",
+            "behindMetres": 136.84,
+            "clear": false
+          },
+          {
+            "name": "rim 2.2",
+            "world": [
+              -67.07,
+              -67.17,
+              2.32
+            ],
+            "px": [
+              147.22,
+              451.13
+            ],
+            "inFrame": true,
+            "first": "terrain",
+            "behindMetres": 137.24,
+            "clear": false
+          },
+          {
+            "name": "rim 2.3",
+            "world": [
+              -73.38,
+              -67.17,
+              5.42
+            ],
+            "px": [
+              143.35,
+              451.13
+            ],
+            "inFrame": true,
+            "first": "terrain",
+            "behindMetres": 136,
+            "clear": false
+          },
+          {
+            "name": "rim 2.4",
+            "world": [
+              -80.4,
+              -67.17,
+              5.86
+            ],
+            "px": [
+              139.93,
+              450.43
+            ],
+            "inFrame": true,
+            "first": "terrain",
+            "behindMetres": 57.45,
+            "clear": false
+          },
+          {
+            "name": "rim 2.7",
+            "world": [
+              -95.42,
+              -67.17,
+              -7.38
+            ],
+            "px": [
+              136.84,
+              445.75
+            ],
+            "inFrame": true,
+            "first": "terrain",
+            "behindMetres": 2.27,
+            "clear": false
+          },
+          {
+            "name": "rim 2.8",
+            "world": [
+              -95.86,
+              -67.17,
+              -14.4
+            ],
+            "px": [
+              138.66,
+              444.14
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 14.26,
+            "clear": false
+          },
+          {
+            "name": "rim 2.9",
+            "world": [
+              -93.58,
+              -67.17,
+              -21.05
+            ],
+            "px": [
+              141.59,
+              442.93
+            ],
+            "inFrame": true,
+            "first": "terrain",
+            "behindMetres": -10.73,
+            "clear": true
+          },
+          {
+            "name": "rim 2.10",
+            "world": [
+              -88.93,
+              -67.17,
+              -26.32
+            ],
+            "px": [
+              145.19,
+              442.28
+            ],
+            "inFrame": true,
+            "first": "lode",
+            "behindMetres": 8.79,
+            "clear": false
+          },
+          {
+            "name": "rim 2.11",
+            "world": [
+              -82.62,
+              -67.17,
+              -29.42
+            ],
+            "px": [
+              148.92,
+              442.29
+            ],
+            "inFrame": true,
+            "first": "lode",
+            "behindMetres": 8.28,
+            "clear": false
+          },
+          {
+            "name": "rim 2.12",
+            "world": [
+              -75.6,
+              -67.17,
+              -29.86
+            ],
+            "px": [
+              152.25,
+              442.94
+            ],
+            "inFrame": true,
+            "first": "pit",
+            "behindMetres": -15.34,
+            "clear": true
+          },
+          {
+            "name": "rim 2.13",
+            "world": [
+              -68.95,
+              -67.17,
+              -27.58
+            ],
+            "px": [
+              154.7,
+              444.15
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 22.97,
+            "clear": false
+          },
+          {
+            "name": "rim 2.14",
+            "world": [
+              -63.68,
+              -67.17,
+              -22.93
+            ],
+            "px": [
+              155.88,
+              445.76
+            ],
+            "inFrame": true,
+            "first": "lode",
+            "behindMetres": -0.19,
+            "clear": true
+          },
+          {
+            "name": "rim 2.15",
+            "world": [
+              -60.58,
+              -67.17,
+              -16.62
+            ],
+            "px": [
+              155.6,
+              447.52
+            ],
+            "inFrame": true,
+            "first": "fill",
+            "behindMetres": 204.09,
+            "clear": false
+          },
+          {
+            "name": "rim 3.0",
+            "world": [
+              -54.01,
+              -72.4,
+              -7.13
+            ],
+            "px": [
+              156.17,
+              452.96
+            ],
+            "inFrame": true,
+            "first": "terrain",
+            "behindMetres": 145.31,
+            "clear": false
+          },
+          {
+            "name": "rim 3.1",
+            "world": [
+              -57.7,
+              -72.4,
+              1.68
+            ],
+            "px": [
+              151.96,
+              454.61
+            ],
+            "inFrame": true,
+            "first": "fill",
+            "behindMetres": 190.27,
+            "clear": false
+          },
+          {
+            "name": "rim 3.2",
+            "world": [
+              -64.48,
+              -72.4,
+              8.41
+            ],
+            "px": [
+              146.82,
+              455.41
+            ],
+            "inFrame": true,
+            "first": "terrain",
+            "behindMetres": 142.67,
+            "clear": false
+          },
+          {
+            "name": "rim 3.3",
+            "world": [
+              -73.32,
+              -72.4,
+              12.03
+            ],
+            "px": [
+              141.59,
+              455.24
+            ],
+            "inFrame": true,
+            "first": "terrain",
+            "behindMetres": 142.26,
+            "clear": false
+          },
+          {
+            "name": "rim 3.4",
+            "world": [
+              -82.87,
+              -72.4,
+              11.99
+            ],
+            "px": [
+              137.11,
+              454.12
+            ],
+            "inFrame": true,
+            "first": "terrain",
+            "behindMetres": 142.87,
+            "clear": false
+          },
+          {
+            "name": "rim 3.7",
+            "world": [
+              -102.03,
+              -72.4,
+              -7.32
+            ],
+            "px": [
+              133.95,
+              447.53
+            ],
+            "inFrame": true,
+            "first": "fill",
+            "behindMetres": 142.81,
+            "clear": false
+          },
+          {
+            "name": "rim 3.8",
+            "world": [
+              -101.99,
+              -72.4,
+              -16.87
+            ],
+            "px": [
+              136.73,
+              445.42
+            ],
+            "inFrame": true,
+            "first": "terrain",
+            "behindMetres": 14.83,
+            "clear": false
+          },
+          {
+            "name": "rim 3.9",
+            "world": [
+              -98.3,
+              -72.4,
+              -25.68
+            ],
+            "px": [
+              140.89,
+              443.89
+            ],
+            "inFrame": true,
+            "first": "lode",
+            "behindMetres": 14.54,
+            "clear": false
+          },
+          {
+            "name": "rim 3.10",
+            "world": [
+              -91.52,
+              -72.4,
+              -32.41
+            ],
+            "px": [
+              145.82,
+              443.16
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 34.47,
+            "clear": false
+          },
+          {
+            "name": "rim 3.11",
+            "world": [
+              -82.68,
+              -72.4,
+              -36.03
+            ],
+            "px": [
+              150.8,
+              443.32
+            ],
+            "inFrame": true,
+            "first": "lode",
+            "behindMetres": 20.55,
+            "clear": false
+          },
+          {
+            "name": "rim 3.12",
+            "world": [
+              -73.13,
+              -72.4,
+              -35.99
+            ],
+            "px": [
+              155.15,
+              444.34
+            ],
+            "inFrame": true,
+            "first": "lode",
+            "behindMetres": 9.44,
+            "clear": false
+          },
+          {
+            "name": "rim 3.13",
+            "world": [
+              -64.32,
+              -72.4,
+              -32.3
+            ],
+            "px": [
+              158.21,
+              446.1
+            ],
+            "inFrame": true,
+            "first": "fill",
+            "behindMetres": 225.98,
+            "clear": false
+          },
+          {
+            "name": "rim 3.14",
+            "world": [
+              -57.59,
+              -72.4,
+              -25.52
+            ],
+            "px": [
+              159.51,
+              448.35
+            ],
+            "inFrame": true,
+            "first": "fill",
+            "behindMetres": 220.58,
+            "clear": false
+          },
+          {
+            "name": "rim 3.15",
+            "world": [
+              -53.97,
+              -72.4,
+              -16.68
+            ],
+            "px": [
+              158.81,
+              450.76
+            ],
+            "inFrame": true,
+            "first": "fill",
+            "behindMetres": 208.42,
+            "clear": false
+          }
+        ],
+        "oreArc": [
+          {
+            "name": "flight 1",
+            "world": [
+              -165.69,
+              28.17,
+              59.84
+            ],
+            "px": [
+              78.35,
+              404.36
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.04,
+            "clear": true
+          },
+          {
+            "name": "flight 2",
+            "world": [
+              -161.76,
+              31.49,
+              59.39
+            ],
+            "px": [
+              80.17,
+              402.87
+            ],
+            "inFrame": true,
+            "first": "bwe",
+            "behindMetres": -50.22,
+            "clear": true
+          },
+          {
+            "name": "flight 3",
+            "world": [
+              -157.33,
+              34.9,
+              58.79
+            ],
+            "px": [
+              82.27,
+              401.34
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": -0.27,
+            "clear": true
+          },
+          {
+            "name": "flight 4",
+            "world": [
+              -145.13,
+              42.43,
+              57.07
+            ],
+            "px": [
+              88.27,
+              398.09
+            ],
+            "inFrame": true,
+            "first": "bwe",
+            "behindMetres": -78.06,
+            "clear": true
+          },
+          {
+            "name": "flight 5",
+            "world": [
+              -134.28,
+              47.11,
+              55.59
+            ],
+            "px": [
+              93.77,
+              396.27
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.27,
+            "clear": true
+          },
+          {
+            "name": "flight 6",
+            "world": [
+              -130.54,
+              48.35,
+              55
+            ],
+            "px": [
+              95.74,
+              395.83
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.39,
+            "clear": true
+          },
+          {
+            "name": "flight 7",
+            "world": [
+              -121.21,
+              50.61,
+              53.24
+            ],
+            "px": [
+              100.8,
+              395.13
+            ],
+            "inFrame": true,
+            "first": "terrain",
+            "behindMetres": -124.02,
+            "clear": true
+          },
+          {
+            "name": "flight 8",
+            "world": [
+              -118.07,
+              51.31,
+              52.91
+            ],
+            "px": [
+              102.43,
+              394.98
+            ],
+            "inFrame": true,
+            "first": "bwe",
+            "behindMetres": -104.56,
+            "clear": true
+          },
+          {
+            "name": "flight 9",
+            "world": [
+              -115.47,
+              51.62,
+              52.36
+            ],
+            "px": [
+              103.88,
+              394.95
+            ],
+            "inFrame": true,
+            "first": "bwe",
+            "behindMetres": -106.29,
+            "clear": true
+          },
+          {
+            "name": "flight 10",
+            "world": [
+              -112.56,
+              52.02,
+              51.7
+            ],
+            "px": [
+              105.53,
+              394.88
+            ],
+            "inFrame": true,
+            "first": "bwe",
+            "behindMetres": -109.16,
+            "clear": true
+          },
+          {
+            "name": "flight 11",
+            "world": [
+              -109.26,
+              52.82,
+              50.99
+            ],
+            "px": [
+              107.38,
+              394.61
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.26,
+            "clear": true
+          },
+          {
+            "name": "flight 12",
+            "world": [
+              -106.21,
+              53.19,
+              50.78
+            ],
+            "px": [
+              108.95,
+              394.66
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": -116.86,
+            "clear": true
+          },
+          {
+            "name": "flight 13",
+            "world": [
+              -103.56,
+              53.2,
+              50.02
+            ],
+            "px": [
+              110.53,
+              394.77
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": -118.89,
+            "clear": true
+          },
+          {
+            "name": "flight 14",
+            "world": [
+              -100.22,
+              53.95,
+              49.37
+            ],
+            "px": [
+              112.38,
+              394.54
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.65,
+            "clear": true
+          },
+          {
+            "name": "flight 15",
+            "world": [
+              -97.1,
+              54.46,
+              48.65
+            ],
+            "px": [
+              114.18,
+              394.42
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.27,
+            "clear": true
+          },
+          {
+            "name": "flight 16",
+            "world": [
+              -94.24,
+              54.51,
+              48.13
+            ],
+            "px": [
+              115.79,
+              394.56
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.29,
+            "clear": true
+          },
+          {
+            "name": "flight 17",
+            "world": [
+              -90.74,
+              55.37,
+              47.6
+            ],
+            "px": [
+              117.69,
+              394.31
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.2,
+            "clear": true
+          },
+          {
+            "name": "flight 18",
+            "world": [
+              -88.21,
+              54.94,
+              47
+            ],
+            "px": [
+              119.19,
+              394.68
+            ],
+            "inFrame": true,
+            "first": "bwe",
+            "behindMetres": -127.39,
+            "clear": true
+          },
+          {
+            "name": "flight 19",
+            "world": [
+              -85.09,
+              55.29,
+              46.36
+            ],
+            "px": [
+              120.98,
+              394.67
+            ],
+            "inFrame": true,
+            "first": "bwe",
+            "behindMetres": -131.02,
+            "clear": true
+          },
+          {
+            "name": "flight 20",
+            "world": [
+              -82.26,
+              55.17,
+              45.74
+            ],
+            "px": [
+              122.62,
+              394.88
+            ],
+            "inFrame": true,
+            "first": "bwe",
+            "behindMetres": -131.94,
+            "clear": true
+          },
+          {
+            "name": "flight 21",
+            "world": [
+              -78.69,
+              56.24,
+              44.73
+            ],
+            "px": [
+              124.74,
+              394.43
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.69,
+            "clear": true
+          },
+          {
+            "name": "flight 22",
+            "world": [
+              -76.46,
+              55.69,
+              43.79
+            ],
+            "px": [
+              126.21,
+              394.77
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.28,
+            "clear": true
+          },
+          {
+            "name": "flight 23",
+            "world": [
+              -72.94,
+              56.63,
+              43.65
+            ],
+            "px": [
+              128.02,
+              394.55
+            ],
+            "inFrame": true,
+            "first": "terrain",
+            "behindMetres": -140.49,
+            "clear": true
+          },
+          {
+            "name": "flight 24",
+            "world": [
+              -70.53,
+              55.98,
+              42.55
+            ],
+            "px": [
+              129.65,
+              394.94
+            ],
+            "inFrame": true,
+            "first": "terrain",
+            "behindMetres": -139.87,
+            "clear": true
+          },
+          {
+            "name": "flight 25",
+            "world": [
+              -67.38,
+              56.27,
+              41.77
+            ],
+            "px": [
+              131.52,
+              394.93
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": -0.29,
+            "clear": true
+          },
+          {
+            "name": "flight 26",
+            "world": [
+              -63.58,
+              57.45,
+              41.11
+            ],
+            "px": [
+              133.65,
+              394.5
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.4,
+            "clear": true
+          },
+          {
+            "name": "flight 27",
+            "world": [
+              -60.95,
+              56.88,
+              40.37
+            ],
+            "px": [
+              135.27,
+              394.94
+            ],
+            "inFrame": true,
+            "first": "terrain",
+            "behindMetres": -144.98,
+            "clear": true
+          },
+          {
+            "name": "flight 28",
+            "world": [
+              -58.58,
+              56.05,
+              39.25
+            ],
+            "px": [
+              136.89,
+              395.42
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.17,
+            "clear": true
+          },
+          {
+            "name": "flight 29",
+            "world": [
+              -54.82,
+              57.35,
+              38.96
+            ],
+            "px": [
+              138.89,
+              394.99
+            ],
+            "inFrame": true,
+            "first": "terrain",
+            "behindMetres": -147.32,
+            "clear": true
+          },
+          {
+            "name": "flight 30",
+            "world": [
+              -51.62,
+              57.75,
+              37.91
+            ],
+            "px": [
+              140.89,
+              394.87
+            ],
+            "inFrame": true,
+            "first": "terrain",
+            "behindMetres": -148.33,
+            "clear": true
+          },
+          {
+            "name": "flight 31",
+            "world": [
+              -49.47,
+              56.04,
+              37.63
+            ],
+            "px": [
+              142.15,
+              396
+            ],
+            "inFrame": true,
+            "first": "terrain",
+            "behindMetres": -149.16,
+            "clear": true
+          },
+          {
+            "name": "flight 32",
+            "world": [
+              -45.75,
+              57.56,
+              35.97
+            ],
+            "px": [
+              144.58,
+              395.17
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.4,
+            "clear": true
+          },
+          {
+            "name": "flight 33",
+            "world": [
+              -42.84,
+              57.08,
+              35.62
+            ],
+            "px": [
+              146.23,
+              395.66
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.39,
+            "clear": true
+          },
+          {
+            "name": "flight 34",
+            "world": [
+              -39.8,
+              56.82,
+              35.21
+            ],
+            "px": [
+              147.96,
+              396.03
+            ],
+            "inFrame": true,
+            "first": "terrain",
+            "behindMetres": -151.39,
+            "clear": true
+          },
+          {
+            "name": "flight 35",
+            "world": [
+              -36.79,
+              56.79,
+              34.21
+            ],
+            "px": [
+              149.86,
+              396.14
+            ],
+            "inFrame": true,
+            "first": "terrain",
+            "behindMetres": -150.11,
+            "clear": true
+          },
+          {
+            "name": "flight 36",
+            "world": [
+              -33.81,
+              57.06,
+              33.4
+            ],
+            "px": [
+              151.69,
+              396.12
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.33,
+            "clear": true
+          },
+          {
+            "name": "flight 37",
+            "world": [
+              -30.73,
+              57.1,
+              32.48
+            ],
+            "px": [
+              153.6,
+              396.22
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": -0.0,
+            "clear": true
+          },
+          {
+            "name": "flight 38",
+            "world": [
+              -28.92,
+              55.09,
+              31.27
+            ],
+            "px": [
+              154.98,
+              397.3
+            ],
+            "inFrame": true,
+            "first": "terrain",
+            "behindMetres": -147.15,
+            "clear": true
+          },
+          {
+            "name": "flight 39",
+            "world": [
+              -24.86,
+              56.52,
+              30.9
+            ],
+            "px": [
+              157.22,
+              396.81
+            ],
+            "inFrame": true,
+            "first": "pit",
+            "behindMetres": -150.49,
+            "clear": true
+          },
+          {
+            "name": "flight 40",
+            "world": [
+              -22.87,
+              55.38,
+              29.45
+            ],
+            "px": [
+              158.75,
+              397.37
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.36,
+            "clear": true
+          },
+          {
+            "name": "flight 41",
+            "world": [
+              -19.57,
+              56.1,
+              28.79
+            ],
+            "px": [
+              160.7,
+              397.15
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": -0.05,
+            "clear": true
+          },
+          {
+            "name": "flight 42",
+            "world": [
+              -16.71,
+              55.41,
+              28.42
+            ],
+            "px": [
+              162.35,
+              397.76
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.22,
+            "clear": true
+          },
+          {
+            "name": "flight 43",
+            "world": [
+              -14.25,
+              54.67,
+              26.86
+            ],
+            "px": [
+              164.15,
+              398.11
+            ],
+            "inFrame": true,
+            "first": "terrain",
+            "behindMetres": -143.77,
+            "clear": true
+          },
+          {
+            "name": "flight 44",
+            "world": [
+              -11.9,
+              53.15,
+              26.26
+            ],
+            "px": [
+              165.62,
+              399.1
+            ],
+            "inFrame": true,
+            "first": "terrain",
+            "behindMetres": -143.42,
+            "clear": true
+          },
+          {
+            "name": "flight 45",
+            "world": [
+              -8.73,
+              53.07,
+              25.72
+            ],
+            "px": [
+              167.48,
+              399.35
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.45,
+            "clear": true
+          },
+          {
+            "name": "flight 46",
+            "world": [
+              -4.96,
+              54.84,
+              23.92
+            ],
+            "px": [
+              170.02,
+              398.35
+            ],
+            "inFrame": true,
+            "first": "pit",
+            "behindMetres": -143.17,
+            "clear": true
+          },
+          {
+            "name": "flight 47",
+            "world": [
+              -3.28,
+              52.81,
+              22.77
+            ],
+            "px": [
+              171.3,
+              399.44
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.36,
+            "clear": true
+          },
+          {
+            "name": "flight 48",
+            "world": [
+              0.41,
+              53.23,
+              22.85
+            ],
+            "px": [
+              173.26,
+              399.59
+            ],
+            "inFrame": true,
+            "first": "terrain",
+            "behindMetres": -139.52,
+            "clear": true
+          },
+          {
+            "name": "flight 49",
+            "world": [
+              1.92,
+              50.7,
+              20.94
+            ],
+            "px": [
+              174.67,
+              400.8
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.06,
+            "clear": true
+          },
+          {
+            "name": "flight 50",
+            "world": [
+              6.19,
+              52.59,
+              20.36
+            ],
+            "px": [
+              177.13,
+              400.03
+            ],
+            "inFrame": true,
+            "first": "terrain",
+            "behindMetres": -135.04,
+            "clear": true
+          },
+          {
+            "name": "flight 51",
+            "world": [
+              8.5,
+              50.67,
+              19.58
+            ],
+            "px": [
+              178.63,
+              401.2
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.46,
+            "clear": true
+          },
+          {
+            "name": "flight 52",
+            "world": [
+              11.22,
+              50.61,
+              18.02
+            ],
+            "px": [
+              180.56,
+              401.19
+            ],
+            "inFrame": true,
+            "first": "ore",
+            "behindMetres": 0.09,
+            "clear": true
+          }
+        ],
+        "mastArm": [
+          {
+            "name": "tractor_head",
+            "world": [
+              -62,
+              46,
+              -62
+            ],
+            "px": [
+              165.46,
+              381.93
+            ],
+            "inFrame": true,
+            "first": "pit mast",
+            "behindMetres": -3.44,
+            "clear": true
+          },
+          {
+            "name": "boom_feed_start",
+            "world": [
+              -58,
+              45.5,
+              -60
+            ],
+            "px": [
+              166.84,
+              382.86
+            ],
+            "inFrame": true,
+            "first": "pit mast",
+            "behindMetres": 5.78,
+            "clear": false
+          },
+          {
+            "name": "maw",
+            "world": [
+              27,
+              66,
+              -13
+            ],
+            "px": [
+              197.64,
+              387.77
+            ],
+            "inFrame": true,
+            "first": "pit mast",
+            "behindMetres": -7.77,
+            "clear": true
+          },
+          {
+            "name": "gantry_search",
+            "world": [
+              19.07,
+              117.87,
+              35.55
+            ],
+            "px": [
+              179.23,
+              365.26
+            ],
+            "inFrame": true,
+            "first": "pit",
+            "behindMetres": 0.09,
+            "clear": true
+          }
+        ],
+        "belly": [
+          {
+            "name": "hatch",
+            "world": [
+              227.09,
+              150.84,
+              93.63
+            ],
+            "px": [
+              305.67,
+              375.97
+            ],
+            "inFrame": true,
+            "first": "freighter",
+            "behindMetres": 20.54,
+            "clear": false
+          },
+          {
+            "name": "near lip",
+            "world": [
+              225.57,
+              150.75,
+              100.77
+            ],
+            "px": [
+              302.94,
+              377.59
+            ],
+            "inFrame": true,
+            "first": "freighter",
+            "behindMetres": 11.78,
+            "clear": false
+          },
+          {
+            "name": "far lip",
+            "world": [
+              228.6,
+              150.93,
+              86.49
+            ],
+            "px": [
+              308.34,
+              374.38
+            ],
+            "inFrame": true,
+            "first": "freighter",
+            "behindMetres": 30.89,
+            "clear": false
+          },
+          {
+            "name": "inflow 6m",
+            "world": [
+              227.06,
+              144.85,
+              93.55
+            ],
+            "px": [
+              305.21,
+              380.53
+            ],
+            "inFrame": true,
+            "first": "freighter",
+            "behindMetres": 18.87,
+            "clear": false
+          },
+          {
+            "name": "inflow 12m",
+            "world": [
+              227.04,
+              138.85,
+              93.47
+            ],
+            "px": [
+              304.75,
+              385.05
+            ],
+            "inFrame": true,
+            "first": "background",
+            "behindMetres": null,
+            "clear": true
+          },
+          {
+            "name": "inflow 19m",
+            "world": [
+              227.01,
+              131.85,
+              93.37
+            ],
+            "px": [
+              304.22,
+              390.28
+            ],
+            "inFrame": true,
+            "first": "background",
+            "behindMetres": null,
+            "clear": true
+          }
+        ]
+      }
+    }
+  }
+}

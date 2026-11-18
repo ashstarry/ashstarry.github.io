@@ -1,0 +1,812 @@
+{
+  "fixedSimulationHz": 60,
+  "physicsStepsPerVideoFrame": 4,
+  "firstHomeSimulationSecond": 20,
+  "firstGravityTideSecond": 20.8000000000001,
+  "measurement": "BT.709 luma of decoded, area-averaged frames with 16 by 10 regional bins. The home view includes the quiet interval, the first gravitational tide, freight capture and the impact.",
+  "frozenRenderSourceSha256": {
+    "web/src/sky.js": "ccbbe91943d0f54fa5af1b39bb4ef6d21ea4d9861864cc2511e11eaad7cef693",
+    "web/src/materials.js": "1f9789c467af13ec6ffa4a907b82628f785c5452c32ec4c5d2c57241f694880b",
+    "web/src/pressure.js": "d4c104ed375960964cabc2bac18102faad0c7e3efe3c484ed121523258f440c8",
+    "web/src/lights.js": "705b582df0789e79466521915de9834837b295eeda5e5230c2f01140b419affa",
+    "web/src/post.js": "153b5e4ad49fb32a1f8101fd750843437e446880438054d12b26abc20122c9a3",
+    "web/src/views.js": "8115c038a4eb51e2abda0ca97d3bc8e5bc8812d0189daa9ec0e37b233ee7addd",
+    "web/src/systems/anomaly.js": "21861ab0300f3dc573e2a83bfb15a178edc77c38571a198f4f28605b6463a927",
+    "web/src/systems/atmosphere.js": "035f674b52d6edc5f37dfa17d85f8b78eb08436c8dbdb77380eb61c1b9ac1b9f",
+    "web/src/systems/index.js": "0c002abcf23bde820dae591c72d3908b99090f880e18ec0869438ef048972a74",
+    "web/src/systems/space.js": "12096b96d2d328133fdc3bf6468986b833d2e30397e3261965026c818aa2ea07"
+  },
+  "sourceFilesChangedBeforeDelivery": [],
+  "clips": {
+    "wide": {
+      "stream": {
+        "codec_name": "h264",
+        "profile": "High",
+        "width": 896,
+        "height": 560,
+        "pix_fmt": "yuv420p",
+        "color_range": "tv",
+        "color_space": "bt709",
+        "avg_frame_rate": "15/1",
+        "duration": "18.000000",
+        "bit_rate": "1530824",
+        "nb_frames": "270",
+        "side_data_list": [
+          {}
+        ]
+      },
+      "sha256": "67233dc4cc72379c16a96a3043e6ddcaa07ba3a26a2fac6e02518fadacfd0755",
+      "fileBytes": 3448959,
+      "physicalStepsPerFrame": 4,
+      "sampleSize": [
+        160,
+        100
+      ],
+      "rendering": {
+        "linkedPrograms": 51,
+        "tideFrontUniform": true,
+        "reflectedColorEchoUniform": false,
+        "towerColorBandUniform": false,
+        "resonanceSystem": false,
+        "backgroundAnnulusShader": false,
+        "passingDustCloudShader": true
+      },
+      "firstSimulationFrame": {
+        "time": 20.000000000000146,
+        "eye": [
+          326.99999999999994,
+          370.00000000000006,
+          684.9999999999999
+        ],
+        "target": [
+          34,
+          4,
+          5.999999999999999
+        ],
+        "fov": 31.2,
+        "focus": "home",
+        "tideCount": 0,
+        "tideStart": null,
+        "tide": 0,
+        "gravityFrontRadius": -1000,
+        "orbitingRocks": 960,
+        "breakerPhase": "tow",
+        "impacts": 0,
+        "fragments": 0,
+        "railReleased": 0,
+        "freighterReceived": 0,
+        "firstFreighterReceipt": null,
+        "harborPhase": "haul",
+        "towerCrew": 9
+      },
+      "lastSimulationFrame": {
+        "time": 37.93333333333246,
+        "eye": [
+          326.99999999999994,
+          370.00000000000006,
+          684.9999999999999
+        ],
+        "target": [
+          34,
+          4,
+          5.999999999999999
+        ],
+        "fov": 31.2,
+        "focus": "home",
+        "tideCount": 1,
+        "tideStart": 20.8000000000001,
+        "tide": 0,
+        "gravityFrontRadius": 513.9999999999709,
+        "orbitingRocks": 960,
+        "breakerPhase": "fractured",
+        "impacts": 1,
+        "fragments": 32,
+        "railReleased": 42,
+        "freighterReceived": 21,
+        "firstFreighterReceipt": 32.24999999999945,
+        "harborPhase": "haul",
+        "towerCrew": 9
+      },
+      "timeline": [
+        {
+          "time": 20.000000000000146,
+          "tideCount": 0,
+          "tideStart": null,
+          "tide": 0,
+          "gravityFrontRadius": -1000,
+          "breakerPhase": "tow",
+          "impacts": 0,
+          "fragments": 0,
+          "railReleased": 0,
+          "freighterReceived": 0
+        },
+        {
+          "time": 20.8000000000001,
+          "tideCount": 1,
+          "tideStart": 20.8000000000001,
+          "tide": 0,
+          "gravityFrontRadius": 0,
+          "breakerPhase": "tow",
+          "impacts": 0,
+          "fragments": 0,
+          "railReleased": 0,
+          "freighterReceived": 0
+        },
+        {
+          "time": 25.599999999999827,
+          "tideCount": 1,
+          "tideStart": 20.8000000000001,
+          "tide": 0.6597414414864033,
+          "gravityFrontRadius": 143.99999999999181,
+          "breakerPhase": "tow",
+          "impacts": 0,
+          "fragments": 0,
+          "railReleased": 14,
+          "freighterReceived": 0
+        },
+        {
+          "time": 25.66666666666649,
+          "tideCount": 1,
+          "tideStart": 20.8000000000001,
+          "tide": 0.6597414414864033,
+          "gravityFrontRadius": 145.9999999999917,
+          "breakerPhase": "clamp",
+          "impacts": 0,
+          "fragments": 0,
+          "railReleased": 14,
+          "freighterReceived": 0
+        },
+        {
+          "time": 26.399999999999782,
+          "tideCount": 1,
+          "tideStart": 20.8000000000001,
+          "tide": 0.6597414414864033,
+          "gravityFrontRadius": 167.99999999999045,
+          "breakerPhase": "clamp",
+          "impacts": 0,
+          "fragments": 0,
+          "railReleased": 28,
+          "freighterReceived": 0
+        },
+        {
+          "time": 27.333333333333062,
+          "tideCount": 1,
+          "tideStart": 20.8000000000001,
+          "tide": 0.6597414414864033,
+          "gravityFrontRadius": 195.99999999998886,
+          "breakerPhase": "clamp",
+          "impacts": 0,
+          "fragments": 0,
+          "railReleased": 42,
+          "freighterReceived": 0
+        },
+        {
+          "time": 29.466666666666274,
+          "tideCount": 1,
+          "tideStart": 20.8000000000001,
+          "tide": 0.5552879409464919,
+          "gravityFrontRadius": 259.9999999999852,
+          "breakerPhase": "wait",
+          "impacts": 0,
+          "fragments": 0,
+          "railReleased": 42,
+          "freighterReceived": 0
+        },
+        {
+          "time": 32.26666666666612,
+          "tideCount": 1,
+          "tideStart": 20.8000000000001,
+          "tide": 0.15719326982435394,
+          "gravityFrontRadius": 343.99999999998056,
+          "breakerPhase": "wait",
+          "impacts": 0,
+          "fragments": 0,
+          "railReleased": 42,
+          "freighterReceived": 1
+        },
+        {
+          "time": 35.5333333333326,
+          "tideCount": 1,
+          "tideStart": 20.8000000000001,
+          "tide": 0,
+          "gravityFrontRadius": 441.999999999975,
+          "breakerPhase": "strike",
+          "impacts": 0,
+          "fragments": 0,
+          "railReleased": 42,
+          "freighterReceived": 21
+        },
+        {
+          "time": 36.73333333333253,
+          "tideCount": 1,
+          "tideStart": 20.8000000000001,
+          "tide": 0,
+          "gravityFrontRadius": 477.99999999997294,
+          "breakerPhase": "fractured",
+          "impacts": 1,
+          "fragments": 32,
+          "railReleased": 42,
+          "freighterReceived": 21
+        },
+        {
+          "time": 37.93333333333246,
+          "tideCount": 1,
+          "tideStart": 20.8000000000001,
+          "tide": 0,
+          "gravityFrontRadius": 513.9999999999709,
+          "breakerPhase": "fractured",
+          "impacts": 1,
+          "fragments": 32,
+          "railReleased": 42,
+          "freighterReceived": 21
+        }
+      ],
+      "lumaRange255": [
+        22.39,
+        24.78
+      ],
+      "largestAdjacentMeanNormalized": 0.001119,
+      "largestAdjacentTileMeanStep255": 6.59,
+      "adjacentPixelMAE255Median": 0.34,
+      "adjacentPixelMAE255Max": 0.84,
+      "posterSha256": "d970eda03a775cc82ee4ef5817716bb0e9ff9df55f7aecad237806ad762e318f",
+      "posterBytes": 134743,
+      "posterToDecodedMeanBias255": -1.65,
+      "matchedMineCyanArea": {
+        "normalizedCrop": [
+          0.16,
+          0.4,
+          0.9,
+          0.79
+        ],
+        "definition": "Percentage of pixels with G > 60, G > 1.25 R and B > 1.10 R. Ordinary work lamps contribute to both versions.",
+        "samples": [
+          {
+            "targetSecond": 25.3,
+            "previousVideoTime": 0.0,
+            "currentVideoTime": 5.3333,
+            "previousPercent": 0.0,
+            "currentPercent": 0.0
+          },
+          {
+            "targetSecond": 29.3,
+            "previousVideoTime": 4.0,
+            "currentVideoTime": 9.3333,
+            "previousPercent": 0.761,
+            "currentPercent": 0.0
+          },
+          {
+            "targetSecond": 33.3,
+            "previousVideoTime": 8.0,
+            "currentVideoTime": 13.2667,
+            "previousPercent": 3.433,
+            "currentPercent": 0.0
+          },
+          {
+            "targetSecond": 37.3,
+            "previousVideoTime": 12.0,
+            "currentVideoTime": 17.2667,
+            "previousPercent": 1.63,
+            "currentPercent": 0.0
+          }
+        ]
+      }
+    },
+    "tall": {
+      "stream": {
+        "codec_name": "h264",
+        "profile": "High",
+        "width": 480,
+        "height": 960,
+        "pix_fmt": "yuv420p",
+        "color_range": "tv",
+        "color_space": "bt709",
+        "avg_frame_rate": "15/1",
+        "duration": "18.000000",
+        "bit_rate": "920034",
+        "nb_frames": "270",
+        "side_data_list": [
+          {}
+        ]
+      },
+      "sha256": "e5c0be31281c0f3a200e6f65541eb4b485396b23cd5e6be434e71d43289e31bc",
+      "fileBytes": 2074648,
+      "physicalStepsPerFrame": 4,
+      "sampleSize": [
+        80,
+        160
+      ],
+      "rendering": {
+        "linkedPrograms": 51,
+        "tideFrontUniform": true,
+        "reflectedColorEchoUniform": false,
+        "towerColorBandUniform": false,
+        "resonanceSystem": false,
+        "backgroundAnnulusShader": false,
+        "passingDustCloudShader": true
+      },
+      "firstSimulationFrame": {
+        "time": 20.000000000000146,
+        "eye": [
+          356.99999999999994,
+          351,
+          668
+        ],
+        "target": [
+          30,
+          11,
+          3
+        ],
+        "fov": 77.21657411930131,
+        "focus": "home",
+        "tideCount": 0,
+        "tideStart": null,
+        "tide": 0,
+        "gravityFrontRadius": -1000,
+        "orbitingRocks": 960,
+        "breakerPhase": "tow",
+        "impacts": 0,
+        "fragments": 0,
+        "railReleased": 0,
+        "freighterReceived": 0,
+        "firstFreighterReceipt": null,
+        "harborPhase": "haul",
+        "towerCrew": 9
+      },
+      "lastSimulationFrame": {
+        "time": 37.93333333333246,
+        "eye": [
+          356.99999999999994,
+          351,
+          668
+        ],
+        "target": [
+          30,
+          11,
+          3
+        ],
+        "fov": 77.21657411930131,
+        "focus": "home",
+        "tideCount": 1,
+        "tideStart": 20.8000000000001,
+        "tide": 0,
+        "gravityFrontRadius": 513.9999999999709,
+        "orbitingRocks": 960,
+        "breakerPhase": "fractured",
+        "impacts": 1,
+        "fragments": 32,
+        "railReleased": 42,
+        "freighterReceived": 21,
+        "firstFreighterReceipt": 32.24999999999945,
+        "harborPhase": "haul",
+        "towerCrew": 9
+      },
+      "timeline": [
+        {
+          "time": 20.000000000000146,
+          "tideCount": 0,
+          "tideStart": null,
+          "tide": 0,
+          "gravityFrontRadius": -1000,
+          "breakerPhase": "tow",
+          "impacts": 0,
+          "fragments": 0,
+          "railReleased": 0,
+          "freighterReceived": 0
+        },
+        {
+          "time": 20.8000000000001,
+          "tideCount": 1,
+          "tideStart": 20.8000000000001,
+          "tide": 0,
+          "gravityFrontRadius": 0,
+          "breakerPhase": "tow",
+          "impacts": 0,
+          "fragments": 0,
+          "railReleased": 0,
+          "freighterReceived": 0
+        },
+        {
+          "time": 25.599999999999827,
+          "tideCount": 1,
+          "tideStart": 20.8000000000001,
+          "tide": 0.6597414414864033,
+          "gravityFrontRadius": 143.99999999999181,
+          "breakerPhase": "tow",
+          "impacts": 0,
+          "fragments": 0,
+          "railReleased": 14,
+          "freighterReceived": 0
+        },
+        {
+          "time": 25.66666666666649,
+          "tideCount": 1,
+          "tideStart": 20.8000000000001,
+          "tide": 0.6597414414864033,
+          "gravityFrontRadius": 145.9999999999917,
+          "breakerPhase": "clamp",
+          "impacts": 0,
+          "fragments": 0,
+          "railReleased": 14,
+          "freighterReceived": 0
+        },
+        {
+          "time": 26.399999999999782,
+          "tideCount": 1,
+          "tideStart": 20.8000000000001,
+          "tide": 0.6597414414864033,
+          "gravityFrontRadius": 167.99999999999045,
+          "breakerPhase": "clamp",
+          "impacts": 0,
+          "fragments": 0,
+          "railReleased": 28,
+          "freighterReceived": 0
+        },
+        {
+          "time": 27.333333333333062,
+          "tideCount": 1,
+          "tideStart": 20.8000000000001,
+          "tide": 0.6597414414864033,
+          "gravityFrontRadius": 195.99999999998886,
+          "breakerPhase": "clamp",
+          "impacts": 0,
+          "fragments": 0,
+          "railReleased": 42,
+          "freighterReceived": 0
+        },
+        {
+          "time": 29.466666666666274,
+          "tideCount": 1,
+          "tideStart": 20.8000000000001,
+          "tide": 0.5552879409464919,
+          "gravityFrontRadius": 259.9999999999852,
+          "breakerPhase": "wait",
+          "impacts": 0,
+          "fragments": 0,
+          "railReleased": 42,
+          "freighterReceived": 0
+        },
+        {
+          "time": 32.26666666666612,
+          "tideCount": 1,
+          "tideStart": 20.8000000000001,
+          "tide": 0.15719326982435394,
+          "gravityFrontRadius": 343.99999999998056,
+          "breakerPhase": "wait",
+          "impacts": 0,
+          "fragments": 0,
+          "railReleased": 42,
+          "freighterReceived": 1
+        },
+        {
+          "time": 35.5333333333326,
+          "tideCount": 1,
+          "tideStart": 20.8000000000001,
+          "tide": 0,
+          "gravityFrontRadius": 441.999999999975,
+          "breakerPhase": "strike",
+          "impacts": 0,
+          "fragments": 0,
+          "railReleased": 42,
+          "freighterReceived": 21
+        },
+        {
+          "time": 36.73333333333253,
+          "tideCount": 1,
+          "tideStart": 20.8000000000001,
+          "tide": 0,
+          "gravityFrontRadius": 477.99999999997294,
+          "breakerPhase": "fractured",
+          "impacts": 1,
+          "fragments": 32,
+          "railReleased": 42,
+          "freighterReceived": 21
+        },
+        {
+          "time": 37.93333333333246,
+          "tideCount": 1,
+          "tideStart": 20.8000000000001,
+          "tide": 0,
+          "gravityFrontRadius": 513.9999999999709,
+          "breakerPhase": "fractured",
+          "impacts": 1,
+          "fragments": 32,
+          "railReleased": 42,
+          "freighterReceived": 21
+        }
+      ],
+      "lumaRange255": [
+        23.75,
+        24.69
+      ],
+      "largestAdjacentMeanNormalized": 0.000659,
+      "largestAdjacentTileMeanStep255": 3.11,
+      "adjacentPixelMAE255Median": 0.23,
+      "adjacentPixelMAE255Max": 0.6,
+      "posterSha256": "1e8df7ec68f6a8b9ad67bd8e0a5ca95d4dc4e4134b17c32fa48a7022f9216a9b",
+      "posterBytes": 90330,
+      "posterToDecodedMeanBias255": -1.88,
+      "matchedMineCyanArea": {
+        "normalizedCrop": [
+          0.12,
+          0.45,
+          0.91,
+          0.62
+        ],
+        "definition": "Percentage of pixels with G > 60, G > 1.25 R and B > 1.10 R. Ordinary work lamps contribute to both versions.",
+        "samples": [
+          {
+            "targetSecond": 25.3,
+            "previousVideoTime": 0.0,
+            "currentVideoTime": 5.3333,
+            "previousPercent": 0.0,
+            "currentPercent": 0.0
+          },
+          {
+            "targetSecond": 29.3,
+            "previousVideoTime": 4.0,
+            "currentVideoTime": 9.3333,
+            "previousPercent": 0.529,
+            "currentPercent": 0.0
+          },
+          {
+            "targetSecond": 33.3,
+            "previousVideoTime": 8.0,
+            "currentVideoTime": 13.2667,
+            "previousPercent": 2.587,
+            "currentPercent": 0.0
+          },
+          {
+            "targetSecond": 37.3,
+            "previousVideoTime": 12.0,
+            "currentVideoTime": 17.2667,
+            "previousPercent": 1.176,
+            "currentPercent": 0.0
+          }
+        ]
+      }
+    }
+  },
+  "guidedWatchStage": {
+    "stream": {
+      "codec_name": "h264",
+      "profile": "High",
+      "width": 640,
+      "height": 400,
+      "pix_fmt": "yuv420p",
+      "color_range": "tv",
+      "color_space": "bt709",
+      "avg_frame_rate": "12/1",
+      "duration": "6.750000",
+      "bit_rate": "912951",
+      "nb_frames": "81",
+      "side_data_list": [
+        {}
+      ]
+    },
+    "sha256": "027ad327d6fde331043137505a0dc8bebe41f92e697db49d09d71185677fd740",
+    "fileBytes": 772610,
+    "physicalStepsPerFrame": 5,
+    "sampleSize": [
+      160,
+      100
+    ],
+    "rendering": {
+      "linkedPrograms": 47,
+      "tideFrontUniform": true,
+      "reflectedColorEchoUniform": false,
+      "towerColorBandUniform": false,
+      "resonanceSystem": false,
+      "backgroundAnnulusShader": false,
+      "passingDustCloudShader": true
+    },
+    "firstSimulationFrame": {
+      "time": 25.299999999999844,
+      "eye": [
+        31.300000000000004,
+        80.4,
+        30.299999999999997
+      ],
+      "target": [
+        -22,
+        49.4,
+        7.8
+      ],
+      "fov": 31.2,
+      "focus": "mast",
+      "tideCount": 1,
+      "tideStart": 20.8000000000001,
+      "tide": 0.6597414414864033,
+      "gravityFrontRadius": 134.99999999999233,
+      "orbitingRocks": 960,
+      "breakerPhase": "tow",
+      "impacts": 0,
+      "fragments": 0,
+      "railReleased": 0,
+      "freighterReceived": 0,
+      "firstFreighterReceipt": null,
+      "harborPhase": "haul",
+      "towerCrew": 9
+    },
+    "lastSimulationFrame": {
+      "time": 31.966666666666132,
+      "eye": [
+        31.300000000000004,
+        80.4,
+        30.299999999999997
+      ],
+      "target": [
+        -22,
+        49.4,
+        7.8
+      ],
+      "fov": 31.2,
+      "focus": "mast",
+      "tideCount": 1,
+      "tideStart": 20.8000000000001,
+      "tide": 0.19818549763737026,
+      "gravityFrontRadius": 334.99999999998096,
+      "orbitingRocks": 960,
+      "breakerPhase": "wait",
+      "impacts": 0,
+      "fragments": 0,
+      "railReleased": 42,
+      "freighterReceived": 0,
+      "firstFreighterReceipt": null,
+      "harborPhase": "haul",
+      "towerCrew": 9
+    },
+    "timeline": [
+      {
+        "time": 25.299999999999844,
+        "tideCount": 1,
+        "tideStart": 20.8000000000001,
+        "tide": 0.6597414414864033,
+        "gravityFrontRadius": 134.99999999999233,
+        "breakerPhase": "tow",
+        "impacts": 0,
+        "fragments": 0,
+        "railReleased": 0,
+        "freighterReceived": 0
+      },
+      {
+        "time": 25.63333333333316,
+        "tideCount": 1,
+        "tideStart": 20.8000000000001,
+        "tide": 0.6597414414864033,
+        "gravityFrontRadius": 144.99999999999176,
+        "breakerPhase": "tow",
+        "impacts": 0,
+        "fragments": 0,
+        "railReleased": 14,
+        "freighterReceived": 0
+      },
+      {
+        "time": 25.716666666666487,
+        "tideCount": 1,
+        "tideStart": 20.8000000000001,
+        "tide": 0.6597414414864033,
+        "gravityFrontRadius": 147.49999999999162,
+        "breakerPhase": "clamp",
+        "impacts": 0,
+        "fragments": 0,
+        "railReleased": 14,
+        "freighterReceived": 0
+      },
+      {
+        "time": 26.383333333333116,
+        "tideCount": 1,
+        "tideStart": 20.8000000000001,
+        "tide": 0.6597414414864033,
+        "gravityFrontRadius": 167.49999999999048,
+        "breakerPhase": "clamp",
+        "impacts": 0,
+        "fragments": 0,
+        "railReleased": 28,
+        "freighterReceived": 0
+      },
+      {
+        "time": 27.38333333333306,
+        "tideCount": 1,
+        "tideStart": 20.8000000000001,
+        "tide": 0.6597414414864033,
+        "gravityFrontRadius": 197.49999999998877,
+        "breakerPhase": "clamp",
+        "impacts": 0,
+        "fragments": 0,
+        "railReleased": 42,
+        "freighterReceived": 0
+      },
+      {
+        "time": 29.466666666666274,
+        "tideCount": 1,
+        "tideStart": 20.8000000000001,
+        "tide": 0.5552879409464919,
+        "gravityFrontRadius": 259.9999999999852,
+        "breakerPhase": "wait",
+        "impacts": 0,
+        "fragments": 0,
+        "railReleased": 42,
+        "freighterReceived": 0
+      },
+      {
+        "time": 31.966666666666132,
+        "tideCount": 1,
+        "tideStart": 20.8000000000001,
+        "tide": 0.19818549763737026,
+        "gravityFrontRadius": 334.99999999998096,
+        "breakerPhase": "wait",
+        "impacts": 0,
+        "fragments": 0,
+        "railReleased": 42,
+        "freighterReceived": 0
+      }
+    ],
+    "lumaRange255": [
+      18.17,
+      37.1
+    ],
+    "largestAdjacentMeanNormalized": 0.007073,
+    "largestAdjacentTileMeanStep255": 23.73,
+    "adjacentPixelMAE255Median": 1.01,
+    "adjacentPixelMAE255Max": 2.58,
+    "matchedBridgeDeckMeasurements": {
+      "previous": {
+        "deckPolygon640x400": [
+          [
+            258,
+            157
+          ],
+          [
+            288,
+            165
+          ],
+          [
+            368,
+            242
+          ],
+          [
+            341,
+            252
+          ],
+          [
+            282,
+            187
+          ]
+        ],
+        "channel": "mean of G and B, 0-255",
+        "at25p3s": 73.01,
+        "at27p3s": 148.79,
+        "peak26to29s": 178.77
+      },
+      "current": {
+        "deckPolygon640x400": [
+          [
+            258,
+            157
+          ],
+          [
+            288,
+            165
+          ],
+          [
+            368,
+            242
+          ],
+          [
+            341,
+            252
+          ],
+          [
+            282,
+            187
+          ]
+        ],
+        "channel": "mean of G and B, 0-255",
+        "at25p3s": 83.41,
+        "at27p3s": 87.64,
+        "peak26to29s": 88.12
+      }
+    }
+  }
+}

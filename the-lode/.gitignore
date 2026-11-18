@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+web/assets/
+qa/*.png
+qa/*.jpg
+qa/*.json
+*.blend*
+qa/*.mp4
